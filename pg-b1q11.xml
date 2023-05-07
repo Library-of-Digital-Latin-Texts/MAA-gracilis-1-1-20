@@ -1,0 +1,2378 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 11</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>John T. Slotemaker</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0.0">
+          <title>Lectio 11</title>
+          <date when="2023-04-06">April 06, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-04-06" status="peer-reviewed" n="1.0.0">
+          <p>Peer Reviewed</p>
+        </change>
+        <change when="2014-05-02" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="38-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q11">
+        <head xml:id="pg-b1q11-Hd1e95">Lectio 11</head>
+        <div xml:id="pg-b1q11-Dd1e98" type="circa-textum">
+          <head xml:id="pg-b1q11-Hd1e100">
+            Circa textum
+          </head>
+          <p xml:id="pgb1q11-d1e92">
+            <cit>
+              <quote xml:id="pg-b1q11-Qd1e108" source="http://scta.info/resource/pll1d10c1-d1e3477" type="lemma">
+                Nunc, post Filii aeternitatem
+              </quote>
+              <bibl>
+                <name xml:id="pg-b1q11-Nd1e117">Lombardus</name>, 
+                <title>Sent.</title>
+                I, d. 10, c. 1 
+                (I, 110, ll. 16).
+              </bibl>
+            </cit>.
+            Haec est distinctio decima 
+            quae continuatur ad praecedentes sic 
+            quia postquam <name xml:id="pg-b1q11-Nd1e126" ref="#Lombard">Magister</name> 
+            determinavit de Filii generatione, 
+            nunc vero 
+            <pb ed="#L" n="39-r"/> 
+            incipit tractare de Spiritus Sancti processione. 
+            Et dividitur in duas 
+            quia primo determinat 
+            de eius modo processivo, 
+            secundo de eius principio productivo. 
+            Secunda incipit in principio distinctionis 11, 
+            <cit>
+              <quote xml:id="pg-b1q11-Qd1e123" source="http://scta.info/resource/pll1d11c1-d1e3477" type="lemma">
+                hic dicendum est
+              </quote>
+              <bibl>
+                <name xml:id="pg-b1q11-Nd1e140">Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 11, c. 1
+                (I, 114, ll. 12).
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q11-d1e117">
+            Prima dividitur in duas 
+            quia primo ostendit 
+            quomodo Spiritus Sanctus procedit seu producitur, 
+            secundo quare solus nomine communi exprimitur. 
+            Secunda ibi,
+            <cit>
+              <quote xml:id="pg-b1q11-Qd1e136" source="http://scta.info/resource/pll1d10c3-d1e3477" type="lemma">
+                hic notandum est
+              </quote>
+              <bibl>
+                <name xml:id="pg-b1q11-Nd1e161">Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 10, c. 3 
+                (I, 113, ll. 21).
+              </bibl>
+            </cit>.
+            Prima in duas 
+            quia primo ostendit modum quo procedit vel emanat, 
+            secundo quod dixit auctoritatibus confirmat. 
+            Secunda 
+            <cit>
+              <quote xml:id="pg-b1q11-Qnvqvqi" source="http://scta.info/resource/pll1d10c2-d1e3583" type="lemma">
+                nunc vero quod incepimus
+              </quote>
+              <bibl>
+                <name xml:id="pg-b1q11-Nd1e179">Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 10, c. 2 
+                (I, 112, ll. 27-28).
+              </bibl>
+            </cit>. 
+            Et haec est divisio huius distinctionis. 
+          </p>
+          <p xml:id="pgb1q11-d1e134">
+            Sequitur distinctio 11 
+            in qua postquam <name xml:id="pg-b1q11-Nd1e191" ref="#Lombard">Magister</name> 
+            posuit in praecedenti Spiritus Sancti processionem, 
+            hic vero circa hoc ponit duplicem operationem 
+            quae quidem distinctio 11 in 
+            <app>
+              <lem type="conjecture-corrected"><corr>duo</corr></lem>
+              <rdg wit="#L" facs="39r/8">tres</rdg>
+            </app> 
+            dividitur. 
+            Primo enim ostendit <name xml:id="pg-b1q11-Nd1e204" ref="#Lombard">Magister</name> Latinorum concordiam, 
+            secundo Graecorum discordiam. 
+            Secunda ibi,
+            <cit>
+              <quote xml:id="pg-b1q11-Qd1e169" source="http://scta.info/resource/pll1d11c1-d1e3568" type="lemma">
+                Graeci tamen
+              </quote>
+              <bibl>
+                <name xml:id="pg-b1q11-Nd1e216">Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 11, c. 1
+                (I, 115, ll. 5).
+              </bibl>
+            </cit>. 
+          </p>
+          <p xml:id="pg-b1q11-d1e214">
+            Prima in duas quia primo <name xml:id="pg-b1q11-Nd1e225" ref="#Lombard">Magister</name> 
+            praemittit suam intentionem, 
+            secundo subiungit sui dicti probationem ibi 
+            <cit>
+              <quote xml:id="pg-b1q11-Qd1e182" source="http://scta.info/resource/pll1d11c1-d1e3480" type="lemma">
+                quod autem de utroque
+              </quote>
+              <bibl>
+                <name xml:id="pg-b1q11-Nd1e238">Lombardus</name>, 
+                <title>Sent.</title>
+                I, d. 11, c. 1
+                (I, 114, ll. 15).
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pg-b1q11-d1e236">
+            Secunda principalis in duas 
+            quia primo ponit Graecorum cum Latinis aliqualem convenientiam, 
+            secundo eorum disconvenientiam ibi 
+            <cit>
+              <quote xml:id="pg-b1q11-Qd1e193" source="http://scta.info/resource/pll1d11c1-d1e3624" type="lemma">
+                <app> 
+                  <lem type="conjecture-corrected"><corr>nos</corr></lem> 
+                  <rdg wit="#L" facs="39r/12">non</rdg>
+                </app>
+                autem verba determinamus
+              </quote>
+              <bibl>
+                <name xml:id="pg-b1q11-Nd1e266">Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 11, c. 1 
+                (I, 116, ll. 3-4).
+              </bibl>
+            </cit>.
+            Et haec sit divisio harum distinctionum duarum.
+          </p>
+        </div>
+        <div xml:id="pg-b1q11-Dd1e213" type="quaestio">
+         <head xml:id="pg-b1q11-Hd1e215">Quaestio</head>
+          <p xml:id="pgb1q11-d1e177">
+            Utrum Pater et Filius eodem modo agendi indistincto Spiritum Sanctum producant in supposito 
+            a se distincto.
+          </p>
+          <div xml:id="pg-b1q11-Dd1e218" type="rationes-principales">
+            <head xml:id="pg-b1q11-Hd1e220">
+              Rationes principales
+            </head>
+            <p xml:id="pgb1q11-qnqsnd" n="Ratio 1">
+              Quod non 
+              quia tunc sequitur primo 
+              quod tantum repugnaret Spiritum Sanctum a Filio 
+              non produci sicut ab ipso non distingui. 
+              Consequens est falsum 
+              quia, si, per impossibile, 
+              Filius Spiritum Sanctum non produceret, 
+              adhuc distinctio esset inter ipsos, 
+              ergo. 
+              Prima consequentia probatur 
+              quia, si eodem modo Pater et Filius spirent, 
+              tum ergo Pater taliter spiret quod, 
+              si non spiraret Spiritum Sanctum, 
+              non diceretur ab eo. 
+              Sequitur quod si Filius etiam 
+              <app>
+                <lem>non</lem>
+                <rdg wit="#L" type="correction-addition" facs="39r/18">
+                  <add place="above-line">non</add>
+                </rdg>
+              </app> 
+              spiraret, 
+              nec distingueretur.
+            </p>
+            <p xml:id="pgb1q11-d1e201" n="Ratio 2">
+              Secundo, 
+              <supplied>quod</supplied> Filius non spirat Spiritum Sanctum 
+              probatur auctoritate 
+              <ref xml:id="pg-b1q11-Rd1e251" corresp="#pg-b1q11-Qd1e258">
+                <name xml:id="pg-b1q11-Nd1e312" ref="#JohnDamascenus">Damasceni</name>, 
+                libro primo, 
+                capitulis 10 et 11
+              </ref>, 
+              dicens,
+              <cit>
+                <quote xml:id="pg-b1q11-Qd1e258" source="http://scta.info/resource/jddfo-l1c8">
+                  Spiritum Sanctum ex Patre dicimus 
+                  et Patris Spiritum Sanctum nominamus, 
+                  ex Filio vero non dicimus, sed Spiritum 
+                  Filii nominamus
+                </quote>
+                <bibl>
+                  <name>Damescenus</name>, 
+                  <title>De fide orthodoxa</title> 
+                  I, c. 8
+                  (Buytaert 47, ll. 326-329).
+                </bibl>
+              </cit>.
+              Ergo, si nota est ex Filio, 
+              non videtur procedere ab eo.
+            </p>
+            <p xml:id="pgb1q11-d1e216" n="Ratio 3">
+              Tertio, 
+              si sic, 
+              sequeretur quod ab eis naturaliter procederet. 
+              Consequens est falsum 
+              quia procedit modo amoris et libertatis seu voluntatis. 
+              Sed probatur consequentia 
+              quia ad intra est unicus procedendi modus in divinis inplurificabilis 
+              ut fuit dictum supra. 
+              Sed Filius modo naturali seu naturaliter a Patre procedit, 
+              igitur, 
+              si Spiritus Sanctus ab aliquo procedat, 
+              hoc erit naturaliter et non libere.
+            </p>
+            <p xml:id="pgb1q11-d1e231" n="In oppositum">
+              Ad oppositum est 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e280" target="http://scta.info/resource/pll1d11c1-d1e3477" synch="4-16">
+                  <name xml:id="pg-b1q11-Nd1e341" ref="#Lombard">Magister</name> in hac 11 distinctione
+                </ref>
+                <bibl>
+                  <name>Lombardus</name>,
+                  <title>Sent.</title>
+                  I, d. 11, c. 1 
+                  (I, 114, ll. 13).
+                </bibl>
+              </cit>, 
+              et 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e291" target="http://scta.info/resource/wef6td-d1e68-d1e122">
+                  <title>Extra</title>, 
+                  De summa Trinitate et fide catholica, 
+                  libro 6
+                </ref>
+                <bibl>
+                  <title>Liber extra</title> 
+                  VI, 1, 1, 1 (CIC, II, 937). 
+                </bibl>
+              </cit>.
+            </p>
+          </div>
+          <div xml:id="pg-b1q11-Dd1e315">
+            <head xml:id="pg-b1q11-Hd1e317">
+              Conclusio 1
+            </head>
+            <p xml:id="pgb1q11-d1e244" n="Conclusio">
+              Prima conclusio: 
+              licet Spiritus Sanctus non prius nec 
+              magis procedat a Patre quam a Filio, 
+              tamen Spiritum esse vel procedere ab aliquo solum 
+              ostendi potest fidei medio. 
+              Prima pars probatur 
+              quia pro quocumque signo Spiritus Sanctus est spiratur a Filio, 
+              sed pro omni signo pro quo spiratur a Patre est, 
+              igitur pro quocumque signo spiratur a Patre 
+              pro eodem spiratur a Filio. 
+              Maior patet quia, 
+              si detur oppositum, 
+              sequitur quod in aliquo signo 
+              Spiritus Sanctus esset ab uno tantum et non a duobus,
+              contra fidem.
+              <!--pgb1q11-d1e265-->
+              Secunda, 
+              scilicet minor, 
+              probatur 
+              quia pro quocumque signo pro 
+              quo spiratio activa est, 
+              spiratio passiva etiam est, 
+              ergo. 
+              Probatur antecedens 
+              quia aliter sequeretur 
+              quod Pater pro aliquo signo spiraret Spiritum Sanctum, 
+              pro quo signo non spiraretur Spiritus Sanctus, 
+              quae est contradictio.
+            <!-- pgb1q11-d1e288-->
+              Secunda pars conclusionis probatur 
+              quia sequeretur 
+              quod Trinitas divinarum personarum 
+              posset evidenti ratione ostendi, 
+              quod est falsum ut probatum est.
+              <!--pgb1q11-d1e294-->
+              Item, 
+              omnis ratio citra fidem probans 
+              Spiritum Sanctum procedere 
+              probaret Spiritum Sanctum alium spiritum sanctum producere, 
+              sicut fuit dictum de generatione Filii.
+              Sed quod fidei medio ostendi potest patet 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e332" target="http://scta.info/resource/wef6td-d1e68-d1e122">
+                  <title>Extra</title>, 
+                  De summa Trinitate et fide catholica, 
+                  libro sexto, 
+                  capitulo 
+                  <quote xml:id="pg-b1q11-Qd1e395" source="http://scta.info/resource/wef6td-d1e68-d1e122" type="incipit" synch="1-1">
+                    <!-- synch range is approximate; it will change as liber sextus gets improved -->
+                    <app>
+                      <lem type="conjecture-corrected"><corr>fideli</corr></lem>
+                      <rdg wit="#L" facs="39r/38">fidei</rdg>
+                    </app>
+                  </quote>
+                </ref>
+                <bibl>
+                  <title>Liber Extra</title> 
+                  VI, 1, 1, 1 (CIC, II, 937).
+                </bibl>
+                <note>Concile de Lyon II (oecum. XIV), 7 mai - 17 juillet 1274 (sous
+                  le Bienheureux Grégoire X); Session II, 18 mai 1274:
+                  Constitution "de summa Trinitate et fide catholica", (Enchiridion Symbolorum, Denzinger. 850 460) 
+                  <!-- Gracilis may have confused "de summa trinitate et fide catholica" with the first section of the liber extra by the same title -->
+                  <!-- see http://catho.org/9.php?d=bxx -->
+                </note>
+              </cit>.
+              Item, 
+              per 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e354" target="http://scta.info/resource/adt-l4-d1e643" synch="110-187">
+                  <name xml:id="pg-b1q11-Nd1e431" ref="#Augustine">Augustinum</name>, 
+                  IV 
+                  <title ref="#deTrinitate">De Trinitate</title>, 
+                  capitulo 53 de parvis
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title> 
+                  IV, 20, 29 
+                  (CCSL 50, 199, ll. 105 - 200, ll. 114).
+                  <!-- nec video quid aliud...omnia in omnibus -->
+                </bibl>
+              </cit>, 
+              ubi deducit hoc multis auctoritatibus Sacrae Scripturae.
+            </p>
+            <p xml:id="pgb1q11-d1e321" n="Corollarium 1">
+              Primum corollarium: 
+              sicut Pater non prius dicit 
+              <pb ed="#L" n="39-v"/>
+              Verbum quam spiret Sanctum Spiritum, 
+              sic generatio Verbi Divini 
+              non est realiter prior spiratione Spiritus Sancti. 
+              Prima patet 
+              quia Filius non est prior Spiritu Sancto, 
+              ergo. 
+              Antecedens probatur quia, 
+              sicut probatur, 
+              Pater non est prior Filio, 
+              sic probatur quod 
+              Filius non est prior Spiritu Sancto. 
+              Secunda pars probatur 
+              quia in divinis nulla est realis 
+              prioritas in quo, 
+              ut probatum est. 
+              Si etiam generatio praecederet spirationem, 
+              sequeretur quod generatum praecederet spiratum, 
+              quod improbatum est.
+            </p>
+            <p xml:id="pgb1q11-d1e341" n="Corollarium 2">
+              Secundum corollarium: 
+              quod in Deo causaliter Filius Spiritum Sanctum producit 
+              quia eius expressa imago et perfecta similitudo existit. 
+              Patet quia eadem ratione probaretur 
+              quod Spiritus Sanctus produceret Filium, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q11-d1e355" n="Corollarium 3">
+              Tertium corollarium: 
+              non praecise ex eo 
+              quia Filius est Deus Spiritum 
+              Sanctum spirat vel producit Filius. 
+              Patet quia sic probaretur 
+              quod Spiritus Sanctus produceret se 
+              ipsum vel alium, 
+              quod est falsum. 
+              Et patet consequentia 
+              quia non minus est Deus 
+              quam sit Pater vel Filius.
+            </p>
+          </div>
+          <div xml:id="pg-b1q11-Dd1e385">
+            <head xml:id="pg-b1q11-Hd1e387">
+              Conclusio 2
+            </head>
+            <p xml:id="pgb1q11-d1e362" n="Conclusio">
+              Secunda conclusio: 
+              licet nulla alia res a spiratione activa 
+              sit Spiritus Sancti a Filio distinctiva, 
+              tamen haec consequentia non est formalis 
+              <mentioned>
+                Spiritus Sanctus a Filio non producitur, 
+                ergo Filius a Spiritu Sancto non distinguitur
+              </mentioned>. 
+              Prima pars probatur 
+              quia nihil est in Filio quod non sit spiratio activa, 
+              ergo. 
+              Secundo, 
+              quia si per aliud distingueretur, 
+              sequitur quod Filius non esset summe simplex. 
+              Patet consequentia 
+              quia plures entitates incomplexae essent in eo.
+              Secunda pars probatur 
+              quia Filius non praecise distinguitur a Spiritu Sancto 
+              quia praecise ipsum spirat, 
+              ergo illa consequentia non est formalis. 
+              Patet consequentia 
+              quia in illa consequentia arguitur 
+              a pluribus causis veritatis ad unam, 
+              sed talis consequentia non valet. 
+              Sed antecedens principale arguitur 
+              quia Filius distinguitur sufficienter a Spiritu Sancto 
+              per hoc quod ipse procedit a Patre nascendo et Spiritus Sanctus non 
+              sed tantum procedendo. 
+              Haec ratio etiam confirmatur dicto 
+              <ref xml:id="pg-b1q11-Rd1e399" corresp="#pg-b1q11-Qd1e409">
+                <name xml:id="pg-b1q11-Nd1e476" ref="#Augustine">Augustini</name>, 
+                V <title ref="#deTrinitate">De Trinitate</title>, 
+                capitulo 14
+              </ref>, 
+              ideo 
+              Spiritus Sanctus non est Filius cum uterque a Patre exeat
+              quia ipse
+              <cit>
+                <quote xml:id="pg-b1q11-Qd1e409" source="http://scta.info/resource/adt-l5-d1e753" synch="89-96">
+                  exit non quomodo natus sed quomodo datus
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title> 
+                  V, 14, 15 
+                  (CCSL 50, 222, ll. 9-10).
+                </bibl>
+              </cit>.
+              Item,
+              <ref xml:id="pg-b1q11-Rd1e416" corresp="#pg-b1q11-Qd1e423">
+                <title>De fide catholica</title>, 
+                capitulo 2
+              </ref>, 
+              <cit>
+                <quote xml:id="pg-b1q11-Qd1e423" source="http://scta.info/resource/AuGch8-dd88aa-d1e460" synch="127-152">
+                  <!--NOTE: word range is approximate -->
+                  aliud est natum esse, aliud procedere, 
+                  ideo alius Filius, 
+                  alius Spiritus Sanctus
+                </quote>
+                <bibl>
+                  <name>Fulgentius of Ruspe</name>, 
+                  <title>De fide ad Petrum</title> 
+                  I, 6 (CCSL 91A, 716, ll. 144-147).
+                  <!-- incipit/explicit: "aliud est genuisse ... alius Spiritus sanctus" -->
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q11-d1e409" n="Corollarium 1">
+              Primum corollarium: 
+              non solum oppositio relativa est 
+              personarum divinarum distinctiva. 
+              Patet quia, 
+              si inter Filium et Spiritum Sanctum non esset huiusmodi oppositio, 
+              adhuc distinguerentur per conclusionem. 
+              Confirmatur quia personae divinae se ipsis 
+              et non solum relationibus distinguuntur. 
+              Hoc corollarium est contra 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e437" target="http://scta.info/resource/HuYgTa-e46559-d1e389"> 
+                  <!-- target points to paragraph that seems to contain a direct opposition to this corollary-->
+                 <name xml:id="pg-b1q11-Nd1e532" ref="#ThomasStrasbourg">Thomam de Argentinensis</name>, 
+                  libro primo, 
+                  distinctione 11, 
+                  quaestione 2, 
+                  articulo 2
+                </ref>
+                 <bibl>
+                   <name>Thomas de Argentina</name>,
+                   <title>Sent.</title>
+                   I, c. 11, q. 2, a. 2
+                   (Venice 1564, 61ra). <!-- starts 61-v Genoa 1585 -->
+                 </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q11-d1e425" n="Corollarium 2">
+              Secundum corollarium: 
+              si, per impossibile, Filius 
+              Spiritum Sanctum non produceret, 
+              adhuc staret quod nulla divina persona per modum 
+              generationis et spirationis procederet. 
+              Contra
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e454" target="http://scta.info/resource/grql-q1q6"> 
+                  <!-- ref can be more precise if exact paragraph is found -->
+                  <name xml:id="pg-b1q11-Nd1e557" ref="#GilesOfRome">Aegidium</name>, 
+                  primo <title>quolibet</title>, 
+                  quaestione 6
+                </ref>
+                <bibl>
+                  <name>Aegidius Romanus</name>, 
+                  <title>Quodlibet</title> 
+                  I, q. 6
+                  (Louvain 1646, 13a-15a).
+                </bibl>
+              </cit>.
+              Item, 
+              contra
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1f3df">
+                  <name xml:id="pg-b1q11-Nd1e578" ref="#Ockham">Ockham</name>
+                </ref>
+                <bibl>
+                  <name>Ockham</name>, 
+                  <title>Sent.</title> 
+                  I, d. 11, q. 2 
+                  (OT III, 369, ll. 16 - 371, ll. 8).
+                </bibl>
+              </cit> 
+              et
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e478">
+                  <name xml:id="pg-b1q11-Nd1e596" ref="#Aureoli">Aureolus</name>
+                </ref>
+                <bibl>
+                  <name>Aureolus</name>, 
+                  <title>Sent.</title>
+                  I, d. 11, q. 1, a. 2 
+                  (Rome 1596, 356a).
+                </bibl>
+              </cit>.
+              Probatur 
+              quia illo casu posito, 
+              adhuc sufficienter personae productae distinguerentur 
+              abinvicem, 
+              ut dicit 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e489" target="http://scta.info/resource/pgb1q11-d1e362" synch="71-184">
+                  secunda conclusionis pars
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q11-d1e460" n="Corollarium 3">
+              Tertium corollarium: 
+              haec consequentia non est evidens nec formalis, 
+              <mentioned>
+                Spiritus Sanctus a Filio non procedit, 
+                ergo Spiritus Sanctus non est nec existat
+              </mentioned>, 
+              contra 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e505" target="http://scta.info/resource/grvnZZ-ed1e46-d1e683" synch="34-47">
+                  <!-- NOTE target very unstable -->
+                  <name xml:id="pg-b1q11-Nd1e629" ref="#Rimini">Gregorium</name>, 
+                  libro primo, 
+                  distinctione 11, 
+                  articulo 2
+                </ref>
+                <bibl>
+                  <name>Gregorius Ariminensis</name>,
+                  <title>Sent.</title>
+                  I, d. 11, q. 1, a. 2 
+                  (Trapp II, 186, ll. 6-7).
+                  <!-- Gregory quote: unde arguo sic si spiritus sanctus non procederet a filio, spiritus sanctus non esset -->
+                </bibl>
+              </cit>.
+              Patet corollarium 
+              quia, 
+              si consequentia esset formalis, 
+              sequitur quod 
+              si Spiritus non produceretur a Verbo, 
+              ipse non distingueretur ab eo, 
+              quod est improbatum in conclusione. 
+              Confirmatur 
+              quia Spiritus Sanctus per aliquod incomplexum 
+              praeter spirationem sufficienter a Verbo distinguitur, 
+              ergo seclusa spiratione, 
+              per impossibile vel possibile, 
+              adhuc Spiritus Sanctus a Verbo distingueretur. 
+              Antecedens est  
+              <cit>
+                <ref xml:id="pg-b1q11-Rpaeaec" source="http://scta.info/resource/grvnZZ-ed1e46-d1e683" synch="34-47">
+                  <!-- target WILDLY unstable; needs adjustment as Rimini text is completed -->
+                  suum in primo articulo eiusdem quaestionis
+                </ref>
+                <bibl>
+                  <name>Gregorius Ariminensis</name>,
+                  <title>Sent.</title>
+                  I, q. 1, a. 1 
+                  (Trapp II, 178, ll. 24-28).
+                  <!-- incipit/explicit: quod in filio praeter spirationem activam in qua ....adhuc filius distingueretur a spiritu sancto 
+                  NOTE: this comes at the very beginning of article 1 
+                  -->
+                </bibl>
+              </cit>
+              et consequentia patet per dictam.
+            </p>
+          </div>
+          <div xml:id="pg-b1q11-Dd1e530">
+            <head xml:id="pg-b1q11-Hd1e532">
+              Conclusio 3
+            </head>
+            <p xml:id="pgb1q11-d1e486" n="Conclusio">
+              Tertia conclusio: 
+              licet Pater spirare activum communicet Filio, 
+              tamen Spiritus Sanctus producitur 
+              ab utroque eodem modo naturali et libero. 
+              Prima pars patet 
+              in 
+              <ref xml:id="pg-b1q11-Rd1e538" corresp="#pg-b1q11-Qd1e684">
+                distinctione 12 primi
+              </ref>
+              in qua dicitur 
+              quod 
+              <cit>
+                <quote xml:id="pg-b1q11-Qd1e684" type="paraphrase" source="http://scta.info/resource/pll1d12c2-d1e3556" synch="7-19">
+                  Pater dat Filio quod spiret Spiritum Sanctum
+                </quote>
+                <bibl>
+                  <name>Lombardus</name>,
+                  <title>Sent.</title> 
+                  I, d. 12, c. 2 
+                  (I, 120, ll. 8-9).
+                </bibl>
+                <note xml:lang="en">
+                  This is a significant paraphrase, 
+                  but it seem clear that Gracilis is performing a quotation, 
+                  though it doesn't align perfectly with anything in Lombard. 
+                  The provided reference is our best guess 
+                  at what Gracilis intended target with this quotation act.
+                </note>
+              </cit>, 
+              ergo. 
+              Sed quod modo naturali producant Spiritum Sanctum 
+              patet auctoritate 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e544">
+                <name xml:id="pg-b1q11-Nd1e702" ref="#HilaryOfPoitiers">Hilarii</name>,
+                  V 
+                  <title ref="#HilaryOfPoitiers_DeTrinitate">De Trinitate</title>
+                </ref>
+                <bibl>
+                  <name>Hilarius</name>, 
+                  <title>De Trinitate</title> 
+                  V, 37 
+                  (CCSL 62, 191, ll. 6-7).
+                </bibl>
+              </cit>,
+              et eum allegat
+              <ref xml:id="pg-b1q11-Rd1e557" corresp="#pg-b1q11-Qevnsss">
+                <name xml:id="pg-b1q11-Nd1e721" ref="#Lombard">Magister</name> in textu
+              </ref>,
+              ubi dicit,
+              <cit>
+                <quote xml:id="pg-b1q11-Qevnsss" source="http://scta.info/resource/pll1d18c3-d1e3541" synch="32-41">
+                  ex virtute naturae in naturam eandem processionem
+                  <pb ed="#L" n="40-r"/>
+                  subsistit Spiritus Sanctus
+                </quote>
+                <bibl>
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title>
+                  I, d. 18, c. 3 
+                  (I, 156, ll. 18-20).
+                </bibl>
+              </cit>.
+              Sed quod praecedat libere 
+              patet quia voluntarie ut dicit 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e571" target="http://scta.info/resource/adt-l15-d1e1984" synch="301-328">
+                  <!-- NOTE: temp division level target -->
+                  <name xml:id="pg-b1q11-Nd1e748" ref="#Augustine">Augustinus</name>, 
+                  XV 
+                  <title ref="#deTrinitate">De Trinitate</title>, 
+                  capitulo 17
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title> 
+                  XV, 27, 50 
+                  (CCSL 50A, 533, ll. 103-106).
+                  <!-- incipit/explicit: et ideo quandam in hac re intellegibili...cernit discernitque qui potest" -->
+                </bibl>
+              </cit>.
+              Vide in fonte. 
+              Confirmatur etiam 
+              quia non repugnat Filium generari naturaliter et libere, 
+              ergo nec Spiritum Sanctum repugnat spirari naturaliter et libere. 
+              Consequentia patet per simile, 
+              sed antecedens probatum est supra.
+            </p>
+            <p xml:id="pgb1q11-d1e531" n="Corollarium 1">
+              Primum corollarium: 
+              Spiritus immensae bonitatis non producitur per
+              modum voluntatis contra
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e588">
+                <name xml:id="pg-b1q11-Nd1e772" ref="#Scotus">Scotum</name>, 
+                  libro primo, 
+                  distinctione 18, 
+                  quaestione prima, 
+                  articulo primo
+                </ref>
+                <bibl>
+                  <name>Scotus</name>, 
+                  <title>Ordinatio</title> 
+                  I, d. 10, q. 1 
+                  (Vatican IV, 342, ll. 4-18).
+                </bibl>
+              </cit>,
+              et contra
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e599">
+                <name xml:id="pg-b1q11-Nd1e790" ref="#Ockham">Ockham</name>, 
+                  eadem distinctione, 
+                  quaestione prima
+                </ref>
+                <bibl>
+                  <name>Ockham</name>, 
+                  <title>Sent.</title> 
+                  I, d. 10, q. 1 
+                  (OT III, 326, ll. 8 - 327, ll. 6).
+                </bibl>
+              </cit>.
+              Probatur 
+              quia vel
+              <mentioned>voluntas</mentioned> 
+              sumitur 
+              essentialiter vel notionaliter. 
+              Non primum 
+              quia certum est 
+              quod voluntas non producit Filium nec Spiritum Sanctum. 
+              Nec secundum 
+              quia tunc Spiritus Sanctus produceret se ipsum. 
+              Consequentia patet per 
+              <ref xml:id="pg-b1q11-Rd1e610" corresp="#pg-b1q11-Qvdpcqm">
+                <name xml:id="pg-b1q11-Nd1e809" ref="#Augustine">Augustinum</name>, 
+                <app>
+                  <lem type="conjecture-corrected"><corr>XV</corr></lem>
+                  <rdg wit="#L" facs="40r/8">17</rdg>
+                </app> 
+                <title ref="#deTrinitate">De Trinitate</title>, 
+                capitulo 3 de magnis, 
+                et 16 de parvis
+              </ref>,
+              dicentem,
+              <cit>
+                <quote xml:id="pg-b1q11-Qvdpcqm" source="http://scta.info/resource/adt-l15-d1e1918" synch="97-123">
+                  voluntas Dei, 
+                  proprie si dicenda est 
+                  aliquid in Trinitate persona, 
+                  magis hoc nomen Spiritui Sancto convenit sicut caritas. 
+                  Nam quid est aliud caritas quam voluntas?
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title> 
+                  XV, 20, 38
+                  (CCSL 50A, 516, ll. 36-39).
+                </bibl>
+              </cit>.
+              Per hanc rationem 
+              arguit 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e819" target="http://scta.info/resource/adt-l15-d1e1915" synch="1-59">
+                  <name xml:id="pg-b1q11-Nd1e850" ref="#Augustine">Augustinus</name> 
+                  contra 
+                  <name xml:id="pg-b1q11-Nd1e853" ref="#EunomiusOfCyzicus">Eunomium</name> 
+                  haereticum
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title> 
+                  XV, 20, 38 
+                  (CCSL 50A. 515, ll. 1- 516, ll. 39).
+                </bibl>
+              </cit> 
+              quod Filius non sit Filius voluntatis seu voluntate.
+            </p>
+            <p xml:id="pgb1q11-d1e586" n="Corollarium 2">
+              Secundum corollarium: 
+              in eodem principio, respectu eiusdem termini, 
+              unitive libertas et necessitas 
+              concurrunt active spiratione. 
+              Probatur quia unicus est terminus simplex, 
+              scilicet Spiritus Sanctus, 
+              sed ille est a Patre et Filio 
+              libere et naturaliter productus et necessario per spirationem. 
+              Nota tamen quod haec libertas non est contradictionis 
+              sed complacentiae et naturalis dilectionis, 
+              contra 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e843">
+                  <name xml:id="pg-b1q11-Nd1e874" ref="#Rimini">Gregorium</name>
+                </ref>
+                <bibl>
+                  <name>Gregorius Ariminensis</name>, 
+                  <title>Sent.</title> 
+                  I, d. 10, q. 1, a. 2 
+                  (Trapp II, 167, ll. 2 - 175, ll. 15).
+                </bibl>
+              </cit> 
+              improbantem 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e861">
+                  <name xml:id="pg-b1q11-Nd1e892" ref="#Scotus">Scotum</name>
+                </ref>
+                <bibl>
+                  <name>Scotus</name>, 
+                  <title>Ordinatio</title> 
+                  I, d. 10, q. 1 
+                  (Vatican IV, 348, ll. 9- 349, ll. 14).
+                </bibl>
+              </cit>.
+            </p> 
+            <p xml:id="pgb1q11-d1e618" n="Corollarium 3">
+              Tertium corollarium est pars quaesiti affirmativa.
+            </p> 
+          </div>
+          <div xml:id="pg-b1q11-Dd1e658">
+            <head xml:id="pg-b1q11-Hd1e660">
+              Obiectiones
+            </head>
+            <p xml:id="pgb1q11-d1e624">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e697" target="http://scta.info/resource/pgb1q11-d1e244">
+                  primam conclusionem
+                </ref>
+                <bibl>
+                  Vide supra.
+                </bibl>
+              </cit>, 
+              arguitur primo sic, 
+              auctoritate 
+              <ref xml:id="pg-b1q11-Rd1e666" corresp="#pg-b1q11-Qd1e675">
+                <name xml:id="pg-b1q11-Nd1e932" ref="#Dionysius">Dionysii</name>, 
+                capitulo 2 
+                <title ref="#deDivinisNominibus">De divinis nominibus</title>
+              </ref>,
+              dicentis, 
+              <cit>
+                <quote xml:id="pg-b1q11-Qd1e675" source="http://scta.info/resource/KJde3s-d1e68-d1e117" synch="7-27">
+                  non est audendum de Spiritu Sancto dicere 
+                  et occulta divinitate praeter ea quae divinitus 
+                  nobis ex sacris litteris sunt expressa
+                </quote>
+                <bibl>
+                  <name>Pseudo-Dionysius</name>, 
+                  <title>De divinis nominibus</title>,
+                  cap. 1, 2 
+                  (Dionysiaca I, 12-13).
+                </bibl>
+              </cit>.
+              Sed in sacris litteris canonis non videtur haec 
+              veritas expressa, igitur non est ponenda.
+            </p>
+            <!-- second objection to http://scta.info/resource/pgb1q11-d1e244; add to info file -->
+            <p xml:id="pgb1q11-d1e643">
+              Secundo, 
+              sequitur quod maior sit identitas inter Patrem 
+              et 
+              <app>
+                <lem>Filium</lem>
+                <rdg wit="#L" type="correction-substitution" facs="40r/20">
+                  <subst>
+                    <del rend="strikethrough">Spiritum</del>
+                    <add place="in-line">Filium</add>
+                  </subst>
+                </rdg>
+              </app> 
+              quam inter Patrem et Spiritum Sanctum. 
+              Consequens est falsum. 
+              Patet consequentia 
+              quia ultra identitatem essentiae 
+              est identitas spirationis activae.
+            </p>
+            <!-- third objection to http://scta.info/resource/pgb1q11-d1e244; add to info file -->
+            <p xml:id="pgb1q11-d1e671">
+              Tertio, 
+              cuiuslibet actionis simpliciter simplex 
+              est principium unum, ergo. 
+              Sed hoc est falsum quod probatur primo 
+              quia, 
+              si esset unum principium spirans Spiritum Sanctum, 
+              tunc esset aliqua persona quarta in divinis, 
+              cum Filius non sit illud principium unum nec Pater. 
+              Secundo, sequitur tantum duas esse ibi personas. 
+              Probo
+              quia tantum principium spirativum 
+              et spiratum principium vel terminus spirationis. 
+              Tertio, 
+              sequitur Patrem et Filium aliqualiter esse unum,
+              qualiter 
+              <app>
+                <lem n="qualiter"/>
+                <rdg wit="#L" type="variation-present" cause="repetition" facs="40r/26">qualiter</rdg>
+              </app> 
+              Spiritus Sanctus non esset illud unum. 
+              Consequens est falsum, 
+              et patet consequentia 
+              quia Pater et Filius sunt unum principium Spiritus Sancti, 
+              sed Spiritus Sanctus non est sic unum cum eis, 
+              ergo. 
+              Antecedens patet 
+              quia aliter sequitur primo, 
+              quod idem terminus indivisibilis 
+              unica relatione ad plura referretur. 
+              Secundo, quod unum et idem a pluribus causis totalibus 
+              simpliciter produceretur 
+              quod 
+              <cit>
+                <ref xml:id="pg-b1q11-Rseisei" target="http://scta.info/resource/pgb1q11-d1e362" synch="95-112">
+                  supra est improbatum
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>. 
+              Tertio, sequitur quod effectus dependent a causa, 
+              qua remota, non minus produceretur. 
+              Haec sunt falsa, ergo.
+            </p>
+            <!-- fourth objection to http://scta.info/resource/pgb1q11-d1e244; add to info file -->
+            <p xml:id="pgb1q11-d1e721">
+              Quarto principaliter, 
+              aut ista veritas necessario et expresse 
+              sequitur ex dictis Sacrae Scripturae aut non. 
+              Si primum, 
+              mirum est quod hoc non viderunt 
+              doctores Graecorum, 
+              sicut 
+              <name xml:id="pg-b1q11-Nd1e1019" ref="#JohnDamascenus">Damascenus</name>, 
+              <name xml:id="pg-b1q11-Nd1e1022" ref="#TheophilusOfAntioch">Theophilus</name>, 
+              <name xml:id="pg-b1q11-Nd1e1025" ref="#GregoryOfNazianzus">Gregorius Nazianzus</name>, 
+              et <name xml:id="pg-b1q11-Nd1e1028" ref="#CyrilOfAlexandria">Cyrillus</name>. 
+              Si secundum, 
+              sequitur quod nec nos debemus docere, 
+              nec fideles ad hoc credendum debent artari, 
+              nec oppositum debet haereticum dici.
+            </p>
+            <!-- fifth objection to http://scta.info/resource/pgb1q11-d1e244; add to info file -->
+            <p xml:id="pgb1q11-d1e754">
+              Quinto, 
+              aliquod principium Spiritus Sancti non est Filius, 
+              ergo nullum principium Spiritus Sancti est Filius. 
+              Antecedens patet 
+              quia Pater, qui non est Filius, 
+              est principium Spiritus Sancti. 
+              Et consequentia probatur 
+              quia in materia naturali 
+              indefinita vel singularis infert universalem, 
+              sicut est in proposito.
+            </p>
+            <p xml:id="pgb1q11-d1e764">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e770" target="http://scta.info/resource/pgb1q11-d1e362">
+                  secundam conclusionem
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              arguitur primo sic,
+              a quocumque aliquid constituitur inesse ab eodem 
+              <pb ed="#L" n="40-v"/>
+              distinguitur illo. 
+              Sed Filius constituitur in esse personali filiatione, 
+              ergo ea formaliter distinguitur ab omni alia persona. 
+              Ergo, circumscripta per possibile vel impossibile spiratione, 
+              remanebit Filius personaliter distinctus a quacumque alia persona, 
+              ergo non solum per spirationem distinguitur a Spiritu Sancto, 
+              ut dicit 
+              <cit>
+                <ref xml:id="pg-b1q11-Rppcppc" target="http://scta.info/resource/pgb1q11-d1e362">
+                  prima pars conclusionis
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>. 
+              Haec est ratio 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e729" target="http://scta.info/resource/jdso8u-d1e783">
+                  <!-- NOTE: temp item level target -->
+                  <name xml:id="pg-b1q11-Nd1e1065" ref="#Scotus">Scoti</name>, 
+                  11 distinctione, 
+                  quaestione 2
+                </ref>
+                <bibl>
+                  <name>Scotus</name>,
+                  <title>Ordinatio</title> 
+                  I, d. 11, q. 2 
+                  (Vatican V, 16, ll. 5 - 17, ll. 7).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q11-d1e782">
+              Secundo, 
+              inter divinas personas 
+              non potest esse distinctio 
+              nisi per aliquam oppositionem, 
+              quae non potest esse nisi relativa. 
+              Sed talis non potest esse 
+              nisi per aliquam originem. 
+              Ergo, si nulla est origo Spiritus Sancti a Verbo, 
+              nec aliqua relatio, 
+              ergo nec distinctio. 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e745" target="http://scta.info/resource/TAca84-d1e232">
+                <!-- NOTE: temp item level target -->
+                  <name xml:id="pg-b1q11-Nd1e1087" ref="#Aquinas">Doctor Sanctus</name> 
+                  in <title ref="#SummaTheologica">Summa</title>, 
+                  parte prima, 
+                  quaestione 36, 
+                  articulo 2
+                </ref>
+                <bibl>
+                  <name>Aquinas</name>, 
+                  <title>Summa theologiae</title> 
+                  I, q. 36, a. 2 
+                  (Leonine IV, 337a-b).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q11-d1e805">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e817" target="http://scta.info/resource/pgb1q11-d1e425">
+                  secundum corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              <cit>
+                <quote xml:id="pg-b1q11-Qd1e1118" source="http://scta.info/resource/HuYgTa-e46559-d1e418" synch="2-10">
+                  generatio activa et spiratio activa 
+                  in Patre dicunt eandem rem
+                </quote>
+                <bibl>
+                  <name>Thomas de Argentina</name>, 
+                  <title>Sent.</title> 
+                  I, d. 11, q. 2, a. 2 
+                  (Venice 1564, 61ra).
+                  <!--(Genoa 1585, 62ra, 15-16).-->
+                </bibl>
+              </cit>, 
+              ergo generatio passiva non concerneret 
+              spirationem passivam nisi concerneret generationem activam. 
+              Sed si Spiritus Sanctus non procederet a Filio, 
+              generatio passiva non concerneret spirationem
+              <app>
+                <lem>activam</lem>
+                <rdg wit="#L" type="correction-substitution">
+                  <subst>
+                    <del>passivam</del>
+                    <add place="in-line">activam</add>
+                  </subst>
+                </rdg>
+              </app>, 
+              ergo eadem esset persona 
+              genita et spirata. 
+              <ref xml:id="pg-b1q11-Rd1e777" corresp="#pg-b1q11-Qd1e1118">
+                <name xml:id="pg-b1q11-Nd1e1138" ref="#ThomasStrasbourg">Thomas</name> 
+                ubi supra
+              </ref>.
+            </p>
+            <p xml:id="pgb1q11-d1e826">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e853" target="http://scta.info/resource/pgb1q11-d1e460">
+                  tertium corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              Spiritus Sanctus non esset, 
+              si a Filio non procederet. 
+              Illa consequentia est formalis 
+              <mentioned>Spiritus Sanctus non procedit a Filio, 
+                ergo non distinguitur ab eo</mentioned>. 
+              Consequentia bona 
+              quia quod non est a nullo distinguitur. 
+              Antecedens probatur tripliciter. 
+              Primo quia, 
+              <cit>
+                <quote xml:id="pg-b1q11-Qd1e1169" source="http://scta.info/resource/grvnZZ-ed1e46-d1e683@87-104">
+                  <!-- NOTE: source somewhat unstable; range definitely unstable  -->
+                  si Spiritus Sanctus non procederet a Filio, 
+                  non esset donum Patris et Filii
+                </quote>
+                <bibl>
+                  <name>Gregorius Ariminensis</name>, 
+                  <title>Sent.</title> 
+                  I, d. 11, q. 1, a. 2 
+                  (Trapp II, 186, ll. 17-18).
+                </bibl>
+              </cit>, 
+              igitur nec Spiritus Sanctus. 
+              Secundo, 
+              quia 
+              <cit>
+                <quote xml:id="pg-b1q11-Qd1e1188" source="http://scta.info/resource/grvnZZ-ed1e46-d1e766@12-26">
+                  <!-- NOTE: source somewhat unstable; range definitely unstable  -->
+                  Filius per se est 
+                  principium Spiritus Sancti, 
+                  ergo si eum non spiraret, 
+                  tunc Spiritus Sanctus non esset
+                </quote>
+                <bibl>
+                  <name>Gregorius Ariminensis</name>, 
+                  <title>Sent.</title> I, d. 11, q. 1, a. 2 
+                  (Trapp II, 187, ll. 10-12).
+                </bibl>
+              </cit>. 
+              Tertio, 
+              <cit>
+                <quote xml:id="pg-b1q11-Qd1e1205" source="http://scta.info/resource/grvnZZ-ed1e46-d1e816@3-15">
+                  <!-- NOTE: source somewhat unstable; range definitely unstable  -->
+                  si aliqua creatura non produceretur a Filio, 
+                  non produceretur a Filio nec a Patre
+                </quote>
+                <bibl>
+                  <name>Gregorius Ariminensis</name>, 
+                  <title>Sent.</title> 
+                  I, d. 11, q. 1, a. 2 
+                  (Trapp II, 187, ll. 27-29).
+                </bibl>
+              </cit>, 
+              ergo sic erit de Spiritu Sancto. 
+              Et per consequens, 
+              <cit>
+                <quote xml:id="pg-b1q11-Qd1e1221" source="http://scta.info/resource/grvnZZ-ed1e46-d1e766" synch="12-26">
+                  si Filius non produceret Spiritum Sanctum, 
+                  ipse non esset
+                </quote>
+                <bibl>
+                  <name>Gregorius Ariminensis</name>, 
+                  <title>Sent.</title> I, d. 11, q. 1, a. 2 
+                  (Trapp II, 187, ll. 10-12).
+                </bibl>
+              </cit>. 
+              Ista est ratio 
+              <ref xml:id="pg-b1q11-Rd1e794" corresp="#pg-b1q11-Qd1e1169 #pg-b1q11-Qd1e1188 #pg-b1q11-Qd1e1205 #pg-b1q11-Qd1e1221">
+                <name xml:id="pg-b1q11-Nd1e1236" ref="#Rimini">Doctoris Nostri Gregorii</name>, 
+                11 distinctione primi, 
+                articulo 2
+              </ref>.
+            </p>
+            <p xml:id="pgb1q11-d1e865">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e880" target="http://scta.info/resource/pgb1q11-d1e486">
+                  tertiam conclusionem
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              Pater sufficienter producit Spiritum Sanctum, 
+              ergo Filium producere superfluit. 
+              Consequentia bona quia sicut frustra sit per plura, etc., 
+              a fortiori frustra sit plura 
+              quod sufficienter de facto fit per unum solum. 
+              Sed Deus et natura nihil agunt frustra, ergo. 
+              Antecedens probatur 
+              quia non perfectius producitur a duobus 
+              quam ab uno tantum.
+            </p>
+            <p xml:id="pgb1q11-d1e875">
+              Secundo, 
+              aliqualiter Pater 
+              producit Spiritum Sanctum 
+              qualiter Filius non producit ipsum, 
+              ergo non eodem modo. 
+              Antecedens probatur 
+              quia Pater non habet suum producere ab alio, 
+              sed Filius habet a Patre, ergo.
+            </p>
+            <p xml:id="pgb1q11-d1e883">
+              Tertio, 
+              diversorum suppositorum diversi sunt actus. 
+              Sed Pater et Filius sunt diversa supposita, 
+              ergo, si spirant, 
+              diversae sunt spirationes et diversi actus. 
+              Consequens est falsum. 
+              Patet consequentia, 
+              sed antecedens probatur 
+              quia, licet duo angeli se diligant, 
+              tamen non sequitur 
+              quod sit unus amor duorum, 
+              ergo sic est in divinis.
+            </p>
+            <p xml:id="pgb1q11-d1e893">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e906" target="http://scta.info/resource/pgb1q11-d1e531">
+                  primum corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              voluntas est principium ad intra productivum, 
+              et non nisi amoris, 
+              ergo Spiritus immensae bonitatis producitur, etc. 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e824" target="http://scta.info/resource/jdso8u-d1e755">
+                  <!-- NOTE: temp item level target -->
+                  <name xml:id="pg-b1q11-Nd1e1277" ref="#Scotus">Scotus</name>, distinctione 10
+                </ref>
+                <bibl>
+                  <name>Scotus</name>,
+                  <title>Ordinatio</title> 
+                  I, d. 10, q. 1 
+                  (Vatican IV, 341, ll. 21 - 342, ll. 18).
+                  <!-- incipit/explicit: "et ex his ultra....intellectus, ergo etc." -->
+                </bibl>
+              </cit>.
+              <app>
+                <lem n="10"/>
+                <rdg wit="#L" type="correction-deletion">
+                  <del rend="strikethrough">2m connterse</del>
+                </rdg>
+              </app>
+            </p>
+            <p xml:id="pgb1q11-d1e914">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e946" target="http://scta.info/resource/pgb1q11-d1e586">
+                  secundum corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              sequeretur, 
+              si sic, 
+              quod inter liberum et necessarium 
+              non esset differentia, 
+              contra 
+              <cit>
+                <ref xml:id="pg-b1q11-Rpnmpnm" target="http://scta.info/resource/aristmet-l8">
+                  <name xml:id="pg-b1q11-Nd1e1318" ref="#Aristotle">Philosophum</name>,
+                  <sic>IX</sic> 
+                  <title ref="#Metaphysics">Metaphysicae</title>
+                </ref>
+                <bibl>
+                  <name>Aristoteles</name>, 
+                  <title>Metaphysicae</title> 
+                  8, 5 
+                  (1048a5-8).
+                </bibl>
+              </cit>.
+              Et consequens probat 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e867">
+                <name xml:id="pg-b1q11-Nd1e1339" ref="#Rimini">Gregorius</name>, 
+                  10 distinctione, 
+                  articulo 2, 
+                  conclusione 2
+                </ref>
+                <bibl>
+                  <name>Gregorius Ariminensis</name>, 
+                  <title>Sent.</title> 
+                  I, d. 10, q. 1, a. 2 
+                  (Trapp II, 167, ll. 14 - 169, ll. 34).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q11-d1e937">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e986" target="http://scta.info/resource/pgb1q11-d1e618">tertium corollarium</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              <cit>
+                <quote xml:id="pg-b1q11-Qd1e1289" type="paraphrase" source="http://scta.info/resource/atv-l1d11et12q1-d1e3938">
+                  principium productivum Spiritus Sancti est voluntas, 
+                  ergo libere producitur et non naturaliter seu necessario. 
+                  Patet consequentia 
+                  quia, 
+                  sicut intellectus non habet modum liberum agendi, 
+                  sic nec voluntas modum naturalem. 
+                  Antecedens patet quia Spiritus Sanctus est amor, 
+                  ergo producitur a voluntate
+                </quote>
+                <bibl>
+                  <name>Alphonsus Vargas Toletanus</name>, 
+                  <title>Sent.</title>
+                  I, d. 11, a. 2, concl. 3 
+                  (Venice 1490, 405-406).
+                </bibl>
+              </cit>.
+              Haec ratio est
+              <ref xml:id="pg-b1q11-Rd1e884" corresp="#pg-b1q11-Qd1e1289">
+                <name xml:id="pg-b1q11-Nd1e1382" ref="#AlphonsusVargas">Alphonsi</name>, 
+                distinctione 11 primi, 
+                articulo 2, 
+                conclusione 3
+              </ref>.
+            </p>
+            <p xml:id="pgb1q11-d1e966">
+              Secundo, 
+              <cit>
+                <quote xml:id="pg-b1q11-Qd1e1313" source="http://scta.info/resource/adt-l5-d1e753">
+                  Spiritus Sanctus non producitur quomodo natus
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title> 
+                  V, 14, 15
+                  (CCSL 50, 222, ll. 9-12).
+                </bibl>
+              </cit>, 
+              ergo non naturaliter. 
+              Antecedens est 
+              <ref xml:id="pg-b1q11-Rd1e902" corresp="#pg-b1q11-Qd1e1313">
+                <name xml:id="pg-b1q11-Nd1e1406" ref="#Augustine">Augustini</name>, 
+                libro <title ref="#deTrinitate">De Trinitate</title>, 
+                capitulo 12
+              </ref>.
+              Consequentia probatur 
+              quia quidquid producitur naturaliter in eadem natura 
+              cum producente producitur ut natum, 
+              ergo ex opposito quod non producitur ut natum 
+              non producitur naturaliter, 
+              ergo consequentia fuit bona.
+            </p>
+          </div>
+          <div xml:id="pg-b1q11-Dd1e1407">
+            <head xml:id="pg-b1q11-Hd1e1409">Responsiones</head>
+            <p xml:id="pgb1q11-d1e984">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1035" target="http://scta.info/resource/pgb1q11-d1e624">Ad primam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              quod est dictum <name xml:id="pg-b1q11-Nd1e1426" ref="#Dionysius">Dionysii</name> 
+              dicitur quod illa auctoritas et similes 
+              debent intelligi per aliud vel praeter, 
+              et sic id est contrarium vel adversum, 
+              ut patet 
+              quia ipsemet <name xml:id="pg-b1q11-Nd1e1429" ref="#Dionysius">Dionysius</name>
+              multa docuit 
+              quae expresse non habentur in canone, 
+              et ita possunt exponi aliae 
+              <pb ed="#L" n="41-r"/>
+              auctoritates multae.
+            </p>
+            <p xml:id="pgb1q11-d1e1005">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1059" target="http://scta.info/resource/pgb1q11-d1e643">Ad secundam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur consequentia. 
+              Et ad probationem, 
+              dicitur quod identitas spirationis 
+              non addit aliquid ultra essentialem.
+            </p>
+            <p xml:id="pgb1q11-d1e1017">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1072" target="http://scta.info/resource/pgb1q11-d1e671">Ad tertiam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              posset primo concedi consequens sicut dicit 
+              <cit>
+                <!-- not sure if citation needed here; see corresp quote below; as well as related ref below -->
+                <ref xml:id="pg-b1q11-Rd1e937" target="http://scta.info/resource/TAca84-d1e232">
+                  <!-- temp item level (question level) target -->
+                  <name xml:id="pg-b1q11-Nd1e1465" ref="#Aquinas">Thomas</name>, 
+                  parte prima, 
+                  quaestione 36, 
+                  articulo 4
+                </ref>
+                <bibl>
+                  <name>Aquinas</name>, 
+                  <title>Summa theologiae</title> 
+                  I, q. 36, a. 4 
+                  (Leonine IV, 384b).
+                </bibl>
+              </cit>.
+              Sed non videtur conformiter loqui in 
+              <ref xml:id="pg-b1q11-Rd1e948" corresp="#pg-b1q11-Qnpdqds">
+                <title>Scripto</title>, primo
+              </ref>, 
+              ubi dicit 
+              <cit>
+                <quote xml:id="pg-b1q11-Qnpdqds" source="http://scta.info/resource/ta-l1d12q1-d1e3632">
+                  non possumus dicere quod Pater et Filius est spirans vel spirator, sed debemus 
+                  dicere quod sunt duo spirantes vel spiratores quia duo supposita
+                </quote>
+                <bibl>
+                  <name>Aquinas</name>, 
+                  <title>Scriptum</title> 
+                  I, d. 11, q. 1, a. 4
+                  (Mandonnet I, 284).
+                </bibl>
+              </cit>, 
+              et in 
+              <ref xml:id="pg-b1q11-Rsdudus" corresp="#pg-b1q11-Qnddpus">
+                <title ref="#SummaTheologica">Summa</title> 
+                dicit ubi supra
+              </ref> 
+              quod 
+              <cit>
+                <quote xml:id="pg-b1q11-Qnddpus" source="http://scta.info/resource/TAca84-d1e232">
+                  <!-- NOTE: temp item level source -->
+                  non debent dici duo spiratores propter unicam spirationem
+                </quote>
+                <bibl>
+                  <name>Aquinas</name>, 
+                  <title>Summa theologiae</title> 
+                  I, q. 36, a. 4, ad 7
+                  (Leonine IV, 384b).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q11-d1e1045">
+              Secundo, 
+              <name xml:id="pg-b1q11-Nd1e1529" ref="#Rimini">Noster Gregorius</name> diceret 
+              quod haec propositio,
+              <mentioned>Pater et Filius sunt unum principium Spiritus Sancti</mentioned>, 
+              valet tantum sicut 
+              haec, 
+              <mentioned>
+                Pater et Filius uno et eodem modo 
+                tamquam unum principium spirant Spiritum Sanctum
+              </mentioned>. 
+              Et sic ipse 
+              non concederet Patrem et Filium 
+              unum esse principium Spiritus Sancti productivum vel spirativum 
+              quia sunt duo qui spirant. 
+              Vide rationes ibi.
+            </p>
+            <p xml:id="pgb1q11-d1e1058">
+              Tertio, 
+              diceret 
+              <ref xml:id="pgb1q11-Raejdd" corresp="#pgb1q11-Quu8uu">
+                <name xml:id="pg-b1q11-Nd1e1541" ref="#HugolinoOfOrvieto">Hugolinus</name>
+              </ref>, 
+              quasi sequens <name xml:id="pg-b1q11-Nd1e1544" ref="#Rimini">Gregorium</name>, 
+              <cit>
+                <quote xml:id="pgb1q11-Quu8uu">
+                  non sunt unum principium spirandi Spiritum Sanctum,
+                  capiendo li <mentioned>unum</mentioned> stricte pro uno numero simplici
+                </quote>
+                <bibl>
+                  <name>Hugolinus de Urbe Veteri</name>, 
+                  <title>Sent.</title> 
+                  I, d. 10-13, q. 1, dub. 3 
+                  (Eckermann II, 222, ll. 18-20).
+                </bibl>
+              </cit> 
+              quia 
+              vel esset illud essentia, 
+              vel duae personae, 
+              vel una tantum, 
+              vel aggregatum ex 
+              essentia et relatione, 
+              vel relatio communis, 
+              sed nullum horum dici debet, ergo. 
+              Secundo dicit idem quod quando 
+              <cit>
+                <ref xml:id="pg-b1q11-Rdddtcs" corresp="#pg-b1q11-Qffcusp" target="http://scta.info/resource/wef6td-d1e68-d1e122" synch="1-30">
+                  <title ref="#Decretals">Decretalis</title> 
+                  dicit <title>Extra</title>, 
+                  De summa Trinitate, 
+                  libro sexto
+                </ref>
+                <bibl>
+                  <title>Liber Extra</title> <!-- liber sextus -->
+                  VI, 1, 1, 1 
+                  (CIC, II, 937).
+                </bibl>
+              </cit>,
+              <cit>
+                <quote xml:id="pg-b1q11-Qffcusp">
+                  fideliter fatemur capitulo quod Spiritus Sanctus aeternaliter ex 
+                  Patre et Filio tamquam non ex duobus principis sed tamquam ex uno principio non duabus 
+                  spirationibus sed una spiratione procedit
+                </quote>
+                <bibl>
+                  Second Council of Lyon, 
+                  Session II 
+                  (Denzinger n. 850, p. 460).
+                  <!--Concile de Lyon II (oecum. XIV), 7 mai - 17 juillet 1274 (sous
+                  le Bienheureux Grégoire X); Session II, 18 mai 1274:
+                  Constitution "de summa Trinitate et fide catholica", 
+                  (Enchiridion Symbolorum, Denzinger. 850 460).--> 
+                  <!-- see http://catho.org/9.php?d=bxx -->
+                </bibl>
+              </cit>,
+              hoc debet intelligi quod 
+              <title>Decretalis</title> non intendit affirmare 
+              unum principium vel unitatem principii, 
+              sed unitatem et uniformitatem modi principiendi, 
+              ideo non dicit tamquam ex duobus principiis, 
+              etiam voluit asserere unitatem 
+              numeralem spirationis seu processionis Spiritus Sancti. 
+              Ex cuius dictis, 
+              patet quod, 
+              licet secundum eum haec non sit vera 
+              <mentioned>Pater et Filius sunt unum principium Spiritus Sancti</mentioned>, 
+              tamen haec a doctoribus ponitur conclusio communis.
+            </p>
+            <p xml:id="pgb1q11-d1e1103">
+              Quarto, 
+              posset dici quod, 
+              licet concedatur Patrem et Filium esse unum principium Spiritus Sancti, 
+              non tamen concedendum est eos esse idem principium Spiritus Sancti, 
+              ne identitas personae intelligatur. 
+              Item, non est concedendum 
+              quod Pater sit aliud principium Spiritus Sancti quam Filius, 
+              ne pluralitas spirationis notetur.
+            </p>
+            <p xml:id="pgb1q11-d1e1119">
+              Quinto, 
+              notandum quod 
+              non est concedendum 
+              Pater et Filius est aliquod principium Spiritus Sancti 
+              propter li <mentioned>aliquod</mentioned> quod est principium 
+              denotans relationem intrinsecam, 
+              sicut non admittitur 
+              Pater et Filius sunt aliquid Deus.
+            </p>
+            <p xml:id="pgb1q11-d1e1133">
+              Sexto, 
+              notandum quod habetur in 
+              <ref xml:id="pg-b1q11-Rd1e1020" corresp="#pg-b1q11-Qsspass #pg-b1q11-Quspepa">
+                <title>Glossa cardinalis Extra</title>, 
+                De summa Trinitate
+              </ref>,
+              ubi supra super illo verbo 
+              <cit>
+                <quote xml:id="pg-b1q11-Qd1e1609" source="http://scta.info/resource/wef6td-d1e68-d1e122" synch="28-29" type="lemma">
+                  <!-- pointing here to formal source; not material source -->
+                  unica spiratione
+                </quote>
+                <bibl>
+                  <title>Liber Extra</title> <!-- liber sextus -->
+                  VI, 1, 1, 1 
+                  (CIC, II, 937).
+                </bibl>
+              </cit>, 
+              ubi obicit <title>Glossa</title> dicens, 
+              <cit>
+                <quote xml:id="pg-b1q11-Qsspass" type="paraphrase" source="http://scta.info/resource/vBQQh7-d1e98">
+                  <!-- NOTE: temporarily pointing to item level id -->
+                  supposita sunt plura, 
+                  ergo plures erunt actiones 
+                  quia actiones sunt suppositorum
+                </quote>
+                <bibl>
+                  <name>Iohannes Monachus</name>,
+                  <title>Glossa aurea super Sexto</title> 
+                  I, 1, 1 (Paris 1535, 11r-v).
+                </bibl>
+              </cit>. 
+              Respondet <title>Glossa</title> dicens, 
+              <cit>
+                <quote xml:id="pg-b1q11-Quspepa" type="paraphrase" source="http://scta.info/resource/vBQQh7-d1e98">
+                  <!-- NOTE: temporarily pointing to item level id -->
+                  ubi sunt plura supposita et plures rationes agendi, 
+                  ibi sunt plures actiones, 
+                  ubi sunt plura supposita et unica ratio agendi, 
+                  non oportet ibi esse plures actiones
+                </quote>
+                <bibl>
+                  <name>Iohannes Monachus</name>,
+                  <title>Glossa aurea super Sexto</title> 
+                  I, 1, 1 (Paris 1535, 11r-v).
+                </bibl>
+              </cit>, 
+              sicut est in proposito 
+              quia, licet Pater et Filius spirent, 
+              tamen quia est una ratio, 
+              ideo una spiratio.
+            </p>
+            <p xml:id="pgb1q11-d1e1172">
+              Ex dictis posset inferri aliter 
+              ad formam negando quod 
+              unus actionis unum sit principium. 
+              Et ad probationem,
+              <cit>
+                <quote xml:id="pg-b1q11-Rapqsne" type="incipit" source="http://scta.info/resource/pgb1q11-d1e671@17-40">
+                  quia si non
+                </quote>
+                <bibl>Vide supra.
+                  <!-- the ref points to the first sub argument in  http://scta.info/resource/pgb1q11-d1e671; 
+                  all of the above six need standoff markup indicating response to this first sub argument in paragraph
+                  http://scta.info/resource/pgb1q11-d1e671-->
+                </bibl>
+              </cit>, 
+              etc.,
+              conceditur hoc consequens, 
+              sicut eadem albedine <name xml:id="pg-b1q11-Nd1e1680" ref="#Sortes">Sortes</name> est 
+              similis <name xml:id="pg-b1q11-Nd1e1683" ref="#Plato">Platoni</name> albo 
+              et dissimilis <name xml:id="pg-b1q11-Nd1e1686">Iohanni</name> nigro.
+            </p>
+            <p xml:id="pgb1q11-d1e1196">
+              Ad secundam, 
+              illatum conceditur, 
+              sicut fuit expositum 
+              <cit>
+                <ref xml:id="pg-b1q11-Rdqdqdq">distinctione quinta</ref>
+                <bibl>Non invenimus.</bibl>
+              </cit>, 
+              loquendo de totalitate termini producti 
+              quia Spiritus Sanctus producitur totus a Filio, 
+              non tamen est eius causa.
+            </p>
+            <p xml:id="pgb1q11-d1e1204">
+              Ad tertiam, 
+              etiam conceditur consequens.
+            </p>
+            <!-- above references are responses to sub points in http://scta.info/resource/pgb1q11-d1e671 
+            possible need for added paragraph breaks in http://scta.info/resource/pgb1q11-d1e671
+            -->
+            <p xml:id="pgb1q11-d1e1208">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1201" target="http://scta.info/resource/pgb1q11-d1e721">Ad quartam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              principale
+              dicitur quod veritas illa sequitur ex dictis Sacrae Scripturae 
+              prout 
+              <cit>
+                <ref xml:id="pg-b1q11-Ratsats">
+                  <name xml:id="pg-b1q11-Nd1e1722" ref="#Augustine">Augustinus</name> testatur superius</ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title> 
+                  IV, 20, 29 
+                  (CCSL 50, 199, ll. 95 - 200, ll. 114); 
+                  V, 17, 27 
+                  (CCSL 50A, 501, ll. 2-5); 
+                  XV, 27, 48 
+                  (CCSL 50A, 529, ll. 1 - 530, ll. 37).
+                </bibl>
+              </cit> 
+              et 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1055">
+                  <name xml:id="pg-b1q11-Nd1e1740" ref="#Lombard">Magister</name> in hac distinctione</ref>
+                <bibl>
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 11, c. 1 
+                  (I, 114, ll. 15 - 115, ll. 3). 
+                </bibl>
+              </cit> 
+              adducens 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1649">
+                  ad hoc plures auctoritates Novi Testamenti quae patent in littera
+                </ref>
+                <bibl>Johannis 5:19, 15:26, 16:7, 20:22; Lucas 24:49; Ad Titum 3:3-5.</bibl>
+              </cit>. 
+              Et quando dicitur 
+              <!-- TODO: possible quote@type=incipit here or ref, but target is unclear. -->
+              quomodo doctor, etc., 
+              dicitur quod forte eorum pertinacia 
+              fuit et est causa eorum excaecationis et ignorantiae.
+            </p>
+            <p xml:id="pgb1q11-d1e1224">
+              <cit>
+                <ref xml:id="pg-b1q11-Raqqaaq" target="http://scta.info/resource/pgb1q11-d1e754">
+                  Ad 
+                  <app>
+                    <lem type="conjecture-corrected"><corr>quintam</corr></lem>
+                    <rdg wit="#L">sextam</rdg>
+                  </app>
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              posset negari consequentia, 
+              et ultra dici quod illa regula logicalis 
+              non est generalis sed praecise, 
+              ubi est praedicatio simpliciter et essentialis.
+            </p>
+            <p xml:id="pgb1q11-d1e1232">
+              Secundo, 
+              dicitur quod forma non valet 
+              quia similiter dicerentur aliquid est  
+              <pb ed="#L" n="41-v"/> 
+              Pater et non est Filius, 
+              ergo essentia, 
+              quae est Pater, 
+              non est Filius, 
+              quod est falsum.
+            </p>
+            <p xml:id="pgb1q11-d1e1241">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1244" target="http://scta.info/resource/pgb1q11-d1e764">
+                  Ad primam contra secundam conclusionem
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              conceditur maior, 
+              sed negatur minor, 
+              tum quia proprie nulla persona divina 
+              constituitur in esse personali, 
+              tum quia Filius per nihil constituitur 
+              in huius esse personali 
+              quod non est formaliter ipse Filius.
+            </p>
+            <p xml:id="pgb1q11-d1e1253">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1260" target="http://scta.info/resource/pgb1q11-d1e782">
+                  Ad secundam
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              primo potest dici quod 
+              ratio fundatur super falsa imaginatione 
+              quia imaginatur quod personae divinae non se ipsis 
+              sed solum relationibus distinguuntur, 
+              quod negatur.
+            </p>
+            <p xml:id="pgb1q11-vih2ba">
+              Secundo, hoc concesso, 
+              non tamen solum relationibus oppositis 
+              sed etiam disparatis.
+            </p> 
+            <p xml:id="pgb1q11-d1e1275">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1273" target="http://scta.info/resource/pgb1q11-d1e805">
+                  Ad rationem contra secundum corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur consequentia quia 
+              illa non est ratio 
+              <cit>
+                <quote xml:id="pg-b1q11-Qd1e1737" type="paraphrase" source="http://scta.info/resource/atv-l1d11et12q1-d1e3661" synch="30-94">
+                  <!-- NOTE: word range is unstable -->
+                  quare paternitas et spiratio activa 
+                  non constituit duas personas 
+                  quia non sunt relationes oppositae, 
+                  sed quia spiratio activa est communicabilis Filio, 
+                  ideo non est constitutiva suppositi. 
+                  Et patet quia, 
+                  si illa esset ratio de facto, 
+                  Filius et Spiritus Sanctus non essent duae personae 
+                  quia Filius et Spiritus Sanctus non 
+                  constituuntur diversis relationibus oppositis
+                </quote>
+                <bibl>
+                  <name xml:id="pg-b1q11-Nd1e1850">Alphonsus Vargas Toletanus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 11-12, q. 1, q. 2, a. 2
+                  (Venice 1490, 400-401).
+                </bibl>
+              </cit> 
+              quia Filio non opponitur spirationi passivae. 
+              Haec est responsio
+              <ref xml:id="pg-b1q11-Rd1e1094" corresp="#pg-b1q11-Qd1e1737">
+                <name xml:id="pg-b1q11-Nd1e1863" ref="#AlphonsusVargas">Alphonsi</name>, 
+                distinctione 11 primi, 
+                articulo secundo
+              </ref>.
+              Aliter, 
+              dico quod ratio fundatur super falso 
+              quia imaginatur constitutionem et distinctionem personarum 
+              esse per relationes 
+              et non distingui personas se ipsis, 
+              quod non diceret.
+            </p>
+            <p xml:id="pgb1q11-d1e1314">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1298" target="http://scta.info/resource/pgb1q11-d1e826">
+                  Ad rationem contra tertium corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur antecedens. 
+              Et ad probationem, 
+              quia tunc non essent, 
+              posset negari consequentia. 
+              <!-- NOTE: these are divided into new paragraphs, because they are seen as further sub argument divisions related to the Ad probationem/Probatio" -->
+              Primo et ad auctoritates 
+              <name xml:id="pg-b1q11-Nd1e1879" ref="#Paul">Apostoli</name> et <name xml:id="pg-b1q11-Nd1e1882" ref="#Augustine">Augustini</name>, 
+              dicitur quod locuntur sicut nunc est, 
+              sed non sicut esset in illo casu. 
+              Secundo, 
+              posset dici 
+              quod donum Filii tunc esset, 
+              sed non esset donum Filii. 
+              Tertio, posset illa negari consequentia 
+              quia, licet non esset donum Filii sic quod esset a Filio, 
+              esset tamen donum Filii quia a Filio donaretur, 
+              sicut de facto dicunt Graeci.
+            </p> 
+            <p xml:id="pgb1q11-aseeae">
+              Ad secundam, 
+              eius motivum negatur consequentia.
+            </p> 
+            <p xml:id="pgb1q11-ateeae">
+              Ad tertiam eiusdem, 
+              negatur 
+              etiam consequentia 
+              quia non est simile 
+              de actibus notionalibus ad intra 
+              et essentialibus ad extra.
+            </p>
+            <p xml:id="pgb1q11-d1e1352">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1325" target="http://scta.info/resource/pgb1q11-d1e865">
+                  Ad primam contra tertiam conclusionem
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              dicitur a 
+              <app>
+                <lem type="conjecture-corrected"><corr>quibusdam</corr></lem>
+                <rdg wit="#L" facs="41v/21">quibus</rdg>
+              </app> 
+              quod consequentia non valet 
+              propter unicum principium spirandi 
+              ac propter unicam vim producendi 
+              quae est essentia divina, 
+              sed quia ad hoc sequitur essentiam 
+              divinam esse principium quo productionis 
+              ad intra, 
+              quod non dico. 
+              Ideo aliter respondeo negando consequentiam 
+              quia aliter sequeretur, 
+              a simili Pater sufficienter est Deus, 
+              ergo Filius superflue est Deus vel Spiritus Sanctus. 
+              Item, 
+              solus Pater sufficienter producit creaturas, 
+              ergo superflue tres divinae 
+              personae producunt illas.
+            </p>
+            <p xml:id="pgb1q11-d1e1368">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1342" target="http://scta.info/resource/pgb1q11-d1e875">Ad secundam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              primo posset negari antecedens 
+              simpliciter. 
+            </p>
+            <p xml:id="pg-b1q11-d1e1934">
+              Secundo, 
+              diceret 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1938" target="http://scta.info/resource/kl78io-d1e49">
+                  <!-- NOTE: temp structure division level (book 1) target -->
+                  <name xml:id="pg-b1q11-Nd1e1916" ref="#JohnKlenkok">Magister Iohannes Klenkok</name>
+                </ref>
+                <bibl>
+                  <name>Iohannes Klenkok</name>, 
+                  <title>Expositio litteralis</title> 
+                  I, d. 11 
+                  (Ms. Klosterneuburg, Stiftsbibliothek 304, f. 77r).
+                </bibl>
+              </cit> 
+              negando consequentiam, 
+              concedendo antecedens 
+              quia eodem producere scilicet se 
+              ipso Pater aliter producit Spiritum Sanctum quam Filium 
+              et aliter producit Pater et aliter Filius Spiritum Sanctum. 
+              Et si obicitur per 
+              <cit>
+                <ref xml:id="pg-b1q11-Rdectal" target="http://scta.info/resource/cice-l1t1-d1e119">
+                  <title ref="#Decretals">Decretalem</title>
+                </ref>
+                <bibl>
+                  <title>Liber Extra</title> 
+                  I, 1, 1 
+                  (CIC II, 5).
+                </bibl>
+              </cit>,
+              qui dicit quod aequaliter et pariter producunt, 
+              posset dici quod 
+              illa aequalitas ad originationem 
+              debet referri activam 
+              quia tam Pater quam Filius 
+              originant active seu spirant Spiritum Sanctum.
+            </p>
+            <p xml:id="pgb1q11-d1e1382">
+              Tertio, 
+              posset dici quod li <mentioned>aliter</mentioned> 
+              potest teneri adverbialiter, 
+              et sic conceditur antecedens 
+              et negatur consequentia, 
+              vel nominaliter, 
+              et sic negatur antecedens 
+              et conceditur consequentia.
+            </p>
+            <p xml:id="pgb1q11-d1e1393">
+              Quarto, 
+              potest dici quod li <mentioned>aliter</mentioned> 
+              potest dicere 
+              ipsum Patrem,
+              vel ipsum producere,
+              vel Spiritum Sanctum. 
+              Si sumatur secundo vel tertio modis, 
+              negatur antecedens, 
+              si secundo modo, 
+              negatur consequentia.
+            </p>
+            <p xml:id="pgb1q11-d1e1402">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1373" target="http://scta.info/resource/pgb1q11-d1e883">Ad tertiam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur antecedens universaliter suppositum 
+              quia aliter creatio esset triplex actus, 
+              cum sit actus trium suppositorum. 
+              Et ad probationem,
+              <cit>
+                <ref target="http://scta.info/resource/pgb1q11-d1e883@31-49">de duobus angelis</ref>
+                <bibl>Vide supra</bibl>
+              </cit>, 
+              dicitur quod non est simile 
+              propter identitatem essentialem divinorum suppositorum.
+            </p>
+            <p xml:id="pgb1q11-d1e1419">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1386" target="http://scta.info/resource/pgb1q11-d1e893">
+                  Ad aliud contra primum corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              dico primo quod voluntas 
+              non est formale principium productivum, 
+              saltem ad intra.
+            </p>
+            <p xml:id="pgb1q11-c9nina">
+              Secundo, potest dici quod, cum 
+              <pb ed="#L" n="42-r"/> 
+              nulla res se ipsam gignat vel producat, 
+              et inter voluntatem et Spiritum Sanctum 
+              nulla sit distinctio, 
+              ideo ratio non concludit.
+            </p>
+            <p xml:id="pgb1q11-d1e1432">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1401" target="http://scta.info/resource/pgb1q11-d1e914">
+                  Ad aliud contra secundum corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              conceditur consequens de libertate immutabilitatis 
+              quia necessitati summae non repugnat, 
+              et de hac loquitur corollarium.
+            </p>
+            <p xml:id="pgb1q11-d1e1444">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1840" target="http://scta.info/resource/pgb1q11-d1e937">Ad aliud</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur antecedens. 
+              Et ad probationem, 
+              negatur consequentia sumendo 
+              <mentioned>voluntatem</mentioned> 
+              essentialiter sicut sumpsi. 
+              Tamen bene sequitur quod 
+              aliquid quod est voluntas est principium Spiritus Sancti 
+              quia Pater et etiam Filius.
+              <!-- NOTE: no para break because we see this as a second sub-argument continuing the ad probationem -->
+              Secundo, 
+              dicitur quod non sequitur, 
+              amor est actus voluntatis, 
+              ergo non naturalis 
+              quia multipliciter sumitur 
+              <mentioned>natura</mentioned> 
+              vel 
+              <mentioned>naturaliter</mentioned>, 
+              prout 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1163" target="http://scta.info/resource/jdso8u-d1e755">
+                  <!-- NOTE: temp item level target -->
+                  <name xml:id="pg-b1q11-Nd1e2016" ref="#Scotus">Scotus</name> 
+                  ostendit distinctione 10 primi
+                </ref>
+                <bibl>
+                  <name>Scotus</name>, 
+                  <title>Ordinatio</title> 
+                  I, d. 10, q. 1 
+                  (Vatican IV, 344, ll. 7 - 345, ll. 14).
+                </bibl>
+              </cit>,
+              et similiter 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1174">
+                <name xml:id="pg-b1q11-Nd1e2034" ref="#BonsemblantesBaduarius">Bonsemblantes</name></ref>
+                <bibl>
+                  <name>Bonsemblantes</name>, 
+                  <title>Lectura</title> I, d. 10, dub. 1 
+                  (non extat).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q11-d1e1466">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1897" target="http://scta.info/resource/pgb1q11-d1e966">Ad aliud</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur consequentia. 
+              Et ad probationem,
+              <cit>
+                <quote xml:id="pg-b1q11-Qd1xyz" source="http://scta.info/resource/pgb1q11-d1e966@21-23">
+                  quia quidquid producitur
+                </quote>
+                <bibl>Vide supra</bibl>
+              </cit>, 
+              etc., 
+              hoc negatur, 
+              non enim videtur magis inconveniens 
+              Spiritum Sanctum procedere naturaliter 
+              quam Filium esse voluntarie. 
+              Et tamen 
+              <ref xml:id="pg-b1q11-Rd1e1186" corresp="#pg-b1q11-Qd1e1193">
+                <name xml:id="pg-b1q11-Nd1e2064" ref="#Lombard">Magister</name>, 
+                distinctione 6 primi, 
+                capitulo ultimo
+              </ref> 
+              inquit,
+              <cit>
+                <quote xml:id="pg-b1q11-Qd1e1193" source="http://scta.info/resource/pll1d6c1-d1e3551">
+                  Dicamus ergo, 
+                  quod Pater sicut sapiens, ita 
+                  volens genuit Filium
+                </quote>
+                <bibl>
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 6,
+                  c. 1 
+                  (I, 91, ll. 1-2). 
+                </bibl>
+              </cit>, 
+              ita similiter videtur dici posse de Spiritu Sancto.
+            </p>
+            <p xml:id="pgb1q11-d1e1481">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1460" target="http://scta.info/resource/pgb1q11-qnqsnd">
+                  Ad primam
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit> 
+              et 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1470" target="http://scta.info/resource/pgb1q11-d1e216">
+                  tertiam rationes in oppositum
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              patet solutio ex dictis.
+            </p>
+            <p xml:id="pgb1q11-d1e1493">
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1483" target="http://scta.info/resource/pgb1q11-d1e201">Ad secundam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              respondet 
+              <cit>
+                <ref xml:id="pg-b1q11-Rdnadna">
+                  <name xml:id="pg-b1q11-Nd1e2121" ref="#GilesOfRome">Doctor Noster Aegidius</name>
+                </ref>
+                <bibl>
+                  <name>Aegidius Romanus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 11, prin. 1, q. 1 
+                  (Venice 1521, 64rb-va).
+                </bibl>
+              </cit> 
+              primo quod non est standum 
+              sententiae <name xml:id="pg-b1q11-Nd1e2135" ref="#JohnDamascenus">Damasceni</name> 
+              quia ipse fuit Graecus.
+              Aliter dicit 
+              <cit>
+                <ref xml:id="pg-b1q11-Rtatata">
+                  <name xml:id="pg-b1q11-Nd1e2147" ref="#ThomasStrasbourg">Thomas Argentinensis</name>
+                </ref>
+                <bibl>
+                  <name>Aegidius Romanus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 11, princ. 1, q. 1 
+                  (Venice 1521, 64rb-va).
+                </bibl>
+                <note xml:lang="en">
+                  Gracilis appears to have made a mistake 
+                  in his attribution to Thomas of Argentina.
+                </note>
+              </cit>, 
+              salvando dictum 
+              <name xml:id="pg-b1q11-Nd1e2164" ref="#JohnDamascenus">Damesceni</name>, 
+              quod Graeci bene crediderunt et credidissent hunc articulum, 
+              sed quia non fuerunt vocati 
+              ad consilium ubi illud credere fuit ordinatum, 
+              ideo credere noluerunt. 
+              <!-- NOTE: a new paragraph is not inserted here because we see this as part of a single argument based on the response of Giles of Rome -->
+              Secundo dicit quod illae dictiones 
+              <mentioned>a</mentioned> vel 
+              <mentioned>ab</mentioned> et 
+              <mentioned>ex</mentioned> 
+              significant apud Graecos principalitatem 
+              quamdam quae principalitas 
+              Filio non convenit.
+              Quare non negant Spiritum Sanctum procedere a Filio, 
+              sed negant ipsum principaliter procedere ab ipso, 
+              et hoc videtur veritati consonum.
+            </p>
+            <p xml:id="pgb1q11-d1e1536">
+              Aliter respondet 
+              <cit>
+                <ref xml:id="pg-b1q11-Rd1e1235">
+                  <name xml:id="pg-b1q11-Nd1e2183" ref="#RichardFitzRalph">Armicanus</name> 
+                  in <title>Summa</title> sua in 
+                  <title ref="#deQuaestionibusArmenorum">Quaesitionibus Armenorum</title>, 
+                  libro 6, capitulo 2
+                </ref>
+                <bibl>
+                  <name>Richardus Armachanus</name>, 
+                  <title>Summa</title> 
+                  VI, 11 
+                  (Paris 1512, 43rb).
+                </bibl>
+              </cit>,
+              dicens quod 
+              <name xml:id="pg-b1q11-Nd1e2203" ref="#JohnDamascenus">Damscenus</name> 
+              solum tractat de his 
+              quae suo tempore solum erant 
+              solum expressa diffinita 
+              et tradita ad credendum, 
+              ideo excusatur. 
+              Unde de 
+              <name xml:id="pg-b1q11-Nd1e2206" ref="#JohnDamascenus">Damesceno</name> 
+              dicit 
+              <ref xml:id="pg-b1q11-Rd1e1255" corresp="#pg-b1q11-Qnpines">
+                <name xml:id="pg-b1q11-Nd1e2211" ref="#Lombard">Magister</name>,
+                <title ref="#Sentences">Sententiarum</title>, 
+                libro III, distinctione 11
+              </ref> 
+              quod 
+              <cit>
+                <quote xml:id="pg-b1q11-Qnpines" source="http://scta.info/resource/pl-l3d5c1-d1e289">
+                  nulla pravae intelligentiae notatus est suspicione
+                </quote>
+                <bibl>
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> 
+                  III, d. 5, c. 1
+                  (II, 45, ll. 13).
+                </bibl>
+              </cit>, 
+              ideo potest excusari de hoc 
+              quia 
+              supposito quod crediderit 
+              Spiritum Sanctum non
+              <app>
+                <lem type="conjecture-corrected"><corr>procedere</corr></lem>
+                <rdg wit="#L" facs="42r/22">producere</rdg>
+              </app>
+              a Filio 
+              quia 
+              nondum per ecclesiam extiterat determinatum 
+              quod ab utroque procedit.
+            </p>
+          </div>
+        </div>
+        <div xml:id="pg-b1q11-Dd1e1266" type="et-conclusiones">
+          <head xml:id="pg-b1q11-Hd1e1268">
+            Conclusiones
+          </head>
+          <p xml:id="pgb1q11-d1e1575" n="Conclusio 1">
+            <cit>
+              <quote xml:id="pg-b1q11-Qd1e1276" source="http://scta.info/resource/pll1d10c1-d1e3477" synch="1-4" type="lemma">
+                Nunc post Filii aeternitatem
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title>
+                I, d. 10, c. 1
+                (I, 110, ll. 16).
+              </bibl>
+            </cit>.
+            Haec distinctio continet 
+            quattuor conclusiones. 
+            Prima est 
+            quod 
+            <cit>
+              <quote xml:id="pg-b1q11-Qd1e2315" source="http://scta.info/resource/pll1d10c1-d1e3477" synch="14-24">
+                Spiritus Sanctus est 
+                amor seu caritas sive dilectio 
+                Patris et Filii
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 10, c. 1 (I, 110, ll. 18).
+              </bibl>
+            </cit>,
+            <cit>
+              <quote xml:id="pg-b1q11-Qd1e2330" source="http://scta.info/resource/adt-l15-d1e1877" synch="47-54">
+                qua Pater et Filius se invicem diligunt et nos
+              </quote>
+              <bibl>
+                <name>Augustinus</name>, 
+                <title>De Trinitate</title> XV, 17, 27 
+                (CCSL 50A, 501, ll. 4-5).
+                <!--qua invicem... insinuat caritatem.-->
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q11-d1e1590" n="Conclusio 2">
+            Secunda conclusio: 
+            quod 
+            <cit>
+              <quote xml:id="pg-b1q11-Qd1e2339" source="http://scta.info/resource/pll1d10c1-d1e3564" synch="10-41">
+                caritas aliquando refertur ad substantiam 
+                quae communis est 
+                tribus personis et tota in singulis, 
+                aliquando specialiter ad personam Spiritus Sancti, 
+                sicut sapientia divina 
+                aliquando pro substantia divina sumitur, 
+                aliquando pro Filio capitur
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 10, c. 1 
+                (I, 111, 14-18).
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q11-d1e1598" n="Conclusio 3">
+            Tertia conclusio: 
+            <cit>
+              <quote xml:id="pg-b1q11-Qd1e2357" source="http://scta.info/resource/pll1d10c3-d1e3477" synch="5-31">
+                sicut Spiritus Sanctus in Trinitate 
+                specialiter dicitur caritas quae est Patris et Filii unio, 
+                ita et nomen tenet proprie 
+                quod Patri et Filio quodammodo communiter congruitur
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title> I, d. 10, c. 3 
+                (I, 113, ll. 21-24). 
+                <!--Spiritus Sanctus in ... quodam modo congruit.-->
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q11-d1e1606" n="Conclusio 1"> 
+            <cit>
+              <quote xml:id="pg-b1q11-Qd1e1298" source="http://scta.info/resource/pll1d11c1-d1e3477" type="lemma" synch="1-5">
+                Hic dicendum est Spiritum Sanctum
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title>
+                I, d. 11, c. 1
+                (I, 114, ll. 12).
+              </bibl>
+            </cit>,
+            etc. 
+            Haec distinctio 11 continet 
+            conclusiones quattuor. 
+            Prima quod Spiritus Sanctus procedit a Patre et Filio 
+            secundum doctores Latinos 
+            et secundum veritatem 
+            quod probatur per multa doctorum testimonia 
+            et Scripturae Sacrae.
+          </p>
+          <p xml:id="pgb1q11-d1e1617" n="Conclusio 2">
+            Secunda conclusio: 
+            licet Graeci confiteantur 
+            et concedant Spiritum Sanctum 
+            esse spiritum Filii, 
+            <cit>
+              <quote xml:id="pg-b1q11-Qd1e2374" source="http://scta.info/resource/pll1d11c1-d1e3568" synch="1-13">
+                tamen dicunt Spiritum Sanctum 
+                tantum a Patre procedere 
+                et non a Filio
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title>
+                I, d. 11, c. 1 
+                (I, 115, ll. 5-6).
+                <!--Graeci tamen dicunt... non a Filio.-->
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q11-d1e1625" n="Conclusio 3">
+            Tertio conclusio: 
+            cum dicitur 
+            <cit>
+              <quote xml:id="pg-b1q11-Qd1e1315" source="http://scta.info/resource/pll1d11c1-d1e3592">
+                quid aliud docuerit vel praedicaverit 
+                anathema sit
+              </quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                I, d. 11, c. 1
+                (I, 116, ll. 4). 
+              </bibl>
+              <note>Cf. Symbolum Leonis III (PL 102, 1052B).</note>
+            </cit>, 
+            hoc est intelligendum est, 
+            qui oppositum vel contrarium 
+            seu contrario modo praedicaverit 
+            anathema sit.
+          </p>
+          <p xml:id="pgb1q11-d1e1633" n="Conclusio 4">
+            Quarta conclusio: 
+            Graeci concedentes Spiritum Sanctum 
+            esse Spiritum Filii conveniunt 
+            nobiscum in fide sententiam eandem 
+            quia non est aliud esse Spiritum Patris vel Filii quam 
+            esse vel procedere a Patre et Filio.
+          </p>
+          <p xml:id="pgb1q11-d1e1641">
+            Ex quo videtur sequi quod 
+            Graeci solum a nobis differunt in verbo 
+            quia etiam Spiritus Sanctus a Filio sicut a Patre procedat. 
+            Patet per multos Graecorum doctores, 
+            unde 
+            <ref xml:id="pg-b1q11-Rsedsed" corresp="#pg-b1q11-Qd1e1334">
+              <name xml:id="pg-b1q11-Nd1e2337" ref="#Scotus">Doctor Subtilis</name>
+            </ref> 
+            dicit 
+            <cit>
+              <quote xml:id="pg-b1q11-Qd1e1334" source="http://scta.info/resource/jdso8u-d1e772">
+                inter Latinos et Graecos 
+                non esse discordiam realem sed vocalem
+              </quote>
+              <bibl>
+                <name>Scotus</name>,
+                <title>Ordinatio</title> 
+                I, d. 11, q. 1 
+                (Vatican V, 2, ll. 16- 3, ll. 18).
+              </bibl>
+            </cit>.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

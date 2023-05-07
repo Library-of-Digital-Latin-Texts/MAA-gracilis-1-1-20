@@ -1,0 +1,1642 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 8</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0.0">
+          <title>Lectio 8</title>
+          <date when="2023-04-06">April 06, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-04-06" status="peer-reviewed" n="1.0.0">
+          <p>Peer Reviewed</p>
+        </change>
+        <change when="2015-11-20" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#L" n="30-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q8">
+        <head xml:id="pg-b1q8-Hd1e3495">
+          Lectio 8
+        </head>
+        <div xml:id="pg-b1q8-Dd1e3499" type="circa-textum">
+          <head xml:id="pg-b1q8-Hd1e3501">Circa textum</head>
+          <p xml:id="pgb1q8-d1e83">
+            <cit>
+              <quote xml:id="pg-b1q8-Qd1e3509" source="http://scta.info/resource/pll1d7c1-d1e3476" type="lemma" synch="1-3">
+                Hic quaeri solet
+              </quote>
+              <bibl>
+                <name xml:id="pg-b1q8-Nd1e118">Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 7, c. 1
+                (I, 91, ll. 15-16).
+              </bibl>
+            </cit>.
+            Ista est distinctio septima primi 
+            quae ad praecedentem sic continatur 
+            quia postquam 
+            <name xml:id="pg-b1q8-Nd1e127" ref="#Lombard">Magister</name> determinavit 
+            de divina generatione quantum ad modum et formam, 
+            hic incipit determinare de ea quantum ad agendi potentiam. 
+            Et dividitur in duo 
+            quia primo inquirit an potentia generandi conveniat Patri aeterno, 
+            secundo 
+            <app>
+              <lem type="conjecture-corrected"><corr>an</corr></lem>
+              <rdg wit="#L" facs="30r/36">ante</rdg>
+            </app> 
+            haec reperiatur in Filio. 
+            Secunda ibi, 
+            <cit>
+              <quote xml:id="pg-b1q8-Qd1e3522" source="http://scta.info/resource/pll1d7c2-d1e3476" type="lemma" synch="1-4">
+                item quaeritur a quibusdam
+              </quote>
+              <bibl>
+                <name xml:id="pg-b1q8-Nd1e149">Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 7, c. 2
+                (I, 93, ll. 20).
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q8-d1e107">
+            Prima in tres quia primo movet quaestionem, 
+            secundo circa eam 
+            ponit suam determinationem, 
+            tertio ex dictis 
+            <name xml:id="pg-b1q8-Nd1e161" ref="#Augustine">Augustini</name> 
+            recitat cuiusdam obiectionis enodationem. 
+            Secunda ibi, 
+            <cit>
+              <quote xml:id="pg-b1q8-Qd1e3538" source="http://scta.info/resource/pll1d7c1-d1e3482" type="lemma" synch="1-2">
+                cui versutiae
+              </quote>
+              <bibl>
+                <name xml:id="pg-b1q8-Nd1e173">Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 7, c. 1
+                (I, 91, ll. 19).
+              </bibl>
+            </cit>. 
+            Tertia ibi, 
+            <cit>
+              <quote xml:id="pg-b1q8-Qd1e3548" source="http://scta.info/resource/pll1d7c1-d1e3500" synch="1-2" type="lemma">
+                sed vehementer
+              </quote>
+              <bibl>
+                <name xml:id="pg-b1q8-Nd1e191">Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 7, c. 1
+                (I, 92, ll. 6-7).
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q8-d1e120">
+            Secunda pars principalis dividitur 
+            <pb ed="#L" n="30-v"/> 
+            in tres. 
+            Primo movet quaestionem et ponit eius responsionem, 
+            secundo suae responsionis ostendit explanationem. 
+            Secunda ibi, 
+            <cit>
+              <quote xml:id="pg-b1q8-Qd1e3563" source="http://scta.info/resource/pll1d7c2-d1e3497" synch="1-4" type="lemma">
+                ita etiam, cum dicitur
+              </quote>
+              <bibl>
+                <name xml:id="pg-b1q8-Nd1e214">Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 7, c. 2
+                (I, 94, ll. 17).
+              </bibl>
+            </cit>.
+            Et haec est sententia et divisio in generali praesentis distinctionis.
+          </p>
+        </div>
+        <div xml:id="pg-b1q8-Dd1e3573">
+          <head xml:id="pg-b1q8-Hd1e3575">
+            Quaestio
+          </head>
+          <head xml:id="pg-b1q8-Hd1e218" type="question-title">
+            Utrum generatio activa in Patre sit perfectionis simpliciter immensae
+          </head>
+          <p xml:id="pgb1q8-d1e129">
+            Utrum generatio activa in Patre sit perfectionis simpliciter immensae.
+          </p>
+          <div xml:id="pg-b1q8-Dd1e3579" type="rationes-principales">
+            <head xml:id="pg-b1q8-Hd1e3581">
+              Rationes principales
+            </head>
+            <p xml:id="pgb1q8-qnnesp" n="Ratio 1">
+              Quod non nulla 
+              ratio suppositibilis dicit perfectionem, 
+              ergo nec activa generatio. 
+              Tenet consequentia 
+              quia generatio activa 
+              est ratio suppositibilis Patris. 
+              Antecedens patet quia 
+              tunc in divinis foret alia bonitas quam essentialis. 
+              Tum etiam quia non producere tunc argueret imperfectionem, 
+              et sic nec essentia divina nec Spiritus Sanctus 
+              essent simpliciter perfecti.
+            </p>
+            <p xml:id="pgb1q8-d1e146" n="Ratio 2">
+              Secundo, sequeretur quod 
+              omnes personae divinae non essent 
+              tam perfecte sicut essentia. 
+              Patet consequentia quia quaelibet persona 
+              caret aliqua ratione suppositibili 
+              quia Pater non habet rationem suppositibilem Filii, 
+              nec Spiritus Sancti, 
+              nec econverso.
+            </p>
+            <p xml:id="pgb1q8-d1e152" n="Ratio 3">
+              Tertio, sequeretur quod theologus evidenter 
+              posset probare generationem in divinis esse. 
+              Consequens est falsum. 
+              Patet consequentia quia evidenter potest deduci 
+              quod quidquid est Deus, 
+              ipse est omne quod melius est ipsum esse quam non esse simpliciter, 
+              cum sit
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e3600" source="http://scta.info/resource/adcpros-c3">
+                  <!-- temp item level source -->
+                  illud quo maius cogitari non potest
+                </quote>
+                <bibl>
+                  <name>Anselmus</name>, 
+                  <title>Proslogion</title> 
+                  3 
+                  (Schmitt I, 103, ll. 1-2).
+                </bibl>
+              </cit>,
+              ut inquit 
+              <ref xml:id="pg-b1q8-Rd1e3966" corresp="#pg-b1q8-Qd1e3600">
+                <name xml:id="pg-b1q8-Nd1e269" ref="#Anselm">Anselmus</name> 
+                in 
+                <title ref="#Proslogion">Prosologion</title>
+              </ref>.
+            </p>
+            <p xml:id="pgb1q8-d1e167" n="In oppositum">
+              In oppositum generatio
+              in divinis est Pater, 
+              sed Pater est immensae perfectionis 
+              seu immensa perfectio, 
+              ergo.
+            </p>
+          </div>
+          <div xml:id="pg-b1q8-Dd1e3621">
+            <head xml:id="pg-b1q8-Hd1e3623">
+              Conclusio 1
+            </head>
+            <p xml:id="pgb1q8-d1e173" n="Conclusio">
+              Prima conclusio: licet 
+              a Filio et Spiritu Sancto nullum verbum divinum sit generabile, 
+              tamen per dicere Filii aut 
+              Spiritus Sancti est producibile aliquid. 
+              Prima patet quia aliter essent plura verba in divinis possibilia, 
+              immo de facto ponenda contra fidem. 
+              Secunda pars probatur 
+              quia per dicere totius Trinitatis 
+              omnia creata sunt producta et producbilia produci possunt. 
+              Patet illud <title ref="#ps">Psalmus</title> 
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e3633" source="http://scta.info/resource/ps32_9 http://scta.info/resource/ps148_5">
+                  ipse dixit et facta sunt</quote>
+                <bibl>
+                  Psalmus 32:9 et Psalmus 148:5.
+                </bibl>
+              </cit>.
+              Item,
+              <ref xml:id="pg-b1q8-Rd1e4000" corresp="#pg-b1q8-Qd1e3646">
+                <title ref="#io">Iohannes</title> primo
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e3646" source="http://scta.info/resource/io1_3" synch="1-5">
+                  per ipsum omnia facta sunt
+                </quote>
+                <bibl>Ioannes 1:3.</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q8-d1e196" n="Corollarium 1">
+              Primum corollarium: 
+              quod non omnis dicens Verbo dicit Verbum, 
+              licet forte econverso sit verum. 
+              Patet quia dicere Verbum divinum 
+              praecise et proprie Patri convenit, 
+              dicere autem verbo tribus competit, 
+              ut patet per conclusionem. 
+              Ex quo videtur sequi quod, 
+              licet ad intra omne dicere sit intelligere, 
+              non tamen omne intelligere est dicere.
+            </p>
+            <p xml:id="pgb1q8-d1e211" n="Corollarium 2">
+              Secundum corollarium:
+              quod posse Patris 
+              aeternum Verbi productivum 
+              non est pura relatio seu mere relatum. 
+              Patet quia relatio non est 
+              Patri ratio sic essendi simpliciter, 
+              ergo nec ratio agendi. 
+              Ex quo sequi videtur quod 
+              sicut essentia est Patri ratio essendi, 
+              sic etiam videtur esse ratio Verbum producendi. 
+              Ex quo ultra sequitur quod 
+              potentia generandi Verbum divinum dicit rem absolutam 
+              quantum ad principale significatum, 
+              licet cognoscet respectu ad genitum.
+            </p>
+            <p xml:id="pgb1q8-d1e238" n="Corollarium 3">
+              Tertium corollarium: 
+              licet Verbum habeat a Patre esse et agere, 
+              tamen Pater et Filius producunt aeque libere. 
+              Patet quia Filius non determinatur a Patre aliqua naturali necessitate, 
+              ergo aeque libere producunt Spiritum Sanctum, 
+              sicut Pater ipsum Verbum generat. 
+              Antecedens patet ex dictis superius. 
+              Sequitur ulterius, 
+              quam repugnat Verbo intrinsece dependere, 
+              tam necessario repugnat ei Patrem praeexigere seu praeindigere. 
+              Patet quia omnia illa important imperfectionem. 
+              Illud corollarium est contra 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4025" target="http://scta.info/resource/jdso8u-d1e619">
+                  <!-- temp item level target -->
+                  <name xml:id="pg-b1q8-Nd1e329" ref="#Scotus">Scotum</name>, 
+                  libro primo, 
+                  distinctione 6
+                </ref>
+                <bibl>
+                  <name>Scotus</name>, 
+                  <title>Ordinatio</title> 
+                  I, d. 6, q. 1 
+                  (Vatican IV, 90, ll. 5 - 91, ll. 4 et 92, ll. 3-7).
+                </bibl>
+              </cit>.
+            </p>
+          </div>
+          <div xml:id="pg-b1q8-Dd1e343">
+            <head xml:id="pg-b1q8-Hd1e345">Conclusio 2</head>
+            <p xml:id="pg-b1q8-d1e348" n="Conclusio">
+              <app>
+                <lem type="conjecture-supplied"><supplied>...</supplied></lem>
+                <rdg wit="#L" type="variation-absent"/>
+                <note xml:lang="en">
+                  Presumably a section for a conclusion 2 and accompanying corollaries at some point existed, 
+                  as evidence by the references to a conclusion 2 and corollaries in the objections and responses. 
+                  But this conclusion appears to have been mistakenly left out of this manuscript. 
+                  The error could extend further into the corollaries now grouped as part of conclusion 1, 
+                  as it is possible that the scribe, 
+                  while transcribing conclusion 1, 
+                  accidentally jumped from the corollaries of conclusion 1 to the corollaries of conclusion 2 
+                  and then proceeded directly to conclusion 3. 
+                  This is difficult to determine at present, 
+                  and thus without further evidence, 
+                  have decided to leave the above corollaries as part of the conclusion 1 section.
+                </note>
+              </app>
+            </p>
+          </div>
+          <div xml:id="pg-b1q8-Dd1e3685">
+            <head xml:id="pg-b1q8-Hd1e3687">
+              Conclusio 3
+            </head>
+            <p xml:id="pgb1q8-d1e284" n="Conclusio">
+              Tertia conclusio: 
+              quod licet non sit perfectionis 
+              <app>
+                <lem n="perfectionis"/>
+                <rdg wit="#L" type="variation-present" cause="repetition" synch="30v/31">non sit</rdg>
+              </app>
+              in generatione quod 
+              aliquid per ipsam producatur de non esse ad esse, 
+              tamen aliquod posse generare 
+              quod esse non est evidenter probabile est perfectionis simpliciter immensae. 
+              Prima pars probatur quia, 
+              si sic, sequeretur 
+              quod divina generatio careret aliqua perfectione simpliciter. 
+              Consequens est falsum. 
+              Patet consequentia quia Filius 
+              nec per generationem nec per aliquid aliud 
+              producitur de non esse ad esse. 
+              Secunda pars probatur quia, 
+              si sic, sequeretur 
+              quod <mentioned>Deum esse trinum</mentioned> esset 
+              demonstrabile efficaciter et evidenter posset probari. 
+              Consequens fuit prius improbatum. 
+              Patet consequentia quia 
+              sicut probaretur personarum dualitas et ipsarum trinitas. 
+              Tertia pars probatur 
+              quia posse producere verbum finitum est perfectionis creatae memoriae, 
+              ergo posse producere increatum erit perfectionis immensae memoriae increatae. 
+              Confirmatur quia intelligere 
+              <pb ed="#L" n="31-r"/> 
+              Patris est immensae perfectionis, ergo. 
+              Patet consequentia 
+              quia dicere Patris est suum intelligere formaliter 
+              et consequenter est actus vitalis et immensae perfectionis.
+            </p>
+            <p xml:id="pgb1q8-d1e321" n="Corollarium 1">
+              Primum corollarium: 
+              non minoris perfectionis est dicere 
+              Patris notionale quam intelligere eius intrinsecum et essentiale. 
+              Probatur quia utrumque est immensae perfectionis, 
+              ut patet per conclusionem.
+            </p>
+            <p xml:id="pgb1q8-d1e335" n="Corollarium 2">
+              Secundum corollarium: 
+              tam formaliter potest esse beatus suo dicere notionali,
+              quam formaliter beatificatur suo intelligere essentiali. 
+              Patet quia Pater beatificatur formaliter omni 
+              sua perfectione immensa. 
+              Et ista sunt duo corollaria contra 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4069">
+                  <name xml:id="pg-b1q8-Nd1e380" ref="#Scotus">Scotum</name>, 
+                  distinctione 6 primi
+                </ref>
+                <bibl>
+                  <name>Scotus</name>,
+                  non invenimus
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q8-d1e354" n="Corollarium 3">
+              Tertium corollarium: 
+              nulla ratio seclusa fide et clara visione viatorem 
+              certificat quare Pater in divinis non plura verba seu plures filios producit aut generat. 
+              Intelligo de communi lege. 
+              Patet quia hoc sola fide creditur quod una sola persona in divinis potest esse generata. 
+              Confirmatur 
+              quia omnem potentiam et perfectionem quam habet Pater 
+              habet Filius et Spiritus Sanctus, 
+              ergo ratione non potest convinci plures filios non posse produci. 
+              Patet ex dictis 
+              ex quo patet corollarium responsivum quod, 
+              licet Verbi aeterni generatio sit simpliciter immensa perfectio, 
+              <app>
+                <lem>non tamen eius negatio in quolibet est perfectionis privatio</lem>
+                <rdg wit="#L" type="variation-choice" facs="31r/12">
+                  <choice>
+                    <seg>eius tamen negatio non in quolibet est perfectionis privatio</seg>
+                    <seg>non tamen eius negatio in quolibet est perfectionis privatio</seg>
+                  </choice>
+                </rdg>
+                <note xml:lang="en">In this instance ms. L offers both readings connected by "vel" which we read as 
+                the scribe indication that a choice should be made between the two phrases. 
+                The latter choice seems to be the clearest and most consonant with the following sense. 
+                To read both phrases together as part of the text confuses the sense of the text terribly.</note>
+              </app>. 
+              Patet per 
+              <ref xml:id="pg-b1q8-Rd1e4099" corresp="#pg-b1q8-Qaeppia">
+                <name xml:id="pg-b1q8-Nd1e410" ref="#GilesOfRome">Dominum Aegidium</name>, 
+                distinctione quarta primi, 
+                parte prima, 
+                quaestione 2, 
+                ubi in solutione primi argumenti principalis
+              </ref>, 
+              dicit 
+              <cit>
+                <quote xml:id="pg-b1q8-Qaeppia" source="http://scta.info/resource/gr-l1d4p1q2-d1e188">
+                  aliquid est perfectionis in uno supposito quod non est perfectionis in alio. 
+                  Ideo, licet sit perfectionis in Filio quod generetur, 
+                  non tamen oportet quod sit perfectionis in Patre et Spiritu Sancto
+                </quote>
+                <bibl>
+                  <name xml:id="pg-b1q8-Nd1e423">Aegidius Romanus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 4, princ. 1, q. 2, ad 1 
+                  (Venice 1521, 31vaM).
+                </bibl>
+              </cit>. 
+              Etiam per dictam apparet istud corollarium.
+            </p>
+          </div>
+          <div xml:id="pg-b1q8-Dd1e3729">
+            <head xml:id="pg-b1q8-Hd1e3731">
+              Obiectiones
+            </head>
+            <p xml:id="pgb1q8-d1e387">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4127" target="http://scta.info/resource/pgb1q8-d1e173">
+                  primam partem primae conclusionis
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              cui competit principium generationis in divinis, 
+              eidem competit Verbum divinum generare. 
+              Sed Filio et Spiritu Sancto convenit principium generationis, ergo. 
+              Maior patet quia tanti habitus vel latitudinis debet esse actus generationis, 
+              quantae est principium productivum Verbi. 
+              Minor patet quia essentia videtur esse principium generationis.
+            </p>
+            <p xml:id="pgb1q8-d1e398">
+              Secundo, 
+              Filius et Spiritus Sanctus 
+              habent perfectionem simpliciter quam habet Pater, 
+              ergo a Filio et Spiritu Sancto Verbum divinum est generabile. 
+              Tenet consequentia 
+              quia per dictam posse generare est perfectionis simpliciter immensae. 
+              Antecedens est catholicum.
+            </p>
+            <p xml:id="pgb1q8-d1e406">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4143" target="http://scta.info/resource/pgb1q8-d1e211">
+                  secundum
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>
+              et 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4153" target="http://scta.info/resource/pgb1q8-d1e238">
+                  tertium corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              si essent vera, sequeretur quod Deus ad extra ageret mere naturaliter et necessario. 
+              Consequens est falsum 
+              quia mere libere agit et contingenter. 
+              Patet consequentia 
+              quia eodem modo et eadem actione Deus 
+              producit Verbum suum et creaturas suas, 
+              per corollaria.
+            </p> 
+            
+            <p xml:id="pgb1q8-d1e422">
+              Contra 
+              <cit>
+                <!-- secund conclusion is not found above -->
+                <ref xml:id="pg-b1q8-Rd1e485">secundam conclusionem</ref>
+                <bibl>Non invenimus.</bibl>
+              </cit>,
+              in omni producente requiritur 
+              quod habeat naturam producti termini seu producendi, 
+              ergo Pater Filium aliquo modo praecedit. 
+              Tenet consequentia et antecedens notum 
+              quia oppositum videtur contra naturam et rationem.
+            </p>
+            <p xml:id="pgb1q8-d1e430">
+              Secundo, 
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e497" source="http://scta.info/resource/io5_19" synch="5-16">
+                  Filius non potest facere quidquam 
+                  nisi quod viderit Patrem facientem
+                </quote>
+                <bibl>
+                  Iohannes 5:19.
+                </bibl>
+              </cit>, 
+              ergo Filius a Patre dependet in suo agere. 
+              Antecedens patet in 
+              <ref xml:id="pg-b1q8-Rd1e507" corresp="#pg-b1q8-Qd1e497">
+                <title ref="#io">Evangelio Iohannis</title>
+              </ref>. 
+              Et consequentia videtur nota 
+              quia, 
+              si 
+              <name xml:id="pg-b1q8-Nd1e494" ref="#Sortes">Sortes</name> 
+              non potest agere 
+              nisi prius videat illud alium agere, 
+              videtur quod in sic agendo dependeat ab illo.
+            </p>
+            <p xml:id="pgb1q8-d1e460">
+              Tertio, 
+              omne principatum praesupponit suum principium, 
+              ergo Pater praecedit Filium. 
+              Tenet consequentia quia Pater est principium Filii. 
+              Antecedens probatur 
+              quia prius est causam esse quam ipsam esse causam 
+              quia sequitur, 
+              <c>a</c> est causa, ergo est, sed non econverso. 
+              Sed principium non solum praesupponitur a principato 
+              in esse causae vel principii, 
+              sed in esse absoluto, ergo.
+            </p> 
+            <p xml:id="pgb1q8-d1e475">
+              Contra tertiam corollarium, 
+              Pater est liber a se et Filius non sed a Patre, 
+              ergo Filius est minus liber quam Pater. 
+              Consequentia bona et antecedens 
+              patet quia quidquid Filius est et habet, 
+              habet a Patre.
+            </p>
+            <p xml:id="pgb1q8-d1e484">
+              Secundo, ex dicto Christi 
+              <ref xml:id="pg-b1q8-Rd1e4190" corresp="#pg-b1q8-Qd1e3780">
+                <title ref="#lc">Lucae</title> 2
+              </ref>,
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e3780" source="http://scta.info/resource/lc2_49" synch="12-20">
+                  in his quae Patris mei sunt oportet me esse
+                </quote>
+                <bibl>Lucas 2:49.</bibl>
+              </cit>, 
+              ergo necessario et non 
+              libere agit. 
+              Patet consequentia quia per li <mentioned>esse</mentioned> 
+              videtur importari necessaris quadam.
+            </p>
+            <p xml:id="pgb1q8-d1e503">
+              Contra corollarium ultimum,
+              Filius tam perfecte procedit a Patre in persona distincta, 
+              quam perfecte si procederet 
+              <pb ed="#L" n="31-v"/> 
+              distinctus personaliter et essentialiter, 
+              sed tunc Filius a Patre dependeret et ipsum praeexigeret, 
+              ergo et nunc.
+            </p>
+            <p xml:id="pgb1q8-d1e520">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4218" target="http://scta.info/resource/pgb1q8-d1e284">
+                  secundam partem tertiae conclusionis
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              omne illud quod est perfectius est communicabilius, 
+              sed ergo 
+              Deum se communicare producendo 
+              est probabile 
+              quia summe perfectum est summe communicabile. 
+              Modo est probabile quod Deus est ens summe perfectum.
+            </p>
+            <p xml:id="pgb1q8-d1e534">
+              Secundo, 
+              repugnat esse naturam intellectualem independentem 
+              et eam non producere aliquod verbum expressivum eius. 
+              Sed divina essentia est huiusmodi, ergo. 
+              Minor nota et maior probatur 
+              quia non repugnat memoriae finitae dicere se per verbum expressum sui comprehensivum, 
+              ergo non repugnat memoriae immensae et infinitae, ergo. 
+              Tenet consequentia 
+              quia Deus est comprehensivus sui per intellectum 
+              et per consequens immensi Verbi productivus 
+              et formativus et non per creationem, 
+              igitur per generationem, et habetur intentum. 
+              Ratio fundatur super illo dicto 
+              <ref xml:id="pg-b1q8-Rd1e4229" corresp="#pg-b1q8-Qcmsssg">
+                <name xml:id="pg-b1q8-Nd1e551" ref="#Augustine">Augustini</name>, 
+                libro 
+                <title>De cognitione beatae vitae</title>
+              </ref>, 
+              ubi dicit,
+              <cit>
+                <quote xml:id="pg-b1q8-Qcmsssg">
+                  cum mens se cogitat 
+                  quasi mentem sibi similem generat
+                </quote>
+                <bibl>
+                  <name>Honorius Augustodunensis</name>, 
+                  <title>De cognitione verae vitae</title> 
+                  11 
+                  (PL 40, 1014).
+                </bibl>
+              </cit>. 
+              Hoc est fundamentum et medium 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e611">
+                  <name xml:id="pg-b1q8-Nd1e573" ref="#HugolinoOfOrvieto">Hugolini</name>
+                </ref>
+                <bibl>
+                  <name>Hugolinus de Urbe Veteri</name>,
+                  non invenimus.
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q8-d1e572">
+              Tertio, 
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e575" source="http://scta.info/resource/jdso8u-d1e397">
+                  quidquid de ratione formali est principium productivum 
+                  alicuius secundum suam rationem formalem 
+                  in quocumque illud est erit a se principium productivum alicuius
+                </quote>
+                <bibl>
+                  <name>Scotus</name>, 
+                  <title>Ordinatio</title> 
+                  I, d. 2, pars 2, q. 4 
+                  (Vatican II, 263, ll. 15-18).
+                </bibl>
+              </cit>. 
+              Sed 
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e592" source="http://scta.info/resource/jdso8u-d1e397">
+                  intellectus habens obiectum sibi 
+                  praesens ex ratione formali est principium notitiae genitae
+                </quote>
+                <bibl>
+                  <name>Scotus</name>, 
+                  <title>Ordinatio</title> 
+                  I, d. 2, pars 2, q. 4 
+                  (Vatican II, 259, ll. 10-12).
+                </bibl>
+              </cit>, 
+              ergo cum talis sit in Deo, 
+              sequitur quod ibi sit notitia genita. 
+              Haec est ratio
+              <ref xml:id="pg-b1q8-Rd1e4255" corresp="#pg-b1q8-Qd1e575 #pg-b1q8-Qd1e592">
+                <!-- first ref example I have with two correspon quotes; seems like it could be a common use case. -->
+                <name xml:id="pg-b1q8-Nd1e617" ref="#Scotus">Scoti</name>, 
+                distinctione secunda primi
+              </ref>
+            </p>
+            <p xml:id="pgb1q8-d1e587">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4269" target="http://scta.info/resource/pgb1q8-d1e335">
+                  secundum corollarium
+                </ref>
+                <bibl>
+                  Vide supra.
+                </bibl>
+              </cit>,
+              si esset verum, 
+              sequeretur quod ratio suppositibilis 
+              esset ratio beatificativa aequaliter intellectus creati,
+              sicut divina essentia. 
+              Consequens est falsum, 
+              ergo. 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4279" target="http://scta.info/resource/JRPxXx">
+                  <!-- temp TopLevel target value -->
+                  <name xml:id="pg-b1q8-Nd1e640" ref="#Ripa">Iohannes de Marchia</name>
+                </ref>
+                <bibl>
+                  <name>Iohannes de Ripa</name>, 
+                  <title>Sent.</title> 
+                  I, d. 35, q. 1, a. 1
+                  (Ms. Paris, Bibliothèque Nationale, lat. 15369, f. 299vb-303rb).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q8-d1e597">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4292" target="http://scta.info/resource/pgb1q8-d1e354">
+                  tertiam corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              relationes eiusdem 
+              speciei non possunt multiplicari 
+              nisi secundum naturalem distinctionem. 
+              Sed 
+              <app>
+                <lem>talis</lem>
+                <rdg wit="#L" type="correction-substitution" facs="31v/18">
+                  <subst>
+                    <del>talem</del>
+                    <add>talis</add>
+                  </subst>
+                </rdg>
+              </app> 
+              distinctio non est ponenda 
+              in divina essentia,
+              ergo ibi esse plures filiationes, 
+              et per consequens non possunt esse plures 
+              filii. 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4320">
+                  <name xml:id="pg-b1q8-Nd1e689" ref="#Aquinas">Sanctus Thomas</name>, 
+                  parte prima, 
+                  quaestione 41, 
+                  articulo 6</ref>
+                <bibl>
+                  <name>Aquinas</name>, 
+                  <title>Summa theologiae</title> 
+                  I, q. 41, a. 6, resp. 
+                  (Leonine IV, 432).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q8-d1e618">
+              Secundo, 
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e694">
+                  <seg type="qs">
+                    praecisa ratio quare Pater non 
+                    potest generare alium Filium est 
+                    quia ista filiatio</seg> 
+                    huiusmodi 
+                    <seg type="qs">est tota quantitas subsistens</seg>
+                </quote>
+                <bibl>
+                  <name>Aureolus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 7, q. 2, a. 3 
+                  (Buytaert II, 877, ll. 1 - 878 ll. 8).
+                </bibl>
+              </cit>, 
+              quare multiplicari non potest.
+              <ref xml:id="pg-b1q8-Rd1e4337" corresp="#pg-b1q8-Qd1e694">
+                <name xml:id="pg-b1q8-Nd1e731" ref="#Aureoli">Aureolus</name>, 
+                libro primo, 
+                distinctione 7, 
+                quaestione 2, 
+                articulo 3
+              </ref>.
+            </p>
+            <p xml:id="pgb1q8-d1e632">
+              Tertio, 
+              quia 
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e741" source="http://scta.info/resource/wo8uy7-d1e682-d1e421" synch="145-173"> 
+                  <!-- "impossibile est in eodem fundamento..." id will need revision as ockham text improves -->
+                  repugnat esse plures 
+                  <app>
+                    <lem>relationes</lem>
+                    <rdg wit="#L" type="correction-substitution" facs="31v/23">
+                      <subst>
+                        <del rend="strikethrough">filiationes</del>
+                        <add place="in-line">relationes</add>
+                      </subst>
+                    </rdg>
+                  </app> 
+                  eiusdem rationis in eodem fundamento 
+                  nisi propter diversitatem absolutorum. 
+                  Sed in Deo non possunt esse plura absoluta, 
+                  ergo nec plures tales relationes
+                </quote>
+                <bibl>
+                  <name>Ockham</name>, 
+                  <title>Sent.</title> 
+                  I, d. 7, q. 3 
+                  (OT III, 153, l. 24 - 154, l. 4).
+                  <!-- "impossibile est in eodem fundamento..." -->
+                </bibl>
+              </cit>, 
+              et per consequens nec plures filii.
+              <ref xml:id="pg-b1q8-Rd1e4370" corresp="#pg-b1q8-Qd1e741">
+                <name xml:id="pg-b1q8-Nd1e776" ref="#Ockham">Ockham</name>, 
+                distinctione 7 primi, 
+                quaestione 3, 
+                articulo 2
+              </ref>.
+            </p>
+            <p xml:id="pgb1q8-d1e651">
+              Quarto, 
+              actus adaequatus principio productivo 
+              et semper stans non compatitur secum 
+              alium actum eiusdem rationis ab eodem principio. 
+              Sed sic est de actum paternae generationis in divinis, 
+              ergo non possunt esse plures filii. 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4387" target="http://scta.info/resource/n3av8a-d1e71-d1e1067" synch="329-336">
+                  <name xml:id="pg-b1q8-Nd1e787" ref="#HenryOfGhent">Henricus</name>, 
+                  <title>Quolibet</title> 
+                  6, 
+                  quaestione prima
+                </ref>
+                <bibl>
+                  <name>Henricus Gandavensis</name>, 
+                  <title>Quodlibet</title> 
+                  VI, q. 1, sol. 
+                  (Opera Omnia X, 22, ll. 51 - 25, ll. 22).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q8-d1e664">
+              Quinto, 
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e802">
+                  si possunt esse plures productiones in divinis eiusdem rationis, 
+                  ergo infinitae
+                </quote>
+                <bibl>
+                  <name>Scotus</name>, 
+                  <title>Quodlibet</title>,
+                  q. 2 , a. 2 
+                  (Wadding 12, 51, n. 16).
+                </bibl>
+              </cit>. 
+              Sed quidquid potest esse in Deo est ibi de facto, 
+              ergo infinitae ibi formet generationes.
+              <ref xml:id="pg-b1q8-Rd1e4404" corresp="#pg-b1q8-Qd1e802">
+                <name xml:id="pg-b1q8-Nd1e826" ref="#Scotus">Scotus</name>, 
+                suo <title>quolibet</title>, 
+                quaestione secunda
+              </ref>.
+            </p> 
+            <p xml:id="pgb1q8-d1e685">
+              Sexto, 
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e829" source="http://scta.info/resource/hduv-l1d4q2">
+                  producere plures notitias in divinis est simpliciter 
+                  impossibile ex eo quod notitia ista 
+                  non esset in natura divina nisi esset Deus, 
+                  nisi tota latitudo simpliciter infinita notitiae possibilis 
+                  produci per modum notitiae seu verbi esset productio
+                </quote>
+                <bibl>
+                  <name>Hugolinus de Urbe Veteri</name>, 
+                  <title>Sent.</title> 
+                  I, d. 4-7, q. 2 
+                  (Eckermann II, 176, ll. 101 - 177, ll. 108).
+                </bibl>
+              </cit>, 
+              ergo. 
+              Ratio est assignabilis quare 
+              plures filii non generantur, 
+              et per consequens non sola fide tenetur.
+              <ref xml:id="pg-b1q8-Rd1e4421" corresp="#pg-b1q8-Qd1e829">
+                <name xml:id="pg-b1q8-Nd1e853" ref="#HugolinoOfOrvieto">Hugolinus</name>, 
+                distinctione 7 primi, quaestione 2, conclusione 2
+              </ref>, 
+              vide ibi.
+            </p>
+            <p xml:id="pgb1q8-d1e703">
+              Septimo, 
+              Pater non potest alia notitia 
+              <app>
+                <lem type="conjecture-corrected"><corr>nosse</corr></lem>
+                <rdg wit="#L" facs="31v/35">nosce</rdg>
+              </app> 
+              se quam modo cognoscat se, 
+              ergo non potest aliud verbum producere. 
+              Consequentia nota quia omne verbum est notitia. 
+              Antecedens patet 
+              quia Pater nunc infinite novit se 
+              <app>
+                <lem type="conjecture-corrected"><corr>tanta</corr></lem>
+                <rdg wit="#L" facs="31v/37">quanta</rdg>
+              </app> 
+              sapientia quanta est sua essentia, 
+              ut patet per 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4435" target="http://scta.info/resource/adt-l15">
+                  <name xml:id="pg-b1q8-Nd1e864" ref="#Augustine">Augustinum</name>, 
+                  <title ref="#deTrinitate">De Trinitate</title>, 
+                  libro <supplied>XV</supplied>,
+                  capitulo 14
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title> 
+                  XV, 13, 22 
+                  (CCSL 50A, 495, ll. 38-43).
+                </bibl>
+              </cit>. 
+              Confirmatur illud antecedens quia aut illud verbum esset 
+              <pb ed="#L" n="32-r"/> 
+              perfectius aut minus aut aeque perfectum. 
+              Nullum horum est dandum, ergo.
+            </p>
+            <p xml:id="pgb1q8-d1e732">
+              Octavo, 
+              si aliud verbum producere posset, 
+              non perfecte Pater se dixisset. 
+              Consequens est falsum. 
+              Istae tres rationes sunt 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4457">
+                  <name xml:id="pg-b1q8-Nd1e893" ref="#BonsemblantesBaduarius">Bonsemblantes</name> 
+                  quas ponit in suo primo quaestione
+                </ref>
+                <bibl>
+                  <name>Bonsemblantes</name>, 
+                  <title>Lectura</title> 
+                  (non extat).
+                </bibl>
+              </cit>, 
+              qua quaerit utrum potentia 
+              generandi sit in Filio.
+            </p>
+            <p xml:id="pgb1q8-d1e747">
+              Nono contra illud corollarium, 
+              videtur esse processus
+              <ref xml:id="pg-b1q8-Rd1e4472" corresp="#pg-b1q8-Qd1e4484 #pg-b1q8-Qd1e4493 #pg-b1q8-Qd1e4502 #pg-b1q8-Qd1e4511">
+                <name xml:id="pg-b1q8-Nd1e913" ref="#GilesOfRome">Domini Aegidi</name>, 
+                distinctione 7 primi, 
+                quaestione ultima
+              </ref>, 
+              ubi dat differentiam inter verbum nostrum et divinum. 
+              Prima quia 
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e4484" source="http://scta.info/resource/gr-l1d7p2q4-d1e341">
+                  verbum divinum semper de scientia nascitur
+                </quote>
+                <bibl>
+                  <name>Aegidius Romanus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 7, prin. 2, q. 4 
+                  (Venice 1521, 45vaL).
+                </bibl>
+              </cit>,
+              nostrum vero verbum quandoque de ignorantia. 
+              Secunda 
+              quia 
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e4493" source="http://scta.info/resource/gr-l1d7p2q4-d1e366">
+                  scientia Dei est immutabiliter stabilis 
+                </quote>
+                <bibl>
+                  <name>Aegidius Romanus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 7, prin. 2, q. 4 
+                  (Venice 1521, 45vaL).
+                </bibl>
+              </cit>
+              nostra vero amissibilis. 
+              Tertia quia 
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e4502" source="http://scta.info/resource/gr-l1d7p2q4-d1e379">
+                  verbum divinum <supplied>numquam</supplied> est informe 
+                </quote>
+                <bibl>
+                  <name>Aegidius Romanus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 7, prin. 2, q. 4 
+                  (Venice 1521, 45vaL-M).
+                </bibl>
+              </cit>,
+              semper autem nostrum non est formatum. 
+              Quarta quia 
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e4511" source="http://scta.info/resource/gr-l1d7p2q4-d1e398">
+                  divinum nascitur de tota scientia Patris
+                </quote>
+                <bibl>
+                  <name>Aegidius Romanus</name>,
+                  <title>Sent.</title> 
+                  I, d. 7, prin. 2, q. 4 
+                  (Venice 1521, 45vaM).
+                </bibl>
+              </cit>, 
+              non autem nostrum
+              potest formari de omnibus speciebus in memoria 
+              contentis ex quibus videtur concludi unitas divini verbi et pluralitas 
+              nostri.
+            </p>
+          </div>
+          <div xml:id="pg-b1q8-Dd1e1049">
+            <head xml:id="pg-b1q8-Hd1e1051">Responsiones</head>
+            <p xml:id="pgb1q8-d1e776">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4523" target="http://scta.info/resource/pgb1q8-d1e387">
+                  Ad primam
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              dicitur quod 
+              <mentioned>essentia esse principium generationis divini Verbi</mentioned>
+              potest sumi dupliciter. 
+              Primo modo 
+              ut ipsa essentia in se absolute considerata, 
+              et sic non est principium, 
+              nec generat, 
+              nec generatur. 
+              Alio modo capitur ut subsistit paternitati 
+              vel ut est in supposito paterno, 
+              et sic potest dici principium generationis, 
+              et tunc minor est falsa.
+            </p>
+            <p xml:id="pgb1q8-asnosf">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4536" target="http://scta.info/resource/pgb1q8-d1e398">
+                  Ad secundam
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur 
+              consequentia quia, licet illud posse sit perfectionis in Patre, 
+              non tamen in Filio aut Spiritu Sancto.
+            </p>
+            <p xml:id="pgb1q8-spdosf">
+              Secundo, 
+              potest dici quod, 
+              licet Filius habeat omnem perfectionem et potentiam, 
+              non tamen potest exire in actum generationis 
+              quia non habet proprietatem generationi congruentem, 
+              scilicet paternitatem, 
+              sed oppositam, 
+              scilicet filiationem.
+            </p>
+            <p xml:id="pgb1q8-d1e797">
+              Tertio, 
+              posset dici quod eadem perfectio et eadem potentia est 
+              qua Pater generat et Filius gignitur 
+              quia in nulla re absoluta differunt.
+            </p>
+            <p xml:id="pgb1q8-d1e803">
+              Quarto, 
+              cum dicitur quod 
+              <mentioned>Filius non habet potentiam generandi quam habet Pater</mentioned> 
+              potest dupliciter intelligi. 
+              Uno modo Filius non 
+              habet potentiam generandi, 
+              id est qua possit generare, 
+              et sic conceditur. 
+              Alio modo non habet potentiam 
+              qua possit gigni seu generari vel genitus esse
+              qua potentia Pater est potens ut generet, 
+              et sic negatur.
+            </p>
+            <p xml:id="pgb1q8-d1e822">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4566" target="http://scta.info/resource/pgb1q8-d1e406">
+                  Ad secundam
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur consequentia. 
+              Et ad probationem, 
+              dicitur quod, 
+              si modus et actio sumantur nominaliter et realiter, 
+              tunc conceditur antecedens et negatur consequentia 
+              quia unicus est modus quo producit Deus. 
+              Si vero 
+              <app>
+                <lem type="conjecture-corrected"><corr>sumantur</corr></lem>
+                <rdg wit="#L" facs="32r/25">sumatur</rdg>
+              </app> 
+              modaliter et adverbialiter, 
+              tunc antecedens negatur.
+            </p>
+            <p xml:id="pgb1q8-d1e837">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4579" target="http://scta.info/resource/pgb1q8-d1e422">
+                  Ad primam contra secundam conclusionem
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur antecedens universaliter. 
+              Et licet increatis veritatem habeat, 
+              non tamen in divinis quia mensura divinae productionis ad intra est aeternitas. 
+              Ideo non est ibi praeexigentia nec praecessio 
+              tam ratione identitatis essentiae 
+              quam illationis corollativae.
+            </p>
+            <p xml:id="pgb1q8-d1e865">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4595" target="http://scta.info/resource/pgb1q8-d1e430">Ad secundam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur consequentia ratione identitatis naturae.
+            </p>
+            <p xml:id="pgb1q8-d1e870">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4608" target="http://scta.info/resource/pgb1q8-d1e460">Ad tertiam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              loquendo conformiter ad praedictam, 
+              posset dici quod in divinis proprie nihil est principatum 
+              quia hoc importat imperfectionem.
+            </p>
+            <p xml:id="pgb1q8-d1e878">
+              Secundo, 
+              posset negari antecedens loquendo de suppositione vel praeexigentia, 
+              sicut debet intelligi conclusio et suum corollarium.
+            </p>
+            <p xml:id="pgb1q8-d1e884">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4624" target="http://scta.info/resource/pgb1q8-d1e475">Ad quartam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur consequentia 
+              <app>
+                <lem type="conjecture-corrected"><corr>ratione</corr></lem>
+                <rdg wit="#L" facs="32r/32">ratio</rdg>
+              </app> 
+              identitatis naturae.
+            </p>
+            <p xml:id="pgb1q8-ailins">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4634" target="http://scta.info/resource/pgb1q8-d1e484">
+                  Ad illud <title ref="#lc">Luce</title>
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              dicitur quod li <mentioned>oportet</mentioned> 
+              non denotat oportunitatem necessitatis sed potius congruitatis.
+            </p>
+            <p xml:id="pgb1q8-sdqsss">
+              Secundo, 
+              dicitur quod, si notet necessitatem, 
+              non tamen consequentis sed consequentiae, 
+              et talis non repugnat libertati, 
+              sed simul stant.
+            </p>
+            <p xml:id="pgb1q8-tpdins">
+              Tertio, 
+              posset dici quod ibi loquitur secundum humanitatem, 
+              hic autem loquor de sola Trinitate, 
+              ideo non sequitur.
+            </p>
+            <p xml:id="pgb1q8-d1e928">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4654" target="http://scta.info/resource/pgb1q8-d1e503">Ad aliud</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur consequentia simpliciter.
+            </p> 
+            <p xml:id="pgb1q8-d1e932">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4667" target="http://scta.info/resource/pgb1q8-d1e520">
+                  Ad primam contra tertiam conclusionem
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              dicitur quod non sequitur evidenter, 
+              Deus est infinita bonitas et libertas, 
+              ergo communicat se producendo Filium sibi aequalem, 
+              quia antecedens 
+              <pb ed="#L" n="32-v"/> 
+              est concedendum de essentia divina et Spiritu Sancto, 
+              et tamen non communicant se illo modo.
+            </p>
+            <p xml:id="pgb1q8-d1e942">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4682" target="http://scta.info/resource/pgb1q8-d1e534">Ad secundam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              diceret philosophus vel fidei adversarius quod, 
+              licet memoria increata intelligeret se, 
+              non tamen per verbum distinctum ab ea realiter vel personaliter. 
+              Et diceret ultra quod melius et perfectius 
+              esset quod memoria creata esset 
+              <app>
+                <lem type="conjecture-corrected"><corr>ipsamet</corr></lem>
+                <rdg wit="#L" facs="32v/4">met</rdg>
+              </app> sua intellectio seu notitia 
+              quam quod intelligat per verbum vel notitiam ab ea distinctis.
+              Item per idem, 
+              posset concludi quod essentia divina 
+              generaret Verbum, 
+              quod est falsum.
+            </p>
+            <p xml:id="pgb1q8-d1e962">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e1075" target="http://scta.info/resource/pgb1q8-d1e534" synch="73-94">
+                  Ad auctoritatem <name xml:id="pg-b1q8-Nd1e1188" ref="#Augustine">Augustini</name>
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              dicitur quod solum loquitur de mente 
+              creata quod patet per hoc quod dicit 
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e1260">
+                  generat quasi sibi similem
+                </quote>
+                <bibl>
+                  <name>Honorius Augustodunensis</name>, 
+                  <title>De cognitione verae vitae</title> 
+                  11 
+                  (PL 40, 1014).
+                </bibl>
+              </cit>
+              quia constat quod Verbum divinum 
+              simpliciter est non quasi aequale et simile Patri. 
+              Et per hoc voluit nos 
+              <name xml:id="pg-b1q8-Nd1e1201" ref="#Augustine">Augustinus</name> 
+              manuducere ad sic 
+              esse in mente increata, 
+              sed per hoc non convincit evidenter.
+            </p>
+            <p xml:id="pgb1q8-d1e981">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e1098" target="http://scta.info/resource/pgb1q8-d1e572">Ad aliud</ref>
+                <bibl>Vide supra</bibl>
+              </cit>, 
+              philosophus et adversarius negarent maiorem.
+            </p>
+            <p xml:id="pgb1q8-aasecc">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e1111" target="http://scta.info/resource/pgb1q8-d1e587">Ad aliud</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              sequitur quod ratio suppositibilis, etc. 
+              Conceditur consequens.
+            </p> 
+            <p xml:id="pgb1q8-d1e991">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4717" target="http://scta.info/resource/pgb1q8-d1e597">
+                  Ad primam contra tertium corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              dicitur quod ratio fundatur super falso. 
+              Primo, 
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e1178" source="http://scta.info/resource/z88d99-avn8u2-d1e879@1-9">
+                  quod Deus non possit multiplicare individua sub una specie, error
+                </quote>
+                <bibl>
+                  Articuli condemnati Parisiis anno 1277, a. 96 
+                  (CUP, I, n. 473, p. 549).
+                </bibl>
+              </cit>. 
+              Item, 
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e1186" source="http://scta.info/resource/z88d99-avn8u2-d1e1658@1-9">
+                  quod formae non recipiunt divisionem sine materia, error
+                </quote>
+                <bibl>
+                  Articuli condemnati Parisiis anno 1277, a. 191 
+                  (CUP, I, n. 473, p. 554).
+                </bibl>
+              </cit>. 
+              Isti sunt duo articuli condemnati super quibus ratio videtur fundari.
+            </p>
+            <p xml:id="pgb1q8-d1qjd1">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4730" target="http://scta.info/resource/pgb1q8-d1e618">Ad secundam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur antecedens 
+              quia si ratio valeret posset concludi 
+              quod ibi non essent tres personae 
+              quia quaelibet divina persona quantitatem divinam subsistentem 
+              includit naturaliter et essentialiter, 
+              ut tenet fides, 
+              ergo eodem modo sequitur 
+              quod non sit nisi una persona. 
+              Ratio patet a simili.
+            </p>
+            <p xml:id="pgb1q8-d1e1017">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4743" target="http://scta.info/resource/pgb1q8-d1e632">
+                  Ad tertiam
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              primo posset negari maior per adversarium 
+              quia 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4753" target="http://scta.info/resource/atv-l1d6q1-Dd1e155">
+                  <!-- temp "division level target; not sure if we can find a smaller target -->
+                  secundum 
+                  <name xml:id="pg-b1q8-Nd1e1274" ref="#AlphonsusVargas">Alphonsum</name>
+                </ref>
+                <bibl>
+                  <name>Alphonsus Vargas Toletanus</name>, 
+                  <title>Sent.</title> 
+                  I, d. 6, q. 1, a. 2 
+                  (Venice 1490, 348).
+                </bibl>
+              </cit> 
+              non plus repugnat esse plures in eodem fundamento relationes 
+              quam plura activa eiusdem rationis. 
+              Sed secundum concedit ipsemet 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4764" target="http://scta.info/resource/wo8uy7-d1e682">
+                  <!-- temp item level target -->
+                  <name xml:id="pg-b1q8-Nd1e1290" ref="#Ockham">Ockham</name> ibidem
+                </ref>
+                <bibl>
+                  <name>Ockham</name>, 
+                  <title>Sent.</title> 
+                  I, d. 7, q. 3 
+                  (OT III, 153, l. 24 - 154, l. 19).
+                </bibl>
+              </cit>, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q8-d1e1031">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4781" target="http://scta.info/resource/pgb1q8-d1e651">
+                  Ad quartam
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              dicitur quod, si 
+              ratio concluderet per simile, 
+              probaretur quod Pater solus esset in divinis, 
+              quod est falsum. 
+              Ideo fidei adversarius illam negaret maiorem.
+            </p>
+            <p xml:id="pgb1q8-d1e1040">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4794" target="http://scta.info/resource/pgb1q8-d1e664">
+                  Ad quintam
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur consequentia de forma 
+              quia nec sequitur, 
+              in creaturis iste potest generare duos filios, 
+              ergo infinitos, 
+              quia, si ratio valeret, 
+              etiam posset inferri, 
+              duae personae sunt productae, 
+              ergo infinitae, 
+              quod est haereticum.
+            </p>
+            <p xml:id="pgb1q8-d1e1048">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4807" target="http://scta.info/resource/pgb1q8-d1e685">
+                  Ad sextam
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur antecedens. 
+              Ad probationem, 
+              dicitur quod non valet 
+              quia latitudo tota perfectionis 
+              quae est in omnibus tribus personis 
+              est in solo Patre, 
+              et notitia tota possibilis, 
+              et totus amor, 
+              et tota perfectio, 
+              ex quo posset 
+              inferri quod non sunt plura supposita, 
+              sed solum Patris. 
+              Patet ergo quod non sequitur, 
+              Filius est tota latitudo perfectionis, 
+              etc. 
+              Ergo patet sic arguendo, 
+              Pater est tota perfectio deitatis, 
+              ergo nullus alius ab eo est immensa perfectio deitatis.
+            </p>
+            <p xml:id="pgb1q8-d1e1065">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4821" target="http://scta.info/resource/pgb1q8-d1e703">
+                  Ad septimam
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur consequentia. 
+              Ad probationem,
+              dicitur quod non ostendit evidenter 
+              quia, 
+              licet omne verbum sit notitia, 
+              tamen posset dici quod ab eodem verbo notitia 
+              qui est Pater posset esse aliud verbum.
+              <!-- NOTE: no para break because we see this as a sub argument continuing the ad probationem -->
+              Secundo, posset dici quod, 
+              dato quod ratio probaret 
+              quod Pater non posset aliud verbum gignere, 
+              non tamen ostendit quod Filius non possit generare. 
+              Tertio, dicitur quod, 
+              si sumitur antecedens pro notitia in qua, 
+              tunc supponit quod deberet probare quia 
+              <ref xml:id="pg-b1q8-Rd1e4829" corresp="#pg-b1q8-Qd1e4165">
+                secundum <name xml:id="pg-b1q8-Nd1e1358" ref="#Augustine">Augustinum</name>
+              </ref>,
+              <cit>
+                <quote xml:id="pg-b1q8-Qd1e4165" source="http://scta.info/resource/adt-l15-d1e1848" synch="191-223">
+                  Pater omnia novit in se 
+                  et omnia novit in Verbo
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De Trinitate</title> 
+                  XV, 14, 23 
+                  (CCSL 50A, 496, ll. 18-19).
+                  <!-- nouit itaque omnia...de his omnibus quae sunt in se ipso --> 
+                </bibl>
+              </cit>.
+              Ex quo patet quod verbum est notitia in qua Pater novit. 
+              Dicere ergo Pater non potest alia notitia 
+              <app>
+                <lem type="conjecture-corrected"><corr>nosse</corr></lem>
+                <rdg wit="#L" facs="32v/35">nosce</rdg>
+              </app> 
+              se, 
+              sumendo sic <mentioned>notitiam</mentioned>, 
+              patet quod petit principium 
+              quia supponit quod est probandum. 
+              Si vero sumatur notitia qua Pater noscit, 
+              tunc adversarius negaret consequentiam primam.
+            </p>
+            <p xml:id="pgb1q8-phpvfa">
+              Per hoc patet 
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4854" target="http://scta.info/resource/pgb1q8-d1e732">
+                  ad octavum
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              quod non sequitur, 
+              Pater perfecte se dicit, 
+              ergo non potest aliud verbum dicere.
+              Et respondeo semper 
+              sicut diceret infidelis vel fidei adversarius.
+            </p>
+            <p xml:id="pgb1q8-d1e1104">
+              <pb ed="#L" n="33-r"/>
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4872" target="http://scta.info/resource/pgb1q8-d1e747">
+                  Ad processum 
+                  <name xml:id="pg-b1q8-Nd1e1413" ref="#GilesOfRome">Domini Aegidii</name>
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              dicitur quod solum intendit differentia 
+              probare inter 
+              <app>
+                <lem type="conjecture-corrected"><corr>Verbum</corr></lem>
+                <rdg wit="#L" facs="33r/1">Verbi</rdg>
+              </app> 
+              Dei et nostri. 
+              Tamen per hoc non probat evidenter 
+              quin Pater posset alium Filium generare 
+              et alium Spiritum Sanctum spirare.
+            </p>
+            <p xml:id="pgb1q8-d1e1116">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4887" target="http://scta.info/resource/pgb1q8-qnnesp">
+                  Ad primam in oppositum
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur antecedens. 
+              Secundo modo posset dici 
+              quod sicut hanc esse personam non dicit perfectionem simpliciter, 
+              tamen esse personam dicit perfectionem 
+              simpliciter sic esse suppositum dicit perfectionem simpliciter, 
+              licet hoc suppositum esse non dicit.
+            </p>
+            <p xml:id="pgb1q8-d1e1126">
+              <cit>
+                <ref xml:id="pg-b1q8-Rd1e4900" target="http://scta.info/resource/pgb1q8-d1e146">
+                  Ad secundam
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              patet per idem quod, 
+              licet Patris suppositum non sit suppositum Filii nec econverso, 
+              quia tamen uterque est suppositum nihil deficit eis perfectionis.
+            </p>
+          </div>
+        </div>
+        <div xml:id="pg-b1q8-Dd1e4198" type="et-conclusiones">
+          <head xml:id="pg-b1q8-Hd1e4200">
+            Conclusiones
+          </head>
+          <p xml:id="pgb1q8-d1e1146" n="Conclusio 1">
+            <cit>
+              <quote xml:id="pg-b1q8-Qd1e4208" source="http://scta.info/resource/pll1d7c1-d1e3476" type="lemma" synch="1-3">
+                Hic quaeri solet
+              </quote>
+              <bibl>
+                <name xml:id="pg-b1q8-Nd1e1470">Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 7, c. 1
+                (I, 91, ll. 15-16).
+              </bibl>
+            </cit>.
+            Haec distinctio continet quattuor conclusiones.
+            Prima: 
+            quod Patrem generare Filium 
+            <cit>
+              <quote xml:id="pg-b1q8-Qd1e1476" source="http://scta.info/resource/pll1d7c1-d1e3482" synch="11-26">
+                non est aliquid subiectum potentiae 
+                divinae aut voluntati, 
+                est tamen aliqua potentia vel voluntas
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 7, c. 1 
+                (I, 91, ll. 19-22).
+              </bibl>
+            </cit>, 
+            nec tamen sequitur personam quae 
+            <cit>
+              <quote xml:id="pg-b1q8-Qd1e1493" source="http://scta.info/resource/pll1d7c1-d1e3485" synch="24-37">
+                hoc potest 
+                vel vult potentiorem esse 
+                persona quae hoc non potest vel vult
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 7, c. 1 
+                (I, 91, ll. 3-4).
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q8-d1e1175" n="Conclusio 2">
+            Secunda conclusio: 
+            quod, 
+            <cit>
+              <quote xml:id="pg-b1q8-Qd1e1511" type="paraphrase" source="http://scta.info/resource/pll1d7c1-d1e3555@5-26">
+                licet Filius non possit generare, 
+                hoc tamen non est ex impotentia 
+                sed ex proprietate 
+                quia non oportet eum generare
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 7, c. 1 
+                (I, 93, ll. 8-17).
+              </bibl>
+            </cit>. 
+            Aliter 
+            qua ratione Filius generasset nepotem fratri, 
+            nepos generasset pronepotem, 
+            et sic sine statu. 
+            <cit>
+              <quote xml:id="pg-b1q8-Qd1e1533" type="paraphrase" source="http://scta.info/resource/pll1d7c1-d1e3555@70-98">
+                Filius ergo non potest esse Pater, 
+                nec sui, 
+                nec alterius, 
+                nec hoc provenit ex impotentia, 
+                sed ex proprietate generationis qua sic est Filius 
+                quod non potest esse Pater
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 7, c. 1
+                (I, 93, ll. 8-17).
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q8-d1e1193" n="Conclusio 3">
+            Tertia conclusio: 
+            quod Pater est potens natura sive essentia Filium gignere, 
+            et 
+            <cit>
+              <quote xml:id="pg-b1q8-Qd1e1556" source="http://scta.info/resource/pll1d7c2-d1e3488@20-36">
+                eadem potentia est in Filio qua potuit gigni 
+                et in Patre qua potuit generare
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 7, c. 2 
+                (I, 94, ll. 1-7).
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q8-d1e1199" n="Conclusio 4">
+            Quarta conclusio: 
+            licet sit eadem potentia qua Pater potest gignere et Filius gigni, 
+            tamen est alia proprietas 
+            seu notio qua Pater est genitor et alia qua Filius est genitus ita quod referendo 
+            posse generare et posse generari ad proprietatem, 
+            <cit>
+              <quote xml:id="pg-b1q8-Qd1e1574" source="http://scta.info/resource/pll1d7c2-d1e3500" synch="91-101">
+                tunc Pater habet aliquod posse quod 
+                non habet Filius et econverso
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 7, c. 2 (I, 94, ll. 8-31).
+              </bibl>
+            </cit>. 
+            Et illud posse est notionale et relativum quia non dicit quid sed
+            ad,
+            <app>
+              <lem n="ad"/>
+              <rdg wit="#L" type="variation-present" cause="repetitio" facs="33r/21">ad</rdg>
+            </app>
+            unde non sequitur, 
+            Pater habet potentiam generandi 
+            et Filius non, 
+            ergo aliquam potentiam vel aliquod posse habet Pater 
+            quod non habet Filius. 
+            Sed eadem potentia Pater generat qua Filius generatur 
+            quia Pater potest generare et Filius generari. 
+            Sicut etiam non sequitur, 
+            Pater habet potentiam quod sit Pater 
+            et hanc non habet Filius, 
+            ergo aliquam potentiam habet Pater 
+            quam non habet Filius.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

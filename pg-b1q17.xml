@@ -1,0 +1,1779 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 17</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>John T. Slotemaker</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0.0">
+          <title>Lectio 17</title>
+          <date when="2023-04-06">April 06, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-04-06" status="peer-reviewed" n="1.0.0">
+          <p>Peer Reviewed</p>
+        </change>
+        <change when="2015-11-22" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="55-r"/> 
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q17">
+        <head xml:id="pg-b1q17-Hd1e95">Lectio 17</head>
+        <div xml:id="pg-b1q17-Dd1e98" type="circa-textum">
+          <head xml:id="pg-b1q17-Hd1e100">
+            Circa textum
+          </head>
+          <p xml:id="pgb1q17-d1e92">
+            <cit>
+              <quote xml:id="pg-b1q17-Qd1e110" source="http://scta.info/resource/pll1d17c5-d1e3477" type="lemma">
+                Hic quaeritur, si caritas
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 17, c. 5
+                (I, 146, ll. 12).
+              </bibl>
+            </cit>.
+            Ista est secunda pars principalis huius distinctionis 17 
+            quae sic ad primam partem continuatur 
+            quia postquam <name xml:id="pg-b1q17-Nd1e123" ref="#Lombard">Magister</name> 
+            de dilectione Dei et proximi posuit suam intentionem, 
+            nunc vero ostendit quomodo in nobis recipiat 
+            augmentum seu intensionem.
+            Et dividitur 
+            <app>
+              <lem>ista</lem>
+              <rdg wit="#L" type="correction-substitution" facs="55r/11">
+                <subst>
+                  <del>istas</del>
+                  <add>ista</add>
+                </subst>
+              </rdg>
+            </app>
+            pars in tres quia, 
+            primo <name xml:id="pg-b1q17-Nd1e147" ref="#Lombard">Magister</name> circa 
+            hoc movet quaestionem dubiam, 
+            secundo ponit responsionem propriam, 
+            et tertio addit confirmationem 
+            variam. 
+            Secunda ibi, 
+            <cit>
+              <quote xml:id="pg-b1q17-Qd1e150" source="http://scta.info/resource/pll1d17c5-d1e3490" type="lemma">
+                his itaque
+              </quote>
+              <bibl>
+                  <name>Lombardus</name>,
+                  <title>Sent.</title>
+                  I, d. 17, c. 5
+                  (I, 146, ll. 26).
+              </bibl>
+            </cit>,
+            etc. 
+            Tertia ibi,
+            <cit>
+              <quote xml:id="pg-b1q17-Qd1e160" source="http://scta.info/resource/pll1d17c5-d1e3520" type="lemma">
+                ut autem certius
+              </quote>
+              <bibl>
+                <name xml:id="pg-b1q17-Nd1e174">Lombardus</name>,
+                <title>Sent.</title>
+                I, d. 17, c. 5
+                (I, 147, ll. 28).
+              </bibl>
+            </cit>,
+            etc.
+          </p>
+        </div>
+        <div xml:id="pg-b1q17-Dd1e170" type="quaestio">
+          <head xml:id="pg-b1q17-Hd1e172">
+            Quaestio
+          </head>
+          <head xml:id="pg-b1q17-Hd1e193" type="question-title">
+            Utrum per maiorem 
+            in viatore moralis bonitatis 
+            virtualem perfectionem 
+            possimus in eadem 
+            concludere creatae caritatis 
+            gradualem intensionem
+          </head>
+          <p xml:id="pgb1q17-d1e125">
+            Utrum per maiorem 
+            in viatore moralis bonitatis 
+            virtualem perfectionem 
+            possimus in eadem 
+            concludere creatae caritatis 
+            gradualem intensionem.
+          </p>
+          <div xml:id="pg-b1q17-Dd1e182" type="rationes-principales">
+            <head xml:id="pg-b1q17-Hd1e184">
+              Rationes principales
+            </head>
+            <p xml:id="pgb1q17-qnqpat" n="Ratio 1">
+              Quod non 
+              quia quodlibet bene agere iusti viatoris est 
+              immense bene agere 
+              quoad speciem bonitatis moralis et virtutis, 
+              igitur nullum tale potest intendi, 
+              et per consequens nec caritas. 
+              Consequentia patet 
+              quia immenso non potest dari maius. 
+              Antecedens probatur 
+              quia quodlibet meritorium agere procedit 
+              ex formali posse Spiritus Sancti, 
+              et per consequens talis actus est immense bonus 
+              quoad speciem virtutis et bonitatis moralis. 
+              Haec est ratio 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e194">
+                  <name xml:id="pg-b1q17-Nd1e213" ref="#Ripa">Iohannis de Marchia</name>, 
+                  distinctione 17 primi, articulo tertio
+                </ref>
+                <bibl>
+                  <name>Iohannes de Ripa</name>, 
+                  <title>Sent.</title>
+                  I, d. 17, q. 1, a. 3, concl. 6
+                  (Ms. Paris, Bibliothèque Nationale, lat. 15369, f. 230vb;
+                  Ms. Vat lat 1082, f. 177vb).
+                </bibl>
+                <note>Cf. Conclusiones (Combes 137, ll. 23-25).</note>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q17-d1e152" n="Ratio 2">
+              Secundo, 
+              si caritas posset gradualiter intendi, 
+              sequeretur quod etiam posset remitti gradualiter. 
+              Consequentia patet 
+              quia sicut per graduum replicationem fit gradualis intensio, 
+              sic per eorum remissionem vel <sic>desinitionem</sic> 
+              fit eorum remissio. 
+              Sed falsitas consequentis probatur 
+              quia vel talis remissio fieret 
+              per mortale peccatum vel veniale. 
+              Non primum 
+              quia totam caritatem corrumpit, 
+              nec secundum 
+              quia tunc veniale puniretur poena aeterna ratione propria, 
+              contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e215">
+                  <name xml:id="pg-b1q17-Nd1e240" ref="#Lombard">Magistrum</name>, 
+                  libro secundo, 
+                  distinctione 42
+                </ref>
+                <bibl>
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title> 
+                  II, d. 42, c. 3 
+                  (I, 569, ll. 1-3).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q17-d1e184" n="Ratio 3">
+              Tertio, 
+              si caritas intenderetur gradualiter, 
+              aut caritas acquisita esset eadem cum prima aut alia. 
+              Si primum, 
+              sequitur quod idem augeat et producat se ipsum. 
+              Si secundum, 
+              sequitur quod duo habitus 
+              numero tantum distincti 
+              essent in eadem anima, 
+              et sic tot essent caritates in homine 
+              quot homo haberet gradus caritatis, 
+              quod non videtur dicendum. 
+              Confirmatur 
+              quia 
+              vel talis gradus esset qualitati  
+              <app>
+                <lem>essentialis</lem>
+                <rdg wit="#L" type="correction-substitution" facs="55r/30">
+                  <subst>
+                    <del>essentiale</del>
+                    <add>essentialis</add>
+                  </subst>
+                </rdg>
+              </app> 
+              caritati praeexistenti in bonitate 
+              vel accidentalis. 
+              Si primum, 
+              ergo illa prima forma 
+              prius erat alterius speciei 
+              quia caritas aliqua parte sibi essentiali. 
+              Si secundum, 
+              sequitur 
+              quod non faciet unum per se 
+              cum caritate praecedente 
+              et sic non augebit eam.
+            </p>
+            <p xml:id="pgb1q17-d1e204" n="In oppositum">
+              In oppositum, 
+              arguitur, 
+              bonitas moralis cuiuslibet viatoris 
+              arguit de lege communi in eodem aliquod gradum caritatis, 
+              ergo maior bonitas maiorem argueret caritatem. 
+              Sed nunc aliquis viator est perfectior et melior moraliter quam ante, 
+              igitur aliquis nunc habet maiorem caritatem quam ante, 
+              et non nisi per gradualem caritatis intensionem, 
+              ergo quaestio vera. 
+              Antecedens est 
+              <ref xml:id="pg-b1q17-Rd1e236" corresp="#pg-b1q17-Qd1e250">
+                <name xml:id="pg-b1q17-Nd1e284" ref="#Paul">Apostoli</name>,
+                <title ref="#Icor">Primae ad Corinthios</title> 
+                <sic>13</sic>
+              </ref> 
+              <cit>
+                <quote xml:id="pg-b1q17-Qd1e250" source="http://scta.info/resource/Icor15_10">
+                  gratia Dei sum id quod sum
+                </quote>
+                <bibl>I Corinthios 15:10.</bibl>
+              </cit>. 
+              Item, ecclesia orat 
+              <cit>
+                <quote xml:id="pg-b1q17-Qosdeca">
+                  omnipotens sempiterne Deus, 
+                  da nobis fidei, spei, et caritatis augmentum
+                </quote>
+                <bibl>
+                  Salve Regina. <!-- see num 759, http://www.clerus.org/clerus/dati/2004-09/13-13/CIMR1.htm -->
+                </bibl>
+              </cit>,
+              etc.
+            </p>
+          </div>
+          <div xml:id="pg-b1q17-Dd1e259">
+            <head xml:id="pg-b1q17-Hd1e261">
+              Conclusio 1
+            </head>
+            <p xml:id="pgb1q17-d1e239" n="Conclusio">
+              Prima conclusio: 
+              licet Spiritus Sanctus 
+              non possit mentem creatam 
+              immense formare et actuare, 
+              tamen Spiritus 
+              <pb ed="#L" n="55-v"/> 
+              Sanctus est iustae mentis posse actuativum formale ac salutare. 
+              Prima pars patet 
+              quia finitae et mensae repugnat 
+              immense actuari et formari 
+              in quocumque agere suo. 
+              Secunda pars probatur per 
+              <ref xml:id="pg-b1q17-Rd1e274" corresp="#pg-b1q17-Qd1e285">
+                <name xml:id="pg-b1q17-Nd1e329" ref="#Augustine">Augustinum</name>, 
+                libro 
+                <title>De gratia et libero arbitrio</title>
+              </ref>, 
+              dicentem, 
+              <cit>
+                <quote xml:id="pg-b1q17-Qd1e285" source="http://scta.info/resource/koi9i9-d1e51">
+                  formamur et creamur 
+                  a Deo in omnibus 
+                  operibus bonis
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De gratia et libero arbitrio</title> 
+                  8, 20 
+                  (PL 44, 893).
+                </bibl>
+              </cit>. 
+              Item,
+              <ref xml:id="pg-b1q17-Rd1e294" corresp="#pg-b1q17-Qd1e362">
+                <title>sermone 44 super Iohannem</title>
+              </ref>.
+              Et habentur verba in hac distinctione 
+              ubi dicitur, 
+              <cit>
+                <quote xml:id="pg-b1q17-Qd1e362" source="http://scta.info/resource/iuy75t-d1e647-d1e340" synch="244-266">
+                  sine Spiritu Sancto 
+                  constat Christum nos 
+                  <app>
+                    <lem n="nos"/>
+                    <rdg wit="#L" type="variation-present" facs="55v/5">non</rdg>
+                  </app> 
+                  diligere 
+                  et eius mandata servare non posse, 
+                  et 
+                  <app>
+                    <lem>id</lem>
+                    <rdg wit="#L" type="correction-substitution" facs="55v/6">
+                      <subst>
+                        <del>ad</del>
+                        <add>id</add>
+                      </subst>
+                    </rdg>
+                  </app> 
+                  nos posse attingere tanto minus, 
+                  quanto illum percipimus minus
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>In Iohannis evangelium</title> 
+                  74, 2 
+                  (CCSL 36, 513, ll. 26 -514, ll. 29).
+                </bibl>
+              </cit>, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q17-d1e277" n="Corollarium 1">
+              Primum corollarium: 
+              tam praecise intense Spiritus Sancti 
+              est menti posse formale actuativum,
+              quam intense dat ei intrinsece 
+              esse carum seu caritativum. 
+              Conclusio et corollarium sunt contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e310">
+                  <name xml:id="pg-b1q17-Nd1e405" ref="#RadulphusDeCastello">Magistrum Radulphum  de Castello</name> 
+                  in illa quaestione vel determinatione
+                </ref>
+                <bibl>
+                  <name>Radulphus de Castello</name>, 
+                  <title>Determinationes</title> 
+                  (non extant).
+                </bibl>
+              </cit>, 
+              ubi quaerit utrum bona naturalia 
+              bonis gratuitis possit rationabiliter 
+              proportionari seu compari. 
+              Patet corollarium quia secundum 
+              <ref xml:id="pg-b1q17-Rd1e322">
+                <name xml:id="pg-b1q17-Nd1e423" ref="#Augustine">Augustinum</name>
+              </ref>,
+              <cit>
+                <quote xml:id="pg-b1q17-Qd1e427" source="http://scta.info/resource/iuy75t-d1e647-d1e340@261-274">
+                  <!-- NOTE: unstable identifier -->
+                  tanto minus possumus diligere Christum 
+                  quanto minus in nobis percipimus Spiritum Sanctum 
+                  et tanto plus diligamus 
+                  quanto plus percipimus ipsum
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>In Iohannis evangelium</title> 
+                  74, 2 
+                  (CCSL 36, 514, ll. 28-29).
+                  <!-- incipit/explicit: "tanto minus, quanto illum percipimus...quanto illum percipimus amplius -->
+                </bibl>
+              </cit>, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q17-d1e304" n="Corollarium 2">
+              Secundum corollarium: 
+              aliquod agere procedens 
+              ex formali posse increatae caritatis 
+              est agere finitum quoad 
+              gradum et speciem virtutis et moralis bonitatis.
+              Patet 
+              quia tunc Spiritus Sanctus non esset menti 
+              posse secundum magis et minus, 
+              contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e339">
+                  <name xml:id="pg-b1q17-Nd1e441" ref="#Augustine">Augustinum</name>
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>In Iohannis evangelium</title> 
+                  74, 2 
+                  (CCSL 26, 513, ll. 26 - 514, ll. 29).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q17-d1e316" n="Corollarium 3">
+              Tertium corollarium: 
+              non quodlibet agere voluntatis creatae 
+              procedens ex formali posse increatae caritatis 
+              quoad speciem in esse menti est infinite 
+              meritorium seu imputabile voluntati. 
+              Patet quia aliter 
+              omnia opera meritoria essent eiusdem 
+              speciei, 
+              quod est falsum. 
+              Patet consequentia 
+              quia omnia procedunt ex formali posse Spiritus Sancti. 
+              Ista duo corollaria sunt 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e352">
+                  <name xml:id="pg-b1q17-Nd1e462" ref="#Ripa">Iohannis de Rippa</name>, 
+                  distinctione 17, 
+                  quaestione prima
+                </ref>
+                <bibl>
+                  <name>Iohannes de Ripa</name>,
+                  <title>Sent.</title>
+                  I, d. 17, q. 1, a. 3 
+                  (Ms. Paris, Bibliothèque Nationale, lat. 15369, f. 230v).
+                </bibl>
+              </cit>.
+            </p>
+          </div>
+          <div xml:id="pg-b1q17-Dd1e363">
+            <head xml:id="pg-b1q17-Hd1e365">
+              Conclusio 2
+            </head>
+            <p xml:id="pgb1q17-d1e331" n="Conclusio">
+              Secunda conclusio: 
+              <app>
+                <lem>licet nullus</lem>
+                <rdg wit="#L" type="correction-transposition" facs="55v/9">
+                  <subst>
+                    <del>nullus licet</del>
+                    <add>licet nullus</add>
+                  </subst>
+                </rdg>
+              </app>
+              caritatis 
+              gradus remittatur a quacumque malitia seu culpa, 
+              tamen quaelibet caritas creata 
+              est intensibilis et remissibilis forma. 
+              Prima pars probatur 
+              quia culpa non remittit caritatem 
+              per secundam rationem ante oppositum adductam. 
+              Secunda pars probatur 
+              quia quaelibet caritas creata est 
+              divisibilis gradualiter 
+              <app>
+                <lem>ergo</lem>
+                <rdg wit="#L" type="correction-deletion" facs="55v/23">
+                  <del>g</del>
+                </rdg>
+              </app> 
+              intensibilis et remissibilis 
+              per aliquam potentiam. 
+              Antecedens patet 
+              quia non est dandus 
+              maximus nec minus caritatis gradus. 
+              Et consequentia patet 
+              quoniam omnem formam habentem latitudinem intensivam 
+              potest Deus et simul et successive producere vel corrumpere. 
+              Sed nobis non constat 
+              utrum simul vel successive 
+              Deus eam producat in anima, 
+              prout dicit 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e387" target="http://scta.info/resource/grvnZZ-ed1e50-d1e4813" synch="38-90">
+                  <name xml:id="pg-b1q17-Nd1e523" ref="#Rimini">Gregorius</name>, 
+                  distinctione 17, 
+                  articulo 4
+                </ref>
+                <bibl>
+                  <name>Gregorius Ariminensis</name>, 
+                  <title>Sent.</title> 
+                  I, d. 17, q.2, a. 4
+                  (Trapp II, 314, ll. 17-22).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q17-d1e362" n="Corollarium 1">
+              Primum corollarium: 
+              per nullam commissionem peccati venialis 
+              seu replicationem remittitur 
+              fervor cuiuscumque creatae caritatis, 
+              contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e402" target="http://scta.info/resource/grvnZZ-ed1e61-d1e2697" synch="20-31">
+                  <name xml:id="pg-b1q17-Nd1e544" ref="#Rimini">Gregorium</name> 
+                  
+                  in distinctione ista
+                </ref>
+                <bibl>
+                  <name>Gregorius Ariminensis</name>,
+                  <title>Sent.</title>
+                  I, d. 17, q. 5, a. 2 
+                  (Trapp II, 450, ll. 29-30).
+                </bibl>
+              </cit> 
+              et contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e413" target="http://scta.info/resource/n3av8a-c1e2076">
+                  <!-- target item level; would be nice to get to paragraph level-->
+                  <name xml:id="pg-b1q17-Nd1e566" ref="#HenryOfGhent">Henricum Gandavensis</name>, 
+                  5 <title>quolibet</title>, 
+                  quaestione 24
+                </ref>
+                <bibl>
+                  <name>Henricus Gandavensis</name>, 
+                  <title>Quodlibet</title> 
+                  V, 23 
+                  (Paris 1518, I, 201vX-Y).
+                </bibl>
+              </cit>.
+              Probatur corollarium: 
+              quia sicut se habet intensio in qualitate 
+              corporali, 
+              sic fervor in caritate. 
+              Sed intensio qualitatis non distinguitur a qualitate, 
+              licet per comparationem 
+              extremorum aliqualiter varietur, 
+              ergo nec fervor caritatis distinguitur ab ipsa caritate. 
+              Sed per conclusionem 
+              nullus gradus remittitur caritatis per veniale, 
+              ergo nec fervor.
+            </p>
+            <p xml:id="pgb1q17-d1e383" n="Corollarium 2">
+              Secundum corollarium: ex 
+              sola mentis desidia 
+              non remittitur caritas infusa, 
+              contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e430">
+                  <name xml:id="pg-b1q17-Nd1e587" ref="#Kilvignton">Climentonem</name> 
+                  in 
+                  <title>quaestionibus theologicis</title>, 
+                  quaestione 2
+                </ref>
+                <bibl>
+                  <name>Richardus de Kilvington</name>, 
+                  <title>Sent.</title> 
+                  I, q. 2, prin. 1 
+                  (Ms. Vaticano, Biblioteca Apostolica Vaticana, lat. 4353, f. 13v).
+                </bibl>
+              </cit>.
+              Probatur corollarium 
+              quia culpa venialis caritati compossibilis 
+              non remittit caritatem, 
+              ergo nec desidia patet a fortiori.
+            </p>
+            <p xml:id="pgb1q17-d1e398" n="Corollarium 3">
+              Tertium corollarium: 
+              licet caritas non remittatur 
+              actualiter ex Dei gratuita acceptatione et conservatione, 
+              ipsa tamen est remissibilis 
+              ex eius propria et intrinseca ratione. 
+              Patet quia ipsa est intensibilis et remissibilis, 
+              ut dicit conclusio, 
+              ergo si dimitteretur naturae suae proprie,
+              remitteretur a suo contrario. 
+              Sed peccatum 
+              <cit>
+                <quote xml:id="pg-b1q17-Qecvesv" source="http://scta.info/resource/a83-q36-d1e108">
+                  est caritatis venenum
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De diversis quaestionibus 83</title>,
+                  q. 36, n. 1 (CCSL 44A, 54, ll. 1-11).
+                </bibl>
+              </cit>, 
+              secundum
+              <ref xml:id="pg-b1q17-Rd1e451" corresp="#pg-b1q17-Qecvesv">
+                <name xml:id="pg-b1q17-Nd1e621" ref="#Augustine">Augustinum</name>, 
+                <title ref="#deDiversisQuaestionibus">83 quaestiones</title>, 
+                quaestione 36
+              </ref>.
+            </p>
+          </div>
+          <div xml:id="pg-b1q17-Dd1e466">
+            <head xml:id="pg-b1q17-Hd1e468">
+              Conclusio 3
+            </head>
+            <p xml:id="pgb1q17-d1e419" n="Conclusio">
+              Tertia conclusio: 
+              absque caritatis creatae intensione 
+              <pb ed="#L" n="56-r"/> 
+              vel remissione stat viatorem 
+              esse meliorem et perfectiorem morali perfectione.
+              Aliter ponitur conclusio,
+              sine 
+              <app>
+                <lem type="conjecture-corrected">
+                  <corr>novo gradu</corr>
+                </lem>
+                <rdg wit="#L" facs="56r/2">novi gradus</rdg>
+                <note xml:lang="en">
+                  While the manuscript quite clearly reads "novi gradus" 
+                  the meaning is quite difficult to make sense of, 
+                  whereas correcting to the ablative "novo gradu" allows 
+                  us to make sense of "sine" and observe the parallel with "abiectione".
+                </note>
+              </app>  
+              vel abiectione in viatoris mente stat 
+              caritatem intendi et viatorem esse meliorem nunc quam ante. 
+              Probatur conclusio quia 
+              Spiritus Sanctus cum quacumque caritate 
+              potest aequaliter mentem inclinare 
+              ad firmius Deo amore 
+              <app>
+                <lem type="conjecture-corrected"><corr>inhaerendum</corr></lem>
+                <rdg wit="#L" facs="56r/5">inhaerere</rdg>
+              </app> 
+              et ad bene meritorie operandum, 
+              ergo. 
+              Antecedens patet 
+              quia aeque faciliter potest Spiritus Sanctus 
+              concurrere et producere 
+              cum causa secunda remissa et parva 
+              sicut cum intensa et magna. 
+              Consequentia patet 
+              quia mentem Deum diligere ferventius est 
+              viatorem meliorari et caritatem intendi. 
+              Hanc conclusionem videtur probare
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e485" target="http://scta.info/resource/Gi9qrR-e90353-Dd1e1571">
+                  <!-- NOTE: temp reference to article until a more granular ref can be found -->
+                  <name xml:id="pg-b1q17-Nd1e658" ref="#GilesOfRome">Dominus Aegidius</name>, 
+                  distinctione 17
+                </ref>
+                <bibl>
+                  <name>Aegidius Romanus</name>,
+                  <title>Sent.</title>
+                  I, d. 17, p. 2, princ. 1, q. 2, a. 2 
+                  (Venice 1521, 96rb-97rb).
+                  <!-- can't find a granular reference, 
+                    but article 2 seems to be correct content -->
+                </bibl>
+              </cit>,
+              et 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e496">
+                  2 <title>quolibet</title>, 
+                  quaestione 14
+                </ref>
+                <bibl>
+                  <name>Aegidius Romanus</name>, 
+                  <title>Quodlibet</title> 
+                  II, q. 14
+                  (Louvain 1646, 87ra-rb).
+                </bibl>
+              </cit>,
+              ubi ostendit quod quando caritas intenditur, essentia caritatis <unclear>quoad</unclear> gradum essentialem 
+              non variatur. 
+              Nolo tamen dicere quod intensio caritatis sic fiat de facto 
+              <app>
+                <lem>sed</lem>
+                <rdg wit="#L" type="correction-addition" facs="56r/10">
+                  <add place="below-line">sed</add>
+                </rdg>
+              </app> 
+              de possibili.
+            </p>
+            <p xml:id="pgb1q17-d1e461" n="Corollarium 1">
+              Primum corollarium: 
+              non penes remissionem cupiditatis 
+              quantificanda est intensio creatae caritatis. 
+              Patet ex conclusione, 
+              contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e524">
+                  <name xml:id="pg-b1q17-Nd1e710" ref="#HugolinoOfOrvieto">Hugolinum</name>, 
+                  distinctione 17
+                </ref>
+                <bibl>
+                  <name>Hugolinus de Urbe Veteri</name>,
+                  <title>Sent.</title> 
+                  I, d. 14-18, q. 1, a. 3 
+                  (Eckermann II, 239, ll. 49 - 240, ll. 62).
+                  <!-- third proposition: tertio propositio quodlibet caritativum operari...de augmento contra cupiditatem -->
+                </bibl>
+              </cit>. 
+              Confirmatur 
+              quia tunc caritas <name xml:id="pg-b1q17-Nd1e724" ref="#Mary">Virginis Gloriosae</name> 
+              non fuisset intensa, 
+              quod est falsum simpliciter. 
+              Consequentia patet 
+              quia non habuit cupiditatem 
+              quam posset remittere 
+              vel contra 
+              quam posset proficere.
+            </p>
+            <p xml:id="pgb1q17-d1e481" n="Corollarium 2">
+              Secundum corollarium: 
+              stat aliquem minus alio 
+              ab amore mundi 
+              seu a peccato distare 
+              et eundem maiorem caritatem 
+              seu melius operari caritativum in se habere, 
+              contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Reuibem">eundem ibidem</ref>
+                <bibl>
+                  <name>Hugolinus de Urbe Veteri</name>,
+                  <title>Sent.</title> 
+                  I, d. 14-18, q. 1, a. 3 
+                  (Eckermann II, 239, ll. 26-28).
+                  <!-- incipit/explicit: 
+                    "quodlibet operari caritativum quanto distantius est a peccare...
+                    et per consequens magis augmentativum caritatis 
+                  -->
+                </bibl>
+              </cit>. 
+              Patet per conclusionem.
+            </p>
+            <p xml:id="pgb1q17-d1e492" n="Corollarium 3">
+              Tertium corollarium responsivum: 
+              licet de facto maior perfectio moralis 
+              inferat maiorem caritatem 
+              in mente sive voluntate iusti viatoris, 
+              tamen sine graduali intensione caritatis 
+              stat eundem esse meliorem 
+              nunc quam ante ex actuatione immensi 
+              amoris vel summi creatoris. 
+              Patet quia mens potest melius disponi 
+              et Sanctus Spiritus potest ferventius menti intimari 
+              sine creatione vel productione 
+              novi gradus caritatis vel gratiae. 
+              Patet quid dicendum ad quaestionem.
+            </p>
+          </div>
+          <div xml:id="pg-b1q17-Dd1e547">
+            <head xml:id="pg-b1q17-Hd1e549">
+              Obiectiones
+            </head> 
+            <p xml:id="pgb1q17-d1e511">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e582" target="http://scta.info/resource/pgb1q17-d1e239">
+                  primam conclusionem
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              arguitur, 
+              si sic, 
+              sequeretur quod Spiritus Sanctus 
+              esset forma eius aliquo modo. 
+              Consequens est falsum 
+              quia vel esset eius forma 
+              essentialis vel accidentalis. 
+              Non primum 
+              quia tunc esset eius forma constitutiva, 
+              nec secundum quia nihil est tale nisi sit accidens, 
+              sed Spiritus Sanctus non potest esse accidens, 
+              ergo. 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e771">
+                  <name xml:id="pg-b1q17-Nd1e773" ref="#RadulphusDeCastello">Radulphus</name> ubi supra
+                </ref>
+                <bibl>
+                  <name>Radulphus de Castello</name>, 
+                  <title>Determinationes</title> 
+                  (non extant).
+                </bibl>
+              </cit>.
+            </p> 
+            <p xml:id="pgb1q17-d1e529">
+              Secundo contra
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e598" target="http://scta.info/resource/pgb1q17-d1e239">
+                  conclusionem
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>
+              et 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e608" target="http://scta.info/resource/pgb1q17-d1e277">
+                  corollarium primum
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              <app>
+                <lem type="conjecture-corrected"><corr>arguitur</corr></lem>
+                <rdg wit="#L" facs="56r/26">arguit</rdg>
+              </app> 
+              sic, 
+              quia sequitur quod 
+              tam intense Spiritus Sanctus 
+              posset esse formale sibi,
+              <app>
+                <lem type="conjecture-corrected"><corr>quam</corr></lem>
+                <rdg wit="#L" facs="56r/27">tam</rdg>
+              </app> 
+              intense esset posse formale menti creatae, 
+              et sic esset immensum simpliciter.
+            </p>
+            <p xml:id="pgb1q17-d1e537">
+              <app>
+                <lem type="conjecture-corrected"><corr>Tertio</corr></lem>
+                <rdg wit="#L" facs="56r/28">Secundo</rdg>
+              </app> 
+              contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e641" target="http://scta.info/resource/pgb1q17-d1e304">
+                  secundum corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              quodlibet agere procedens ex habitu in 
+              creato et a Spiritu Sancto procedit 
+              ex immensa volitione ultimi finis 
+              quoad speciem, 
+              ergo infinita rectitudine 
+              quoad speciem, 
+              ergo quodlibet tale agere 
+              est immensae virtutis.
+            </p> 
+            <p xml:id="pgb1q17-d1e550">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e654" target="http://scta.info/resource/pgb1q17-d1e316">
+                  tertium corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              si tale bene agere esset 
+              tantum finitae imputabile voluntati creatae, 
+              sequitur quod aliquod purum creatum posse 
+              erit ei tantum imputabile, 
+              quod est falsum. 
+              Patet consequentia 
+              quia posse formale Spiritus Sancti creati 
+              poterit intendi quousque 
+              adaequetur ipsi posse 
+              quod correspondet Spiritu Sancto 
+              ex quo solum est finitum 
+              et non immensum. 
+              Consequens falsum.
+            </p> 
+            <p xml:id="pgb1q17-d1e561">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e668" target="http://scta.info/resource/pgb1q17-d1e331">
+                  secundam conclusionem
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              omne malum adimit bonum, 
+              sed omne peccatum est malum, 
+              ergo omne peccatum adimit 
+              aliquod bonum et non naturale, 
+              ergo gratuitum. 
+              Maior est 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e600">
+                  <name xml:id="pg-b1q17-Nd1e869" ref="#Augustine">Augustini</name>,
+                  <title ref="#Enchiridion">Enchiridion</title>,
+                  12 et 13 capitulis
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>Enchiridion</title> 
+                  4, 12-13 
+                  (CCSL 46, 54, ll. 1 - 55, ll. 55).
+                </bibl>
+              </cit>.
+              Minor est nota.
+            </p>
+            <p xml:id="pgb1q17-d1e582">
+              Secundo contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e696" target="http://scta.info/resource/pgb1q17-d1e362">
+                  primum corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              venialia peccata 
+              indisponunt hominem ad eliciendum opus bonum, 
+              ergo remittunt caritatis 
+              <pb ed="#L" n="56-v"/> 
+              fervorem. 
+              Patet consequentia 
+              quia, 
+              si idem fervor manet post commissionem talem, 
+              ergo aeque prompte, faciliter, et delectabiliter 
+              peccator operatur, 
+              sicut ante. 
+              Contra experientiam quia habitus 
+              oppositus bonis 
+              quandoque generatur 
+              ex peccatis veniabilibus replicatis.
+            </p> 
+            <p xml:id="pgb1q17-d1e595">
+              Tertio contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e711" target="http://scta.info/resource/pgb1q17-d1e383">
+                  secundum corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              arguitur ex scriptura 
+              <ref xml:id="pg-b1q17-Rd1e620" corresp="#pg-b1q17-Qd1e628">
+                <title ref="#sir">Ecclesiasticus</title> 19
+              </ref>,
+              <cit>
+                <quote xml:id="pg-b1q17-Qd1e628" source="http://scta.info/resource/sir19_1">
+                  qui modica spernit paulatim decidet
+                </quote>
+                <bibl>Ecclesiasticus 19:1.</bibl>
+              </cit>.
+              Item, 
+              <ref xml:id="pg-b1q17-Rm24m24" corresp="#pg-b1q17-Qd1e643">
+                <title ref="#mt">Matthaeus</title> 24
+              </ref>, 
+              <cit>
+                <quote xml:id="pg-b1q17-Qd1e643" source="http://scta.info/resource/mt24_12">
+                  refrigescet caritas multorum
+                </quote>
+                <bibl>Matthaeus 24:12.</bibl>
+              </cit>. 
+              Item,
+              <ref xml:id="pg-b1q17-Rd1e653" corresp="#pg-b1q17-Qsoapdm">
+                <name xml:id="pg-b1q17-Nd1e945" ref="#JohnChrysostom">Chrysostom</name>,
+                <title>Homelia 3 super Matthaeum</title>,
+                in opere imperfecto
+              </ref>,
+              dicit, 
+              <cit>
+                <quote xml:id="pg-b1q17-Qsoapdm">
+                  sicut omne artificium corporali 
+                  visitatione conservatur, 
+                  sic et in animo virtus 
+                  per exercitationem augetur 
+                  et per desidiam minoratur 
+                </quote>
+                <bibl>
+                  <name>Pseudo-Iohannes Chrysostomus</name>, 
+                  <title>Opus imperfectum in Matthaeum</title> 
+                  3, 1 (PG 56, 648).
+                </bibl>
+              </cit>. 
+              Item, 
+              sequitur quod 
+              homo haberet aeque 
+              diligere et eligere facere opus meritorium 
+              cum desidia sicut sine. 
+              Consequens est falsum. 
+              Patet consequentia 
+              quia desidia nihil 
+              sibi nocet nec prodest.
+            </p>
+            <p xml:id="pgb1q17-d1e636">
+              Quarto principaliter
+              contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e773" target="http://scta.info/resource/pgb1q17-d1e398">tertium corollarium</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              per 
+              <ref xml:id="pg-b1q17-Rd1e986">auctorem sex principiorum</ref>, 
+              quia 
+              <cit>
+                <quote xml:id="pg-b1q17-Qd1e991">
+                  forma est simplici 
+                  inhaerentia et invariabili 
+                  essentia consistens
+                </quote>
+                <bibl>
+                  <title>Liber sex principiorum</title> 1, 1 
+                  (Arist. lat. I/6-7, 35, 3-4).  
+                </bibl>
+              </cit>, 
+              ergo caritas non est remissibilis ex sua natura.
+              Tenet consequentia 
+              quia omnis remissio est variatio.
+            </p>
+            <p xml:id="pgb1q17-d1e652">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e786" target="http://scta.info/resource/pgb1q17-d1e419">tertiam conclusionem</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              sequitur quod idem produceret se. 
+              Patet consequentia 
+              quia cum caritas concurrat 
+              ad sui intentionem, 
+              si est eadem realiter quae acquiritur et
+              quae fuit ante intensionem, 
+              sequitur quod eadem caritas se augeat et producat. 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e678">
+                  <name xml:id="pg-b1q17-Nd1e995" ref="#Scotus">Scotus</name>, 
+                  libro primo, 
+                  distinctione 17, 
+                  quaestione ultima</ref>
+                <bibl>
+                  <name>Scotus</name>, 
+                  <title>Ordinatio</title> 
+                  I, d. 17, p. 2, q. 2 
+                  (Vatican V, 259, ll. 15- 260, ll. 6).
+                </bibl>
+              </cit>.
+              Item, 
+              si caritas posset intendi sine statu, 
+              sequitur quod 
+              Deus posset facere 
+              caritatem infinitam et infinite perfectam. 
+              Consequens videtur falsum. 
+              Tertio, 
+              sequitur quod 
+              posset dari entitas perfectior 
+              caritate Christi, 
+              contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e689">
+                  <name xml:id="pg-b1q17-Nd1e1013" ref="#Lombard">Magistrum</name>, 
+                  distinctione 13 tertii
+                </ref>
+                <bibl>
+                  <name>Lombardus</name>, 
+                  <title>Sent.</title>
+                  III, d. 13, c. 1
+                  (II, 84, ll. 3 - 85, ll. 3).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q17-d1e678">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e823" target="http://scta.info/resource/pgb1q17-d1e461">
+                  primum corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              arguitur per dictum 
+              <ref xml:id="pg-b1q17-Rd1e703">
+                <name xml:id="pg-b1q17-Nd1e1043" ref="#Augustine">Augustini</name>, 
+                <title ref="#deDiversisQuaestionibus">83 quaestiones</title>, 
+                quaestione 36
+              </ref>,
+              augmentum caritatis 
+              <cit>
+                <quote xml:id="pg-b1q17-Qd1e1072" source="http://scta.info/resource/a83-q36-d1e108@92-94">
+                  est diminutio cupiditatis
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De diversis quaestionibus 83</title>,
+                  q. 36, 1 
+                  (CCSL 44A, 54, ll. 12-13).
+                </bibl>
+              </cit>, 
+              ergo penes proficere contra cupiditatem 
+              attenditur intensio caritatis. 
+              Item,
+              <ref xml:id="pg-b1q17-Rd1e718" corresp="#pg-b1q17-Qd1e725">
+                <title ref="#Enchiridion">Enchiridion</title> 4
+              </ref> 
+              dicit, 
+              <cit>
+                <quote xml:id="pg-b1q17-Qd1e725" source="http://scta.info/resource/augen-d1e293">
+                  <!-- temp item livel target until block id is created -->
+                  minuitur cupiditas crescente caritate
+                </quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>Enchiridion</title> 
+                  31, 121 
+                  (CCSL 46, 114, ll. 23).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q17-d1e706">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e867" target="http://scta.info/resource/pgb1q17-d1e481">secundum corollarium</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              est 
+              <ref xml:id="pg-b1q17-Rd1e736" corresp="#pg-b1q17-Qd1e747">
+                <name xml:id="pg-b1q17-Nd1e1096" ref="#Augustine">Augustinus</name>, 
+                <title ref="#deDiversisQuaestionibus">83 quaestiones</title>, 
+                quaestione 36
+              </ref>, 
+              ubi dicit, 
+              <cit>
+                <quote xml:id="pg-b1q17-Qd1e747" source="http://scta.info/resource/a83-q36-d1e108">
+                  caritatis venenum est spes adipiscendorum aut retinendorum temporalium</quote>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De diversis quaestionibus 83</title>,
+                  q. 36, 1 
+                  (CCSL 44A, 54, ll. 11-12).
+                </bibl>
+              </cit>.
+              Ergo quanto homo plus distat ab amore temporalium, 
+              tanto est melius eius operari caritativum, 
+              et per consequens corollarium falsum.
+            </p>
+            <p xml:id="pgb1q17-d1e727">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e898" target="http://scta.info/resource/pgb1q17-d1e492">ultimum corollarium</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              quia 
+              <cit>
+                <quote xml:id="pg-b1q17-Qd1e1159" source="http://scta.info/resource/cnag1q-d1e85-d1e8802@206-223">
+                  motus est acquisitio partis 
+                  post partem illius ad quod res movetur
+                </quote>
+                <bibl>
+                  <name>Averroes</name>, 
+                  <title>In Physicam</title> 
+                  V, comm. 48 
+                  (Iunta IV, 237ra).
+                  <!-- incipit/explicicit: motus nihil aliud est qua ...ad quod res mota mouetur -->
+                </bibl>
+              </cit>, 
+              ergo sine acquisitione novi gradus 
+              caritas non potest intendi in mente. 
+              Antecedens est 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e765" target="http://scta.info/resource/aristdp-d1e80-d1e1984@49-72">
+                  <name xml:id="pg-b1q17-Nd1e1134" ref="#Aristotle">Philosophi</name>
+                </ref>
+                <bibl>
+                  <name>Aristoteles</name>, 
+                  <title>Physica</title> 
+                  V
+                  (Iunta IV, 236va-b).
+                </bibl>
+              </cit> 
+              et 
+              <ref xml:id="pg-b1q17-Rd1e775" corresp="#pg-b1q17-Qd1e1159">
+                <name xml:id="pg-b1q17-Nd1e1152" ref="#Averroes">Commentatoris</name>, 
+                V <title ref="#PhysicsCommentary">Physicorum</title>, 
+                commento 48
+              </ref>.
+            </p>
+          </div>
+          <div xml:id="pg-b1q17-Dd1e1174">
+            <head xml:id="pg-b1q17-Hd1e1176">Responsiones</head>
+            <p xml:id="pgb1q17-d1e748">
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e938" target="http://scta.info/resource/pgb1q17-d1e511">Ad primam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur consequentia 
+              quia potest esse forma immutativa causaliter 
+              elevativaque supernaturaliter, 
+              ut dictum est.
+            </p>
+            <p xml:id="pgb1q17-d1e754">
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e951" target="http://scta.info/resource/pgb1q17-d1e529">Ad secundam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur consequentia 
+              quia non sequitur, 
+              posse voluntatis immensum est, 
+              ergo tale immensum posse est voluntati posse immensae.
+            </p>
+            <p xml:id="pgb1q17-d1e760">
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e964" target="http://scta.info/resource/pgb1q17-d1e537">Ad tertiam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur consequentia 
+              quia,
+              licet procedat ab immenso posse et ab immensa volitione, 
+              tamen illa 
+              immensa volitio et immensa caritas inest 
+              creatae menti finitae solum et non immense.
+            </p>
+            <p xml:id="pg-b1q17-d1e1244">
+              Secundo, 
+              dico quod tale agere non potest 
+              quantificari penes <unclear cert="high">fluxivum</unclear> agentis increati 
+              sed penes omnes circumstantias circumstantes talem actionem bonam. 
+              Si enim deberet attendi 
+              et nominari secundum <unclear cert="high">fluxivum</unclear> agentis increati 
+              in agere <unclear cert="high">activo</unclear> et non in aliis, 
+              non plus differet una actio creaturae ab alia 
+              quam una actio Dei active sumpta ab alia. 
+              Consequens est falsum.
+            </p>
+            <p xml:id="pgb1q17-d1e789">
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e988" target="http://scta.info/resource/pgb1q17-d1e550">Ad quartam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur consequentia 
+              quia sunt alterius rationis, 
+              ideo quantumcumque posse 
+              creatum intenderetur, 
+              numquam attingeret aequalitatem alterius 
+              quia semper maneret in 
+              latitudine suae speciei 
+              quae est infra latitudinem alterius perfectioris, 
+              et similiter quantumcumque 
+              influxus perfectioris agentis remitteretur, 
+              numquam deveniret ad aequalitatem inferioris.
+            </p>
+            <p xml:id="pgb1q17-d1e800">
+              <pb ed="#L" n="57-r"/>
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e1004" target="http://scta.info/resource/pgb1q17-d1e561">
+                  Ad primam contra secundam conclusionem
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              dicitur quod 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e1264">
+                  <name xml:id="pg-b1q17-Nd1e1256" ref="#Augustine">Augustinus</name>
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>Enchiridion</title> 
+                  4, 12-13 
+                  (CCSL 46, 54, ll. 1 - 55, ll. 55); 
+                  <name>Augustinus</name>, 
+                  <title>De libero arbitrio</title> 
+                  III, 41, 142 
+                  (CCSL 29, 299, ll. 47-54).
+                </bibl>
+              </cit> 
+              voluit dicere quod 
+              malum adimit 
+              vel bonum quod 
+              <app>
+                <lem>inest</lem>
+                <rdg wit="#L" type="correction-substitution" facs="57r/2">
+                  <subst>
+                    <del>est</del>
+                    <add>inest</add>
+                  </subst>
+                </rdg>
+              </app> 
+              vel bonum quod inesset 
+              si committens tale peccatum non committeret.
+              Sic dicitur in proposito 
+              quia, 
+              licet peccatum veniale bonum caritatis 
+              non remittat vel adimat, 
+              tamen privat mentem aliquo bono 
+              quod haberet si illud non committeret.
+              Sed contra posset instari 
+              quia quantum bonum opus potest prodesse, 
+              tantum praecise aliquod peccatum potest obesse. 
+              Sed aliquod bonum opus prodest ad certum gradum caritatis,
+              ergo aliquod peccatum potest obesse 
+              remittendo gradum caritatis certum.
+            </p>
+            <p xml:id="pgb1q17-d1e834">
+              Secundo, 
+              quia sequitur quod Deus aequaliter 
+              diligeret peccantem et non peccantem. 
+              Consequens falsum videtur. 
+              Probatur consequentia quia, 
+              ex quo veniale caritatem non remittit, 
+              sequitur quod peccans venialiter 
+              tantum sicut prius a Deo diligitur.
+            </p>
+            <p xml:id="pgb1q17-apchcc">
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e1051" target="http://scta.info/resource/pgb1q17-d1e834">Ad primam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              cum replicatur dicitur quod, 
+              si fiat comparatio ad actum demeritorium 
+              et habitum iam actu infusum, 
+              sic negatur maior, 
+              si vero fit comparatio 
+              respectu habitus qui acquireretur, 
+              si bonum opus fieret, 
+              tunc conceditur maior, 
+              sed nihil habetur contra conclusionem.
+            </p>
+            <p xml:id="pgb1q17-d1e852">
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e1066" target="http://scta.info/resource/pgb1q17-d1e834">Ad secundam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              dicitur, 
+              concedo consequens, 
+              immo forte plus diligit peccantem 
+              quam non peccantem in casu 
+              quo peccans venialiter habet maiorem gratiam.
+            </p>
+            <p xml:id="pg-b1q17-d1e1354">
+              Secundo, 
+              dicitur quod consequens potest dupliciter intelligi. 
+              Primo modo sic quod 
+              ipse peccans sit tantum carus 
+              quando committit peccatum sicut 
+              quando non committit, 
+              loquendo de esse caro secundum legem Dei aeternam, 
+              sic conceditur consequens. 
+              Secundo modo quod sit aequaliter carus vel dilectus, 
+              id est, quod Deo tantum placeat ipsum deformiter agere 
+              sicut ipsum <c>a</c> culpa <unclear>abstinere</unclear>, 
+              sic negatur consequens et consequentia.
+            </p>
+            <p xml:id="pgb1q17-d1e881">
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e1089" target="http://scta.info/resource/pgb1q17-d1e582">
+                  Ad aliud contra primum corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              quidquid sit de 
+              <unclear cert="high">auctoritate</unclear>, 
+              negatur consequentia quia, 
+              licet sit idem fervor post venialium commissionem qui ante, 
+              tamen committens non potest ita faciliter in tam 
+              intensos actus propter inclinationem cupiditatis ad oppositum, 
+              sicut patet <unclear>instantia</unclear>, 
+              ubi pondere maiori non intenso nec remisso 
+              sed solum ad intensionem minoris ponderis 
+              idem pondus maius non potest aeque velociter 
+              movere vel levare pondus minus sicut ante.
+            </p>
+            <p xml:id="pgb1q17-d1e905">
+              Secundo, 
+              posset dici quod 
+              quantum veniale indisponit 
+              tanto actus bonus coniunctus disponit melius et plus, 
+              ideo non concludit ratio.
+            </p>
+            <p xml:id="pgb1q17-d1e914">
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e1114" target="http://scta.info/resource/pgb1q17-d1e595">
+                  Ad illam auctoritatem
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit> 
+              <cit>
+                <quote xml:id="pg-b1q17-Qd1e884" source="http://scta.info/resource/sir19_1">
+                  qui modica spernit
+                </quote>
+                <bibl>Ecclesiasticus 19:1.</bibl>
+              </cit>, 
+              etc., 
+              vult dicere 
+              quod homo ex desidia et negligentia bene operandi 
+              omittit bona opera multa 
+              quae faceret 
+              si desidiosus non esset, 
+              et per hoc non sequitur aliquid contra corollarium.
+            </p>
+            <p xml:id="pgb1q17-d1e925">
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e1136" target="http://scta.info/resource/pgb1q17-d1e595@49-76">
+                  Ad aliud
+                </ref>
+                <bibl>Vide supra.</bibl>
+                <!-- ref seems to be the argument starting at "Item" in the bottom half of the target paragraph -->
+              </cit>, 
+              negatur consequentia, 
+              et cum dicitur 
+              <cit>
+                <quote xml:id="pg-b1q17-Qd1e1426" source="http://scta.info/resource/pgb1q17-d1e595@70-74">
+                  quia nihil nocet desidia
+                </quote>
+              </cit>, 
+              hoc potest negari quia, 
+              licet non reus mittat caritatem, 
+              tamen impedit operum multiplicationem 
+              quia plura faceret opera meritoria 
+              si non esset desidia, 
+              ut dictum est in praecedenti solutione.
+            </p>
+            <p xml:id="pg-b1q17-d1e1430">
+              Secundo, 
+              dicitur et melius quod non semper et proportionaliter 
+              secundum quod aliquid nocet vel prodest 
+              est fugiendum vel appetendum, 
+              nam secundum 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e894" target="http://scta.info/resource/adcd-l14-d1e2079@194-253">
+                  <name xml:id="pg-b1q17-Nd1e1397" ref="#Augustine">Augustinum</name>, 
+                  XIV 
+                  <title ref="#CityOfGod">De civitate Dei</title>, 
+                  capitulo 13
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De civitate Dei</title>
+                  XIV, 13, 2
+                  (CCSL 48, 436, ll. 75-82).
+                  <!-- explicit/implicit: "Et audeo dicere superbis...sibi placuerant quaerendo suum -->
+                </bibl>
+              </cit>
+              aliquibus prodest peccare,
+              et tamen nullus debet appetere <supplied>peccare</supplied>. 
+              Exemplum de 
+              <name xml:id="pg-b1q17-Nd1e1419" ref="#Peter">Petro</name> adducit. 
+              Item, 
+              minus est interficere hominem et poenitere sufficienter 
+              quam committere veniale et non satisfacere, 
+              et tamen primum non est minus fugiendum quam secundum, 
+              immo plus.
+            </p>
+            <p xml:id="pgb1q17-d1e962">
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e1165" target="http://scta.info/resource/pgb1q17-d1e636">
+                  Ad illud
+                </ref> 
+                <bibl>Vide supra.</bibl>
+              </cit>
+              quod dicitur 
+              <cit>
+                <quote xml:id="pg-b1q17-Qd1e1476" source="http://scta.info/resource/pgb1q17-d1e636@11-13">
+                  forma est simplici
+                </quote>
+              </cit>, 
+              etc., 
+              primo diceret 
+              <name xml:id="pg-b1q17-Nd1e1434" ref="#GilesOfRome">Aegidius</name> 
+              quod forma indivisibilis posset intendi vel remitti 
+              secundum maiorem vel minorem 
+              participationem ipsius ad subiectum. 
+              Hoc dicit 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e919">
+                  <name xml:id="pg-b1q17-Nd1e1441" ref="#GilesOfRome">Dominus Aegidius</name> 
+                  in hac distinctione
+                </ref>
+                <bibl>
+                  <name>Aegidius Romanus</name>,
+                  <title>Sent.</title>
+                  I, d. 17, p. 2, princ. 1, q. 2, a. 2 
+                  (Venice 1521, 96rb E).
+                </bibl>
+              </cit>, 
+              et in 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e930">
+                  suo <title>quolibet</title>, 
+                  quaestione 14
+                </ref>
+                <bibl>
+                  <name>Aegidius Romanus</name>, 
+                  <title>Quodlibet</title> 
+                  II, q. 14 
+                  (Louvain 1646, 87ra-rb).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pg-b1q17-d1e1518">
+              Secundo, 
+              dicitur quod auctoritas 
+              ibi loquitur de simplicitate 
+              opposita quantitati molis,  
+              non perfectionis, 
+              ideo non concludit, contra 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e943">
+                  <name xml:id="pg-b1q17-Nd1e1479" ref="#Scotus">Scotum</name>, 
+                  distinctione 17
+                </ref>
+                <bibl>
+                  <name>Scotus</name>, 
+                  <title>Ordinatio</title> 
+                  I, d. 17, p. 2, q. 2 
+                  (Vatican V, 263, ll. 5-6).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q17-d1e998">
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e1219" target="http://scta.info/resource/pgb1q17-d1e652">
+                  Ad primam contra tertiam conclusionem
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur 
+              <pb ed="#L" n="57-v"/>
+              consequentia. 
+              Ad probationem, 
+              dicitur quod Deus sine motu et 
+              sine productione quacumque potest intendere 
+              caritatem sicut sibi placet.
+              <!-- NOTE: new paragraphs not added here because we see the following 2o and 3o as sub arguments in support of the ad probationem --> 
+              Secundo, 
+              dicitur quod dato quod concurreret caritas 
+              ad sui intensionem active, 
+              non tamen productive 
+              quia non omnis est productio quia 
+              non omne agens producit aliquid. 
+              Tertio, 
+              dicitur quod non oporteret quod talis
+              <app>
+                <lem n="talis"/>
+                <rdg wit="#L" type="correction-deletion" facs="57v/4">
+                  <del rend="strikethrough">caritas</del>
+                </rdg>
+              </app> 
+              concursus terminetur ad aliquam entitatem, 
+              sed ad aliqualiter esse 
+              ad qualiter non erat prius.
+              <!-- AGAIN: NOTE: no break at secundo and tertio here 
+                because we see this as part of three sub arguments for the "ad probationem" 
+              -->
+            </p>
+            <p xml:id="pgb1q17-d1e1023">
+              <!-- ref unclear -->
+              Ad secundam, 
+              posset concedi consequens 
+              quia
+              aliquam rem esse infinitam 
+              non claudit contradictionem 
+              secundum aliquos.
+            </p>
+            <p xml:id="pg-b1q17-d1e1568">
+              Secundo, posset negari consequentia.
+            </p>
+            <p xml:id="pgb1q17-d1e1030">
+              <!-- ref unclear -->
+              Ad aliud, 
+              negatur consequentia 
+              quia dato quod esset maior 
+              caritas in anima <name xml:id="pg-b1q17-Nd1e1530" ref="#Peter">Petri</name> 
+              quam Christi quoad entitatem, 
+              non tamen quoad virtutem et bonitatem seu perfectionem. 
+              Ad auctoritatem <name xml:id="pg-b1q17-Nd1e1533" ref="#Augustine">Augustini</name> 
+              dicitur quod minutio cupiditatis est penes 
+              intensionem caritatis sed non econverso. 
+              Secundo, posset dici quod intendit dicere quod istae sunt 
+              causae solum partiales et non totales.
+              <!-- NOTE: no break at secundo, 
+                because this is clearly a second part of the sub response to Augustine, 
+                not a new argument to the initial ref target 
+              -->
+            </p>
+            <p xml:id="pgb1q17-d1e1052">
+              <!-- ref unclear -->
+              Ad aliam, 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e994">
+                  <title ref="#deDiversisQuaestionibus">83 quaestionum</title>, 
+                  quaestione
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De diversis quaestionibus 83</title>,
+                  q. 36, 1 
+                  (CCSL 44A, 54, ll. 11-12).
+                </bibl>
+              </cit>,
+              dicitur quod caritatis venenum, 
+              licet sit cupiditas, 
+              non tamen
+              <app>
+                <lem n="tamen"/>
+                <rdg wit="#L" type="correction-deletion" facs="57v/12">
+                  <del>s</del>
+                </rdg>
+              </app>
+              omnis 
+              sicut est venialis cupiditatis, 
+              ideo per talem distantiam
+              non potest mensurari caritas.
+            </p>
+            <p xml:id="pgb1q17-d1e1080">
+              Secundo, 
+              posset dici quod non omnis cupiditas 
+              est amor temporalium rerum, 
+              sicut patet de invidia et blasphemia 
+              et multis aliis consimilibus. 
+              Ad auctoritatem <name xml:id="pg-b1q17-Nd1e1565" ref="#Aristotle">Philosophi</name>, 
+              dicitur quod loquitur de motu temporali corporalium, 
+              ideo non est ad propositum de caritate.
+            </p>
+            <p xml:id="pgb1q17-adpded">
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e1625" target="http://scta.info/resource/pgb1q17-qnqpat http://scta.info/resource/pgb1q17-d1e152">
+                  Ad duas primas rationes in oppositum
+                </ref>
+              </cit> 
+              patet quid dicendum ex dictis.
+            </p>
+            <p xml:id="pgb1q17-d1e1101">
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e1305" target="http://scta.info/resource/pgb1q17-d1e184">Ad tertiam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              potest dici quod illae duae caritates 
+              facerent unam unitate aggregationis, 
+              sicut duae aequae faciunt unum per se. 
+              Item, 
+              una est unitate compositionis et homogeneitatis, 
+              ideo non sequitur quod sunt duo habitus 
+              in anima solo numero differentes. 
+              <cit>
+                <ref xml:id="pg-b1q17-Rd1e1643" target="http://scta.info/resource/pgb1q17-d1e184@54-54">
+                  Ad confirmationem
+                </ref>
+              </cit>, 
+              dicitur quod gradus, 
+              postquam est acquisitus, 
+              est sibi essentialis 
+              quia talis gradus cum praecedentibus faciunt 
+              unam formam per se et constituunt. 
+              Et cum dicitur 
+              <cit>
+                <quote xml:id="pg-b1q17-Qd1e1649" source="http://scta.info/resource/pgb1q17-d1e184@62-63">ergo praeexistens caritas</quote>
+                <!--NOTE: soure still a bit uncertain -->
+              </cit>, 
+              haec consequentia negatur 
+              quia nihil requisitum a tali specie in esse prius sibi deficiebat 
+              nec prius sibi iste erat essentialis 
+              quia non erat, etc., 
+              sed contra 
+              quia sequitur quod ista anima 
+              erit simul cara pluribus caritatibus, 
+              scilicet intensa et remissa, 
+              et sic erit intense cara et remisse 
+              quod patet quia quaelibet forma 
+              nata est denominare subiectum, 
+              et per consequens gradus intensus et remissus 
+              denominabunt subiectum intensum et remissum. 
+              Hoc dicitur negando consequentiam quia, 
+              licet caritas intensa et remissa non contrarientur, 
+              tamen quia remisse carum importat negationem intensae caritatis, 
+              ideo simul non potest esse idem carum intense et remisse. 
+              Et cum dicitur,
+              <cit>
+                <quote xml:id="pg-b1q17-Qd1e1657" source="http://scta.info/resource/pgb1q17-d1e1101@117-119">
+                  quia quaelibet forma
+                </quote>
+                <!--NOTE: soure still a bit uncertain -->
+              </cit>,
+              etc., 
+              conceditur quod denominabit 
+              subiectum sic hoc est tanta caritate carum et tanta, etc., 
+              non autem dicendo hoc est remisse carum.
+            </p>
+          </div>
+        </div>
+        <div xml:id="pg-b1q17-Dd1e1042" type="et-conclusiones">
+          <head xml:id="pg-b1q17-Hd1e1044">
+            Conclusiones
+          </head>
+          <p xml:id="pgb1q17-d1e1156" n="Conclusio 1">
+            <cit>
+              <quote xml:id="pg-b1q17-Qd1e1052" source="http://scta.info/resource/pll1d17c5-d1e3477@1-4" type="lemma">
+                Hic quaeritur si caritas
+              </quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                I, d. 17, c. 5
+                (I, 146, ll. 12).
+              </bibl>
+            </cit>.
+            Haec secunda pars 
+            distinctionis 17 continet 3 conclusiones. 
+            Prima quam ponit 
+            <ref xml:id="pg-b1q17-Rmqcinm" corresp="#pg-b1q17-Qcqeenm">
+              <name xml:id="pg-b1q17-Nd1e1613" ref="#Lombard">Magister</name>
+            </ref> 
+            quod 
+            <cit>
+              <quote xml:id="pg-b1q17-Qcqeenm" source="http://scta.info/resource/pll1d17c5-d1e3490@5-57">
+                caritas quae est Spiritus Sanctus 
+                in se non proficit nec deficit nec augetur nec minuitur 
+                quia immutabilis est in se homo, 
+                aliquando in ea proficit et deficit, 
+                sicut Deus, 
+                dicitur magnificari in nobis et exaltari 
+                qui tamen in se ipso non exaltatur nec magnificatur
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 17, c. 5
+                (I, 146, ll. 27-31).
+                <!--quod Spiritus Sanctus... nec exaltatur.-->
+              </bibl>
+            </cit>.
+            Probat per 
+            <ref xml:id="pg-b1q17-Rcsisip" corresp="#pg-b1q17-Qdnichg">
+              <name xml:id="pg-b1q17-Nd1e1634" ref="#Cassiodorus">Cassiodorum</name> super illud Psalmum
+            </ref> 
+            <cit>
+              <quote xml:id="pg-b1q17-Qahaeed" source="http://scta.info/resource/ps63_7 http://scta.info/resource/ps63_8">
+                accedat homo ad cor altum et exaltabitur Deus
+              </quote>
+              <bibl>Psalmus 63:7-63:8.</bibl>
+            </cit>,
+            dicens,
+            <cit>
+              <quote xml:id="pg-b1q17-Qdnichg">
+                Deus non in se sed in corde hominis grandescit
+              </quote>
+              <bibl>
+                <name>Cassiodorus</name>, 
+                <title>Super Psalmum</title> 
+                63:6 
+                (PL 70,441).
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pgb1q17-d1e1180" n="Conclusio 2">
+            Secunda conclusio: 
+            quod, 
+            licet Spiritus Sanctus sit 
+            <cit>
+              <quote xml:id="pg-b1q17-Qd1e1711" source="http://scta.info/resource/pll1d17c5-d1e3515@2-15">
+                ubique 
+                et in omni creatura, 
+                tamen non omnis creatura habet
+              </quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title> 
+                I, d. 17, c. 5
+                (I, 147, ll. 4-5).
+                <!--incipit/explicit: ubique sit... non habent.-->
+              </bibl>
+            </cit> 
+            ipsum 
+            quia aliter bruta et insensibilia ipsum 
+            <pb ed="#L" n="58-r"/>
+            haberent, 
+            quod non est dicendum.
+          </p>
+          <p xml:id="pgb1q17-d1e1188" n="Conclusio 3">
+            Tertia conclusio: 
+            quod 
+            <cit>
+              <quote xml:id="pg-b1q17-Qd1e1733" source="http://scta.info/resource/pll1d17c5-d1e3515@24-37">
+                Spiritus Sanctus est caritas 
+                quae non habenti datur etiam habenti 
+                ut plus habeatur 
+                et ut in ipse augeatur et proficiat
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 17, c. 5
+                (I, 148, ll. 8-9).
+                <!-- incipit/explicit: Spiritus Sanctus est... et proficit-->
+              </bibl>
+            </cit>, 
+            et hoc est quando homo in caritate 
+            proficit et in merito. 
+            Et haec sufficiant pro praesenti lectione. 
+            Sequitur tertia pars huius distinctionis 17.
+          </p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>

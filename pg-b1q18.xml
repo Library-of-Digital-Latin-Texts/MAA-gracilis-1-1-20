@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Lectio 18</title>
+        <author>Peter Gracilis</author>
+        <editor>Jeffrey C. Witt</editor>
+        <editor>John T. Slotemaker</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1.0.0">
+          <title>Lectio 18</title>
+          <date when="2023-04-06">April 06, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="lon">London, British Museum Royal 10 A I</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-04-06" status="peer-reviewed" n="1.0.0">
+          <p>Peer Reviewed</p>
+        </change>
+        <change when="2015-11-22" status="draft" n="0.0.0">
+          <p>File Started for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="58-r"/> 
+      </div>
+    </front>
+    <body>
+      <div xml:id="pg-b1q18">
+        <head xml:id="pg-b1q18-Hd1e95">Lectio 18</head>
+        <div xml:id="pg-b1q18-Dd1e98" type="circa-textum">
+          <head xml:id="pg-b1q18-Hd1e100">Circa textum</head> 
+          <p xml:id="pgb1q18-d1e92">
+            <cit>
+              <quote xml:id="pg-b1q18-Qd1e108" source="http://scta.info/resource/pll1d17c6-d1e3477" type="lemma">
+                Supra dictum est
+              </quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                I, d. 17, c. 6
+                (I, 148, ll. 20).
+              </bibl>
+            </cit>,
+            etc. 
+            Postquam <name xml:id="pg-b1q18-Nd1e121" ref="#Lombard">Magister</name> 
+            posuit de dilectione suam 
+            intentionem in prima parte 
+            et ostendit qualiter caritas 
+            recipit intensionem in secunda parte, 
+            nunc in ista parte tertia 
+            adducit oppositam opinionem. 
+            Et dividitur primo in duas 
+            quia primo praedictam opinionem adducit, 
+            secundo quamdam conclusionem adiungit. 
+            Secunda ibi,
+            <cit>
+              <quote xml:id="pg-b1q18-Qd1e121" source="http://scta.info/resource/pll1d18c1-d1e3477@1-5" type="lemma">
+                Hic quaeritur, si Spiritus Sanctus
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 18, c. 1 
+                (I, 152, ll. 16-17).
+              </bibl>
+            </cit>.
+          </p>
+          <p xml:id="pg-b1q18-d1e143">
+            Prima dividitur in tres secundum tria motiva 
+            quibus sic opinantes arguunt, 
+            nam primo arguunt ex caritatis divinae et creatae descriptione,
+            secundo ex Spiritus Sancti operatione, 
+            tertio ex caritatis creatae descriptione. 
+            Secunda ibi, 
+            <cit>
+              <quote xml:id="pg-b1q18-Qd1e134" source="http://scta.info/resource/pll1d17c6-d1e3565">
+                Sed aliud est, inquiunt
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title>
+                I, d. 17, c. 6
+                (I, 150, ll. 17).
+              </bibl>
+            </cit>.
+            Tertia ibi, 
+            <cit>
+              <quote xml:id="pg-b1q18-Qd1e145" source="http://scta.info/resource/pll1d17c6-d1e3574" type="lemma">
+                alias quoque inducunt rationes
+              </quote>
+              <bibl>
+                <name>Lombardus</name>, 
+                <title>Sent.</title> 
+                I, d. 17, c. 6
+                (I, 150, ll. 29).
+              </bibl>
+            </cit>,
+            etc.
+          </p>
+        </div>
+        <div xml:id="pg-b1q18-Dd1e155" type="quaestio">
+          <head xml:id="pg-b1q18-Hd1e157">
+            Quaestio
+          </head>
+          <head xml:id="pg-b1q18-Hd1e179" type="question-title">
+            Utrum sicut Deus potest facere 
+            de non caro carum non donando infusae 
+            caritatis caritudinem, 
+            sic se solo possit efficere de caro non 
+            carum subtrahendo humanae voluntatis rectitudinem; 
+            utrum sicut Deus potest 
+            facere de non caro carum, 
+            sic se solo possit efficere de iusto non iustum; 
+            utrum sicut Deus potest facere de non caro carum 
+            non ponendo caritatem in humana mente, 
+            sic se solo possit efficere de caro non carum 
+            in privando caritatem iam habita caritate
+          </head>
+          <p xml:id="pgb1q18-d1e128">
+            Utrum sicut Deus potest facere 
+            de non caro carum non donando infusae 
+            caritatis <sic>caritudinem</sic>, 
+            sic se solo possit efficere de caro non 
+            carum subtrahendo humanae voluntatis rectitudinem; 
+            utrum sicut Deus potest 
+            facere de non caro carum, 
+            sic se solo possit efficere de iusto non iustum; 
+            utrum sicut Deus potest facere de non caro carum 
+            non ponendo caritatem in humana mente, 
+            sic se solo possit efficere de caro non carum 
+            in privando caritatem iam habita caritate
+          </p>
+          <div xml:id="pg-b1q18-Dd1e169" type="rationes-principales">
+            <head xml:id="pg-b1q18-Hd1e171">
+              Rationes principales
+            </head>
+            <p xml:id="pgb1q18-qnpqda" n="Ratio 1">
+              Quod non primo 
+              quia, 
+              si Deus potest facere de non caro carum 
+              sine tali habitu, 
+              sic potest facere de caro non carum 
+              manifeste tali habitu in ipso. 
+              Consequens est falsum. 
+              Item, 
+              sequitur quod Deus se solo 
+              posset dare esse album sine albedine parienti 
+              et esse hominem sine humanitate, 
+              quae sunt falsa. 
+              Et consequentiae patent 
+              quia non plus videtur ratio 
+              de una quam de alia.
+            </p>
+            <p xml:id="pgb1q18-d1e163" n="Ratio 2">
+              Secundo principaliter, 
+              sequeretur quod Deus 
+              posset esse ratio formalis 
+              carificans voluntatem. 
+              Patet consequentia, 
+              sed falsitas probatur 
+              quia, si sic, 
+              tunc sequitur quod posset esse 
+              menti creatae motus dilectionis ordinatae. 
+              Consequens est falsum cum motus 
+              imperfectionem dicat.
+            </p>
+            <p xml:id="pgb1q18-d1e173" n="Ratio 3">
+              Tertio, 
+              si Deus posset auferre menti rectitudinem, 
+              sequitur quod posset facere mentem peccantem. 
+              Consequens est falsum 
+              quia Deo auctore nemo deterior sit 
+              secundum 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e190">
+                  <name xml:id="pg-b1q18-Nd1e207" ref="#Augustine">Augustinum</name>
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  non invenimus.
+                </bibl>
+              </cit>.
+              Consequentia patet 
+              quia omnis mens carens rectitudine est iniusta. 
+              Ad <supplied>hoc</supplied> videtur 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e200">
+                  <name xml:id="pg-b1q18-Nd1e221" ref="#Anselm">Anselmus</name>,
+                  libro <title ref="#Anselm_DeLiberoArbitrio">De libero arbitrio</title>,
+                  capitulo <sic>4</sic>
+                </ref>
+                <bibl>
+                  <name>Anselmus</name>, 
+                  <title>De concordia</title> 
+                  3, 4 
+                  (Schmitt II, 268, ll. 13-17).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q18-d1e196" n="In oppositum">
+              In oppositum, 
+              arguitur, 
+              prima pars est superius ostensa, 
+              sed secunda probatur 
+              quia rectitudo et voluntas sunt 
+              res distinctae absolute, 
+              ergo unam ab alia potest separare Deus. 
+              Et per consequens voluntatem humanam 
+              et eius rectitudinem potest separare et auferre, 
+              ergo.
+            </p>
+          </div>
+          <div xml:id="pg-b1q18-Dd1e218">
+            <head xml:id="pg-b1q18-Hd1e220">
+              Conclusio 1
+            </head>
+            <p xml:id="pgb1q18-d1e210" n="Conclusio">
+              Prima conclusio: 
+              licet de lege ordinata  
+              nullus possit fieri de non caro 
+              carus sine infusa caritate, 
+              tamen de lege absoluta 
+              vel possibili stat non habentem talem 
+              <app>
+                <lem n="talem"/>
+                <rdg wit="#L" type="correction-deletion" facs="58r/30">
+                  <del>quo</del>
+                </rdg>
+              </app> 
+              caritatem esse Deo magis carum alio 
+              ipsam habente ac Deum intensius diligere ordinate. 
+              Patet prima pars ex supra dictis. 
+              Secunda probatur 
+              quia Spiritus Sanctus se solo <supplied>potest</supplied> mentem 
+              actuare et elevare ad Deum intensius diligendum 
+              quam de facto diligat certus viator 
+              mente habitu talis caritatis creatae, 
+              ergo. 
+              Antecedens patuit supra.
+            </p>
+            <p xml:id="pgb1q18-d1e232" n="Corollarium 1">
+              Primum corollarium: 
+              quamvis de lege communi requiratur 
+              caritas creata ad viatorem carum esse, 
+              tamen nulla creata caritas requiritur 
+              ad meritorie operari vel bene agere. 
+              Prima apparet quia nullus est carus sine tali habitu. 
+              Secunda probatur 
+              quia quacumque caritate data 
+              viator poterit meritorie agere 
+              sine illa.
+            </p>
+            <p xml:id="pgb1q18-d1e245" n="Corollarium 2">
+              Secundum corollarium: 
+              quaelibet mens creata eliciens 
+              actum dilectionis meritorium infinite 
+              plus diligit Deum 
+              quam sit absolute necessarium. 
+              Probatur tum 
+              quia non est absolute necessarium 
+              quod mens creata diligat Deum, 
+              tum secundo quia infinite minori caritate 
+              vel dilectione posset mens Deum 
+              <pb ed="#L" n="58-v"/> 
+              diligere meritorie.
+            </p>
+            <p xml:id="pgb1q18-d1e277" n="Corollarium 3">
+              Tertium corollarium: 
+              maior est identitas 
+              inter albedinem et esse album 
+              quam inter caritatem creatam et esse carum. 
+              Patet quia nihil potest esse sine albedine album, 
+              sed sine tali caritate potest aliquid esse carum.
+            </p>
+          </div>
+          <div xml:id="pg-b1q18-Dd1e251">
+            <head xml:id="pg-b1q18-Hd1e253">
+              Conclusio 2
+            </head>
+            <p xml:id="pgb1q18-d1e291" n="Conclusio">
+              Secunda conclusio: 
+              licet non repugnet Spiritui Sancto esse 
+              formale posse quo mens elicit meritorie dilectionis actum, 
+              tamen repugnat Spiritui Sancto esse 
+              menti creatae ordinatae dilectionis motum. 
+              Prima patet 
+              quia esse ipsum tale formale posse nullam dicit imperfectionem, 
+              immo perfectionem nec claudit aliquam repugnantiam, 
+              ut visum est supra, igitur. 
+              Confirmatur per 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e260" target="http://scta.info/resource/adt-l14-d1e1672@15-26">
+                  <name xml:id="pg-b1q18-Nd1e291" ref="#Augustine">Beatum Augustinum</name>, 
+                  <sic>IV</sic> 
+                  <title ref="#deTrinitate">De Trinitate</title>, 
+                  capitulo 18
+                </ref>
+                <bibl>
+                  <name xml:id="pg-b1q18-Nd1e309">Augustinus</name>, 
+                  <title>De Trinitate</title> 
+                  XIV, 17, 24 
+                  (CCSL 50A, 455, ll. 39-40).
+                  <!--scimus quia... eum sicuti est.-->
+                </bibl>
+              </cit>, 
+              exponentem illud,
+              <cit>
+                <quote xml:id="pg-b1q18-Qd1e274" source="http://scta.info/resource/Iio3_2">
+                  scimus quoniam similes ei erimus cum apparuerit
+                </quote>
+                <bibl>I Ioannes 3:2.</bibl>
+              </cit>. 
+              Secunda patet quia talis motus dicit 
+              quemdam imperfectionem, 
+              scilicet potentialitatem, 
+              sed Spiritus Sanctus est summus actus 
+              omnem potentialitatem a se excludens, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q18-d1e336" n="Corollarium 1">
+              Primum corollarium: 
+              denominatio talis dilectionis 
+              est magis attenda 
+              penes talem rationem formalem 
+              quam penes dilectionis motum vitalem. 
+              Patet quia talis ratio 
+              per se et intrinsece dicitur dilectio, 
+              sed talis motus solum extrinsece 
+              quia determinatur ad ipsam dilectionem.
+            </p>
+            <p xml:id="pgb1q18-d1e346" n="Corollarium 2">
+              Secundum corollarium: 
+              quod non omnis ratio formalis diligendi ens 
+              summae perfectionis est modus bene agendi 
+              seu meritoriae dilectionis 
+              quia Spiritus Sanctus est vel esse potest 
+              huius ratio et non motus.
+            </p> 
+            <p xml:id="pgb1q18-d1e354" n="Corollarium 3">
+              Tertium corollarium: 
+              quod habentem motum dilectionis meritorium habere 
+              habitum caritatis non est necessarium, 
+              et econverso habentem habitum caritatis menti accessorium 
+              habere motum dilectionis non est necessarium. 
+              Patet per conclusionem, 
+              et confirmatur quia soli gratiae 
+              praedestinationis correspondet esse meritorii 
+              ex vi divinae acceptationis, ergo. 
+              Alias patuit supra.
+            </p>
+          </div>
+          <div xml:id="pg-b1q18-Dd1e296">
+            <head xml:id="pg-b1q18-Hd1e298">
+              Conclusio 3
+            </head>
+            <p xml:id="pgb1q18-d1e384" n="Conclusio">
+              Tertia conclusio: 
+              licet Deus nullam culpae latitudinem possit homini inferre,
+              <app>
+                <lem>tamen</lem>
+                <rdg wit="#L" type="correction-substitution" facs="58v/20">
+                  <subst>
+                    <del>tantum</del>
+                    <add>tamen</add>
+                  </subst>
+                </rdg>
+                <note xml:lang="en">
+                  The correction is not absolutely clear, 
+                  but it looks like the middle minim of the "m" has been expunctuated, 
+                  and the sense clearly demands "tamen".
+                </note>
+              </app> 
+              Deus voluntatis rectitudinem potest homini auferre. 
+              Prima pars patet quia tunc Deo 
+              auctore talis homo fieret deterior, 
+              contra 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e308">
+                  <name xml:id="pg-b1q18-Nd1e372" ref="#Augustine">Augustinum</name>,
+                  <title ref="#deDiversisQuaestionibus">83 quaestiones</title>, 
+                  quaestione <sic>5</sic>
+                </ref>
+                <bibl>
+                  <name>Augustinus</name>, 
+                  <title>De diversis quaestionibus 83</title>,
+                  non invenimus.
+                </bibl>
+              </cit>.
+              Secunda probatur quia omne 
+              quod non est voluntas potest 
+              Deus separare et ab ea auferre, 
+              sed rectitudo voluntatis 
+              non est voluntas, 
+              ergo. 
+              Maior nota 
+              quia omnem rem absolutam 
+              ab alia distincta Deus, etc. 
+              Minor patet 
+              quia rectitudo et voluntas creata, 
+              si esset idem, 
+              sequeretur quod omnis voluntas creata esset recta, 
+              immo etiam sequeretur 
+              quod nulla voluntas posset peccare 
+              quia tunc quaelibet voluntas esset formaliter 
+              iustitia et rectitudo, quae sunt falsa, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q18-d1e417" n="Corollarium 1">
+              Primum corollarium: 
+              quaelibet rectitudo simpliciter humanae 
+              voluntatis includit realiter 
+              latitudinem gratitudinem gratificantis caritatis. 
+              Patet quia, 
+              si non, 
+              sequeretur quod voluntas posset 
+              eam habere a se vel ab alia creatura, 
+              contra 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e326">
+                  <name xml:id="pg-b1q18-Nd1e396" ref="#Anselm">Venerabilem Anselmum</name>, 
+                  <title ref="#Anselm_DeLiberoArbitrio">De libero arbitrio</title>, 
+                  capitulo 14
+                </ref>
+                <bibl>
+                  <name>Anselmus</name>, 
+                  <title>De libertate arbitrii</title> 
+                  14 
+                  (Schmitt I, 226, ll. 6-18).
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q18-d1e434" n="Corollarium 2">
+              Secundum corollarium: 
+              stat mentem privatam esse 
+              tota latitudine rectitudinis 
+              et numquam demeruisse aliquam 
+              latitudinem poenae seu poenitudinis. 
+              Patet quia, 
+              si Deus aliquam creaturam rectitudine privaret, 
+              adhuc talem non minus diligeret, 
+              immo ad maius praemium 
+              quam ante acceptare posset, 
+              si vellet.
+            </p> 
+            <p xml:id="pgb1q18-d1e451" n="Corollarium 3">
+              Tertium corollarium: 
+              stat hominem privari voluntatis rectitudine 
+              et ipsum non iniustum
+              sed
+              <app>
+                <lem n="sed"/>
+                <rdg wit="#L" type="correction-deletion" facs="58v/33">
+                  <del rend="strikethrough">illius</del>
+                </rdg>
+              </app>  
+              iustum esset. 
+              Patet quia Deus potest privare hominem rectitudine 
+              et non potest homini iniustitiam 
+              vel malitiam infligere. 
+              Ex his patet quid ad quaestionem sit dicendum.
+            </p>
+          </div>
+          <div xml:id="pg-b1q18-Dd1e359">
+            <head xml:id="pg-b1q18-Hd1e361">
+              Obiectiones
+            </head>
+            <p xml:id="pgb1q18-d1e467">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e444" target="http://scta.info/resource/pgb1q18-d1e210">primam conclusionem</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              arguitur, 
+              si non esset simpliciter necessarium 
+              aliquam creaturam esse iustam, 
+              sequeretur quod Deus oppositum illius 
+              <pb ed="#L" n="59-r"/> 
+              quod aeternaliter ordinavit posset facere. 
+              Consequens est falsum 
+              quia tunc Deus esset mutabilis. 
+              Et consequentia patet quia, 
+              si non necessario sic est sicut ordinavit, 
+              oppositum poterit evenire.  
+              Confirmatur quia aeternaliter 
+              praedestinando <c>a</c> voluit ipsum fore iustum.
+            </p>
+            <p xml:id="pgb1q18-sqleni">
+              Secundo, 
+              quia lex ordinata 
+              est absolute necessaria, 
+              igitur quidquid est necessarium 
+              secundum illam est absolute necessarium. 
+              Sed secundum illam est necessarium hominem carum 
+              habere caritatem creatam, 
+              ergo. 
+              Antecedens patet, <!-- comma important -->
+              quia omne aeternum absolute est necessarium, 
+              lex aeterna est necessaria, 
+              igitur.
+            </p>
+            <p xml:id="pgb1q18-d1e549">
+              <app>
+                <lem type="conjecture-corrected"><corr>Tertio</corr></lem>
+                <rdg wit="#L" facs="59r/6">Secundo</rdg>
+              </app> 
+              contra 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e477" target="http://scta.info/resource/pgb1q18-d1e232">
+                  primum corollarium
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              si nulla gratia requiritur 
+              ad bene operandum meritorie, 
+              ergo nullam gratiam habendo 
+              quis posset salvari de lege ordinata?
+            </p>
+            <p xml:id="pgb1q18-d1e557">
+              Quarto contra 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e490" target="http://scta.info/resource/pgb1q18-d1e245">secundum corollarium</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              non quilibet gradus caritatis sufficit 
+              ad fortem temptationem vincendum 
+              vel ad martyrium patiendum propter Deum, 
+              ergo nec sufficit 
+              ad quodlibet opus meritorium exercendum. 
+              Et per consequens, 
+              si minori caritate diligeret, 
+              non sufficienter diligeret.
+            </p>
+            <p xml:id="pgb1q18-d1e571">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e504" target="http://scta.info/resource/pgb1q18-d1e291">secundam conclusionem</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              mentem uniri Deo beatifice sine motu 
+              potentiae ad obiectum repugnat, 
+              ergo Spiritus Sanctus non potest 
+              esse formaliter ratio percipiendi 
+              Deum beatifice seu dilectionis meritoriae. 
+              Consequentia tenet cum talis 
+              motus repugnet Spiritui Sancto. 
+              Et antecedens probatur 
+              quia aliter sequeretur 
+              quod tale obiectum beatificum esset 
+              essentialiter et intrinsece praesens 
+              creatae potentiae, 
+              quod est falsum 
+              quia soli Deo sic est praesens.
+            </p>
+            <p xml:id="pgb1q18-d1e583">
+              Secundo contra 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e517" target="http://scta.info/resource/pgb1q18-d1e336">primum corollarium</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              sequeretur 
+              si huiusmodi 
+              motus staret sine terminis 
+              quod non esset perceptio seu vitalis operatio. 
+              Consequens est falsum. 
+              Probatur consequentia 
+              quia omnis perceptio vitalis competit 
+              sibi solum terminative extrinsece, 
+              ut dicit corollarium.
+            </p>
+            <p xml:id="pgb1q18-d1e592">
+              Tertio, 
+              nullus talis motus est ponendus, 
+              ergo. 
+              Antecedens patet 
+              quia hoc esset propter distantiam potentiae ab obiecto, 
+              et hoc non 
+              quia Deus semper est praesens potentiae.
+            </p>
+            <p xml:id="pgb1q18-d1e599">
+              Quarto, 
+              si 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e533" target="http://scta.info/resource/pgb1q18-d1e354">tertium corollarium</ref>
+                <bibl>Vide supra.</bibl>
+              </cit> 
+              esset verum, 
+              sequeretur quod in aliquo posset 
+              esse caritas gratuita, 
+              et tamen ille non esset carus Deo nec acceptus. 
+              Consequens est contra veritatem. 
+              Item, 
+              sequitur Deum non esse bonum. 
+              Patet 
+              quia ille 
+              non est bonus 
+              qui non de bonis gaudet operationibus, 
+              ut habetur 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e414" target="http://scta.info/resource/ArNeTH-d1e101-d1e848/cod-MaEth8@143-159">
+                  I <title ref="#Ethics">Ethicorum</title>
+                </ref>
+                <bibl>
+                  <name>Aristoteles</name>, 
+                  <title>Ethica Nicomachea</title> 
+                   I, 9 (1099a17-18).
+                  <!-- 
+                    http://scta.info/resource/ArNeTH-d1e101-d1e848/cod-MaEth8@143-159 
+                    incipit: quia si haec ita sint...sunt voluptati atque iucundae 
+                  -->
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q18-d1e616">
+              Contra 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e563" target="http://scta.info/resource/pgb1q18-d1e384">tertiam conclusionem</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              si auferret Deus a voluntate rectitudinem 
+              aut hoc faceret nolens aut volens. 
+              Non primum quia Deus nihil operatur nolens 
+              nec secundum quia, 
+              cum rectitudo voluntatis sit velle 
+              quod Deus vult ipsam velle, 
+              sequitur quod Deus 
+              posset velle voluntatem non velle 
+              quod vult eam velle, 
+              sed hoc implicat, 
+              ergo.
+            </p>
+            <p xml:id="pgb1q18-d1e632">
+              Secundo contra 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e576" target="http://scta.info/resource/pgb1q18-d1e417">primum corollarium</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              stat rectitudo voluntatis cum peccato mortali, 
+              ergo non includit gratiam gratificantem. 
+              Patet consequentia et antecedens patet per
+              <ref xml:id="pg-b1q18-Rd1e429" corresp="#pg-b1q18-Qd1e440">
+                <name xml:id="pg-b1q18-Nd1e587" ref="#Anselm">Anselmum</name>, 
+                <title ref="#Anselm_DeLiberoArbitrio">De libero arbitrio</title>, 
+                capitulo 13
+              </ref>,
+              dicentem,
+              <cit>
+                <!-- we are experimentiong with "paraphrase-high" a type that is more extreme than other paraphrases
+                  visually paraphrase-hight should not receive quotations marks, while type=paraphrase (at the present) 
+                  still receives quotation marks; after more data collection, perhaps paraphrase and paraphrase collapsed into 
+                  one type that does not typically recieve quotation marks -->
+                <quote xml:id="pg-b1q18-Qd1e440" type="paraphrase-high">
+                  volens habere rectitudinem 
+                  habet rectitudinem
+                </quote>
+                <bibl>
+                  <name>Anselmus</name>, 
+                  <title>De libertate arbitrii</title> 
+                  13 
+                  (Schmitt I, 225, ll. 6-7).
+                  <!-- 
+                      ...libertas arbitrii est potestas servandi rectitudinem voluntatis propter ipsam rectitudinem...
+                    -->
+                </bibl>
+              </cit>,
+              sed existens in mortali peccato 
+              potest velle habere rectitudinem,
+              ergo.
+            </p>
+            <p xml:id="pgb1q18-d1e654">
+              Tertio, 
+              arguitur per 
+              <ref xml:id="pg-b1q18-Rd1e450" target="pg-b1q18-Qd1e458">
+                <name xml:id="pg-b1q18-Nd1e612" ref="#Anselm">Anselmum</name>, 
+                ibidem, 
+                capitulo 14
+              </ref> 
+              dicens 
+              <cit>
+                <quote xml:id="pg-b1q18-Qd1e458">
+                  omnem habentem rectitudinem 
+                  dici potest habere iustitiam et esse iustum 
+                  quia omnis habens iustitiam iustus est, 
+                  non tamen sentio iustis hominibus 
+                  esse promissam perpetuam vitam
+                  sed illis tantum qui sunt iusti sine omni iniustitia
+                </quote>
+                <bibl>
+                  <name>Anselmus</name>, 
+                  <title>De concordia</title> 
+                  3, 4 
+                  (Schmitt II, 268, ll. 13-17).
+                  <!-- 
+                    Unde sequitur omnem habentem hanc rectitudinem habere iustitiam et esse iustum, 
+                    quoniam omnis habens iustitiam iustus est. 
+                    Non tamen sentio iustis omnibus promissam esse vitam perpetuam, 
+                    sed illis tantum, qui sunt iusti sine omni iniustitia.
+                    -->
+                </bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q18-qctqin">
+              Quarto contra 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e640" target="http://scta.info/resource/pgb1q18-d1e451">tertium</ref>
+                <bibl>Vide supra.</bibl>
+              </cit> 
+              et 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e650" target="http://scta.info/resource/pgb1q18-d1e434">secundum corollaria</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>,
+              privatio iustitiae et rectitudinis est formaliter culpa, 
+              ergo cuilibet tali debetur poena. 
+              Consequentia tenet, 
+              et antecedens est 
+              <ref xml:id="pg-b1q18-Rd1e474" corresp="#pg-b1q18-Qd1e485">
+                <name xml:id="pg-b1q18-Nd1e661" ref="#Anselm">Anselmus</name>,
+                in <title ref="#DeCasuDiaboli">De casu diaboli</title>, 
+                capitulo 4
+              </ref>,
+              dicens,
+              <cit>
+                <quote xml:id="pg-b1q18-Qd1e485">
+                  <seg type="qs">diabolus</seg> 
+                  inquit 
+                  <seg type="qs">perdidit iustitiam originalem 
+                  in qua factus et pro ea invenit privationem eius 
+                  qui nullam habet essentiam 
+                  quam iniustitiam nominamus</seg>
+                </quote>
+                <bibl>
+                  <name>Anselmus</name>, 
+                  <title>De casu diaboli</title> 
+                  9 
+                  (Schmitt I, 247, ll. 2-3). 
+                  <!--pro ea nisi... iniustitiam nominamus.-->
+                </bibl>
+              </cit>.
+            </p>
+          </div>
+          <div xml:id="pg-b1q18-Dd1e691">
+            <head xml:id="pg-b1q18-Hd1e693">Responsiones</head>
+            <p xml:id="pgb1q18-d1e690">
+              <!-- reference unclear, next paragraph seems to be reponse to first objection against first conclusion -->
+              Ad primam, 
+              potest consequentia 
+              negari quia talis motus vitalis 
+              non est aliquid distinctum 
+              ab ipsa vitali potentia.
+            </p>
+            <p xml:id="pg-b1q18-d1e710">
+              Secundo, 
+              potest dici quod Deus se solo potest mentem beatificare 
+              sine quacumque alia quantitate quacumque incomplexa, 
+              non tamen sine quolibet complexo se habere. 
+              Et haec solutio est 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e695" target="http://scta.info/resource/pgb1q18-d1e571">primae rationis contra secundam conclusionem</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>.
+            </p> 
+            <p xml:id="pgb1q18-d1e703">
+              Ad 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e708" target="http://scta.info/resource/pgb1q18-d1e467">primam contra primam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              conceditur consequens de his 
+              quae non sunt praeterita nec posita in esse loquendo. 
+              Ratio est quia 
+              quod ab aeterno voluit 
+              potest numquam voluisse.
+            </p>
+            <p xml:id="pgb1q18-d1e711">
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e721" target="http://scta.info/resource/pgb1q18-sqleni">Ad secundam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              conceditur antecedens 
+              quia lex illa 
+              <pb ed="#L" n="59-v"/> 
+              est Deus, 
+              sed negatur consequentia 
+              quia tunc omnia evenirent de necessitate, 
+              quod est falsum. 
+            </p>
+            <p xml:id="pg-b1q18-d1e735">
+              Secundo, 
+              potest dici quod 
+              <mentioned>lex</mentioned> potest sumi dupliciter, 
+              uno modo pro aliquo in Christo 
+              quod est Deus, 
+              alio modo pro aliquo complexo 
+              quod est dictum 
+              aliquod aeternaliter ordinasse. 
+              Primo modo conceditur antecedens 
+              et negatur consequentia. 
+              Secundo modo negatur antecedens 
+              et conceditur consequentia.
+            </p>
+            <p xml:id="pgb1q18-d1e740">
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e736" target="http://scta.info/resource/pgb1q18-d1e549">Ad tertiam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur consequentia.
+            </p>
+            <p xml:id="pgb1q18-d1e745">
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e750" target="http://scta.info/resource/pgb1q18-d1e557">Ad quartam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur antecedens quia, 
+              licet caritas minor non inclinet intensive 
+              sicut <unclear>magna</unclear>, 
+              tamen ad omnem actum ad quem maior inclinat 
+              etiam minor inclinat seu inclinare potest. 
+            </p>
+            <p xml:id="pg-b1q18-d1e782">
+              Secundo, 
+              posset negari illa consequentia, 
+              <mentioned><c>a</c> caritas non sufficit 
+              ad faciendum voluntatem velle subire martyrium, 
+              ergo non sufficit ad Deum sufficienter diligendum</mentioned>.
+            </p>
+            <p xml:id="pgb1q18-d1e768">
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e771" target="http://scta.info/resource/pgb1q18-d1e571">
+                  Ad primam contra secundam conclusionem
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e781" target="http://scta.info/resource/pgb1q18-d1e690">
+                  iam dictum est
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>.
+            </p>
+            <p xml:id="pgb1q18-d1e774">
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e794" target="http://scta.info/resource/pgb1q18-d1e583">
+                  Ad secundam
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              conceditur consequens, 
+              sicut enim altero numquam proprie dicitur 
+              generatio nisi sequatur terminus genitus, 
+              ita talis motus non diceretur vitalis perceptio 
+              nisi terminus vitaliter percipiatur.
+            </p>
+            <p xml:id="pgb1q18-d1e783">
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e807" source="http://scta.info/resource/pgb1q18-d1e592">Ad tertiam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              negatur antecedens.
+              Et ad probationem, 
+              dico quod, 
+              licet Deus sit semper praesens realiter, 
+              non tamen obiective vitaliter, 
+              unde talis motus est reddere rem non praesentem obiectaliter.
+              <!-- NOTE: No parabreak here because we see this as a second argument in support of the ad probation -->
+            <!--<p xml:id="pgb1q18-xxaeqq">-->
+              Secundo, 
+              dico quod dato quod Deus sit 
+              semper sufficienter praesens animae obiectaliter, 
+              adhuc anima indiget tali 
+              motu propter alia obiecta extrinseca 
+              quae non sunt vitaliter 
+              <app>
+                <lem>praesentia</lem>
+                <rdg wit="#L" type="correction-deletion" facs="59v/13">
+                  <del rend="strikethrough">pi</del>
+                </rdg>
+              </app> 
+              potentiae.
+            </p>
+            <p xml:id="pgb1q18-d1e799">
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e832" target="http://scta.info/resource/pgb1q18-d1e599">
+                  Ad quartam
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              conceditur consequens 
+              de eius potentia absoluta, 
+              nec ex hoc sequitur contradictio 
+              loquendo de eius acceptatione 
+              ad vitam aeternam, 
+              nec sequitur Deum non esse bonum quia, 
+              licet non acceptet illud opus 
+              ad vitam aeternam, 
+              acceptat tamen ad aliquid quod pro ipso 
+              reddet vel reddidit.
+            </p>
+            <p xml:id="pgb1q18-d1e809">
+              <!-- reference unclear -->
+              Ad aliam, 
+              sequitur Deum non esse iustum retributorem, 
+              etc., 
+              hic dicit 
+              <ref xml:id="pg-b1q18-Rd1e556">
+                <name xml:id="pg-b1q18-Nd1e849" ref="#Rimini">Gregorius</name>, 
+                distinctione 17 primi, 
+                quaestione prima, 
+                articulo secundo, 
+                corollario secundo, 
+                conclusionis secundae
+              </ref>, 
+              <cit>
+                <quote xml:id="pg-b1q18-Qd1e859" source="http://scta.info/resource/grvnZZ-ed1e5X-d1e1375@6-31">
+                  quod nec vitae aeternae 
+                  nec cuiuscumque praemii 
+                  aeterni vel temporalis aliquis actus hominis 
+                  ex quantacumque caritate elicitus est 
+                  ex condigno meritorius apud Deum
+                </quote>
+                <bibl>
+                  <name>Gregorius Ariminensis</name>,
+                  <title>Sent.</title>
+                  I, d. 17, q. 1, a. 2
+                  (Trapp II, 237, ll. 1-3).
+                  <!--quod nedum vitae... apud Deum.-->
+                </bibl>
+              </cit>.
+              Sed oppositum huius tenet 
+              <cit>
+                <ref xml:id="pg-b1q18-Rbsepnc">
+                  <name xml:id="pg-b1q18-Nd1e867" ref="#BonsemblantesBaduarius">Bonsemblantes</name>
+                </ref>
+                <bibl>
+                  <name>Bonsemblantes</name>, 
+                  <title>Lectura</title> 
+                  (non extant).
+                </bibl>
+              </cit> 
+              et quidam alii tenent, 
+              tamen quilibet teneat 
+              quod sibi bonum videbitur, 
+              et potest negari consequentia.
+            </p>
+            <p xml:id="pgb1q18-d1e825">
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e886" target="http://scta.info/resource/pgb1q18-d1e616">
+                  Ad primam contra tertiam conclusionem
+                </ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              posset dici quod 
+              nec sic 
+              nec sic sed non volendo huius rectitudinem servare.
+              Aliter dicit 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e903" target="http://scta.info/resource/b1-d1-q6">
+                  <!-- temp target at item level; replace when paragraph ids exists -->
+                  <name xml:id="pg-b1q18-Nd1e890" ref="#Wodeham">Adam</name></ref>
+                <bibl>
+                  <name>Adam de Wodeham</name>, 
+                  <title>Lectura Oxoniensis</title> 
+                  I, d. 1, q. 6, a. 2 (Paris 193, f. 34ra-rb).
+                  <!--- TODO : need incipit/explicit to exact passage -->
+                </bibl>
+              </cit> 
+              et 
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e924">
+                  <name xml:id="pg-b1q18-Nd1e893" ref="#BonsemblantesBaduarius">Bonsemblantes</name>
+                </ref>
+                <bibl>
+                  <name>Bonsemblantes</name>, 
+                  <title>Lectura</title> 
+                  (non extant).
+                </bibl>
+              </cit> 
+              quod volens, 
+              et conceditur consequens 
+              quod infertur in sensu diviso. 
+              Prima solutio securior 
+              videtur.
+            </p>
+            <p xml:id="pgb1q18-d1e845">
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e905" target="http://scta.info/resource/pgb1q18-d1e632">Ad secundam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              potest dici quod <mentioned>rectitudo</mentioned> potest sumi dupliciter, 
+              uno modo simpliciter, 
+              alio modo secundum quid. 
+              Sed <name xml:id="pg-b1q18-Nd1e911" ref="#Anselm">Anselmus</name> 
+              loquitur de <mentioned>rectitudine</mentioned> secundum quid, 
+              corollarium vero intelligitur de 
+              <app>
+                <lem>rectitudine</lem>
+                <rdg wit="#L" type="correction-deletion" facs="59v/25">
+                  <del rend="strikethrough">servi</del>
+                </rdg>
+              </app> 
+              simpliciter dicta.
+            </p>
+            <p xml:id="pg-b1q18-d1e974">
+              Secundo, 
+              potest dici quod velle est duplex, 
+              primum est efficax indicativum, 
+              secundum est efficax optativum. 
+              De primo loquitur <name xml:id="pg-b1q18-Nd1e930" ref="#Anselm">Anselmus</name>, 
+              dicens quod quid vult rectitudinem, 
+              scilicet efficaciter indicative, 
+              habet illam, 
+              et talem velle 
+              non stat cum mortali 
+              sed bene secundum.
+            </p>
+            <p xml:id="pgb1q18-d1e871">
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e944" target="http://scta.info/resource/pgb1q18-d1e654">Ad tertiam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              dicitur, 
+              <name xml:id="pg-b1q18-Nd1e945" ref="#Anselm">Anselmus</name> 
+              non loquitur de rectitudine vel iustitia simpliciter, 
+              sed secundum quid, 
+              ut patet intuenti eius verba, 
+              ideo nihil concludit contra dicta.
+            </p>
+            <p xml:id="pgb1q18-d1e882">
+              <cit>
+                <ref xml:id="pg-b1q18-Rd1e960" target="http://scta.info/resource/pgb1q18-qctqin">Ad quartam</ref>
+                <bibl>Vide supra.</bibl>
+              </cit>, 
+              conceditur antecedens de facto, 
+              sed in casu quo 
+              Deus auferret rectitudinem a voluntate sine demerito voluntatis, 
+              talis privatio non esset culpa, 
+              nec verba <name xml:id="pg-b1q18-Nd1e960" ref="#Anselm">Anselmi</name> probat oppositum 
+              quia iustitia mali angeli fuit sibi inesse, 
+              ideo eius privatio fuit peccatum, 
+              non autem sic esset de iustitia istius 
+              quam Deus privaret rectitudine sua sine suo peccato. 
+              Ad rationes in oppositum, 
+              patet solutio per dicta superius.
+            </p>
+          </div>
+        </div>
+        <div xml:id="pg-b1q18-Dd1e619" type="et-conclusiones">
+          <head xml:id="pg-b1q18-Hd1e621">Conclusiones</head>
+          <p xml:id="pgb1q18-d1e904" n="Conclusio 1">
+            <cit>
+              <quote xml:id="pg-b1q18-Qd1e629" source="http://scta.info/resource/pll1d17c6-d1e3477" type="lemma">
+                Supra dictum est
+              </quote>
+              <bibl>
+                <name>Lombardus</name>,
+                <title>Sent.</title>
+                I, d. 17, c. 6
+                (I, 148, ll. 20).
+              </bibl>
+            </cit>.
+            Prima conclusio 
+            quod Spiritus Sanctus operatur in nobis 
+            actum credendi 
+            et spirandi mediantibus virtutibus, 
+            scilicet fide et spe. 
+            Actum vero diligendi doctores ponunt 
+            quod operatur in nobis sine alicuius 
+            virtutis medio vel sine habitu creato. 
+            Et nota quod 
+            <name xml:id="pg-b1q18-Nd1e992" ref="#Lombard">Magister</name> hic
+            videtur negare caritatem creatam, 
+            ideo communiter hic non tenetur quia praeter actum 
+            diligendi ponunt doctores habitum creatum caritatis. 
+            Alii vero sunt qui volunt 
+            <pb ed="#L" n="60-r"/> 
+            salvare 
+            <name xml:id="pg-b1q18-Nd1e1008" ref="#Lombard">Magistrum</name> 
+            dicentes quod 
+            <name xml:id="pg-b1q18-Nd1e1011" ref="#Lombard">Magister</name> 
+            non intendit huiusmodi habitum negare. 
+            Haec autem relinquo iudicio legentis.
+          </p>
+          <p xml:id="pgb1q18-d1e944" n="Conclusio 2">
+            Secunda conclusio: 
+            quod per donum quod est 
+            Spiritus Sanctus dantur dona et dividuntur, 
+            non enim singuli habent omnia dona, 
+            sed hi illa, alii alia, 
+            quamvis omnes habeant ipsum donum, 
+            scilicet Spiritum Sanctum 
+            a quo omnia dona cuiusquamque dividuntur.
+          </p>
+        </div>
+      </div>  
+    </body>
+  </text>
+</TEI>
