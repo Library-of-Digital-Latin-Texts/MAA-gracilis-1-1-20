@@ -10,7 +10,7 @@ The files are encoded according to the [schema](http://lombardpress.org/schema/d
 
 This edition is published under the authority of [The University of Oklahoma](http://www.ou.edu/) by the [Digital Latin Library](https://digitallatin.org) as part of its *Library of Digital Latin Texts*. Independent peer review of the edition was performed under the auspices of the [Medieval Academy of America](https://www.medievalacademy.org/), as the "MAA | Gold" badge below attests.
 
-[![badge](https://dll-review-registry.digitallatin.org/maa-badge.svg)](https://dll-review-registry.scta.info/reviews/34875774-b9f0-47a1-8e9b-1c10dc32112b.html)
+[![badge](https://dll-review-registry.scta.info/reviews/04b38825-63f5-4ccc-94b8-4aefb907fb03.html)
 
 For more details on the peer review registry, see <https://dll-review-registry.digitallatin.org/>.
 
